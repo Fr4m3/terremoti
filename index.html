@@ -81,6 +81,36 @@
   .legend{display:flex; gap:14px; flex-wrap:wrap; font-size:11.5px; color:var(--mut); margin-top:8px; align-items:center}
   .legend .it{display:flex; align-items:center; gap:5px}
   .legend .dot{width:11px; height:11px; border-radius:50%; display:inline-block}
+  /* ---- pannello rischio di sequenza ---- */
+  .hero{cursor:pointer}
+  .seq-empty{color:var(--mut); font-size:13.5px; padding:4px 2px; line-height:1.7}
+  .seqpanel{display:flex; flex-wrap:wrap; gap:20px; align-items:stretch}
+  .seq-left{flex:1; min-width:270px}
+  .seq-right{flex:1.05; min-width:300px; display:flex; flex-direction:column; align-items:center}
+  .seq-ev{font-size:15px; font-weight:700; margin-bottom:12px; line-height:1.45}
+  .seq-ev small{color:var(--mut); font-weight:400}
+  .seq-stats{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:12px}
+  .seq-stat{background:rgba(255,255,255,.05); border:1px solid var(--line); border-radius:10px;
+            padding:6px 10px; font-size:11.5px; color:var(--mut)}
+  .seq-stat b{color:var(--tx); font-size:13px; font-weight:700}
+  .seq-bath{font-size:12.5px; color:var(--mut); margin-bottom:12px}
+  .seq-bath b{color:var(--tx)}
+  .seq-tabs{color:var(--mut); font-size:11px; text-transform:uppercase; letter-spacing:.5px; margin:4px 0 6px}
+  .gaugewrap{text-align:center; width:100%; margin-bottom:12px}
+  .gauge{width:150px; height:150px; border-radius:50%; margin:0 auto 10px;
+         display:flex; align-items:center; justify-content:center}
+  .gauge .g-in{width:116px; height:116px; border-radius:50%; background:var(--card);
+               display:flex; flex-direction:column; align-items:center; justify-content:center;
+               box-shadow:inset 0 0 18px rgba(0,0,0,.45)}
+  .gauge .g-v{font-size:27px; font-weight:800; line-height:1}
+  .gauge .g-l{font-size:10px; color:var(--mut); margin-top:5px; text-transform:uppercase; letter-spacing:.4px}
+  .seq-level{display:inline-block; padding:4px 16px; border-radius:999px; font-weight:700; font-size:13px}
+  .seq-tbl td.b{font-weight:700}
+  .seq-tbl tr.hot td{background:rgba(255,143,90,.07)}
+  .seq-note{font-size:11.5px; color:var(--mut); margin-top:12px; line-height:1.65}
+  .rowbtn{background:none; border:1px solid var(--line); color:var(--acc); border-radius:7px;
+          padding:2px 9px; font-size:12px; cursor:pointer; margin-left:6px}
+  .rowbtn:hover{background:var(--acc); color:#1a0505; border-color:var(--acc); font-weight:700}
   @media(max-width:760px){ .hero .mag{font-size:48px} .search input{width:100%} }
 </style>
 </head>
@@ -102,7 +132,7 @@
     </div>
   </header>
 
-  <section class="hero">
+  <section class="hero" id="hero" title="Clicca per stimare il rischio di sequenza dell'evento più forte">
     <div class="left">
       <span class="big-ico">🌍</span>
       <div>
@@ -166,6 +196,46 @@
   <div id="map"></div>
   <div class="legend" id="legend"></div>
 
+  <div class="sec-title">⚡ Rischio di sequenza <span class="n" id="seq-n"></span></div>
+  <div class="card">
+    <div id="seq-empty" class="seq-empty">
+      Stima la probabilità che un evento dia inizio a una <b>sequenza sismica</b> (repliche), calcolata nel
+      browser con i modelli <b>Omori</b>, <b>Båth</b> e <b>Gutenberg-Richter</b> sul catalogo INGV degli ultimi 30 giorni
+      attorno all'epicentro. Scegli un evento: clicca <b style="color:var(--acc)">🔬</b> su una riga della tabella,
+      il link <b style="color:var(--acc)">⚡ rischio di sequenza</b> nel popup della mappa, l'
+      <a href="#" id="seq-hero-btn" style="color:var(--acc)">evento più forte delle ultime 48h</a>,
+      oppure la card in alto (l'evento più forte).
+    </div>
+    <div id="seq-body" hidden>
+      <div class="seqpanel">
+        <div class="seq-left">
+          <div class="seq-ev" id="seq-ev">…</div>
+          <div class="seq-stats" id="seq-stats"></div>
+          <div class="seq-bath" id="seq-bath"></div>
+          <div class="seq-tabs">Soglia magnitudo</div>
+          <div class="seg" id="seg-seq-m" style="justify-content:center"></div>
+          <div class="seq-tabs" style="margin-top:12px">Finestra temporale</div>
+          <div class="seg" id="seg-seq-w" style="justify-content:center"></div>
+        </div>
+        <div class="seq-right">
+          <div class="gaugewrap">
+            <div class="gauge" id="seq-gauge"><div class="g-in"><span class="g-v" id="seq-gv">—</span><span class="g-l" id="seq-gl">—</span></div></div>
+            <span class="seq-level" id="seq-level">—</span>
+          </div>
+          <div class="seq-tabs">Repliche totali attese (ML ≥ 1.0)</div>
+          <div id="seq-totals" style="text-align:center; color:var(--mut); font-size:12.5px; line-height:1.8"></div>
+        </div>
+      </div>
+      <div class="tbl-scroll" style="margin-top:16px">
+        <table class="seq-tbl">
+          <thead><tr><th>P (almeno 1 scossa ≥ M)</th><th>24 h</th><th>72 h</th><th>7 gg</th><th>30 gg</th></tr></thead>
+          <tbody id="seq-rows"></tbody>
+        </table>
+      </div>
+      <div class="seq-note" id="seq-note"></div>
+    </div>
+  </div>
+
   <div class="sec-title">📋 Elenco eventi <span class="n" id="tbl-n">—</span></div>
   <div class="card">
     <div class="tbl-scroll">
@@ -184,6 +254,8 @@
     API FDSNWS (<a href="https://webservices.ingv.it" target="_blank" rel="noopener">webservices.ingv.it</a>).
     Magnitudo e localizzazione sono preliminari e possono essere riviste.
     <br><b>Come leggere:</b> la magnitudo (scala Richter, tipo ML/MW) misura l'energia liberata; ogni grado ≈ 30× l'energia del precedente.
+    <br><b>Rischio di sequenza:</b> seleziona un evento (🔬 in tabella, link nel popup della mappa, card in alto) per
+    stimare la probabilità di repliche con i modelli Omori/Båth/Gutenberg-Richter sul catalogo INGV locale.
     <br><b>Fonti:</b> OpenStreetMap (mappa), Leaflet (mappa). Pagina statica generata con
     <a href="https://github.com/Fr4m3/terremoti" target="_blank" rel="noopener">codice su GitHub</a>.
   </footer>
@@ -378,6 +450,7 @@ function render(){
   }
   tbody.innerHTML = list.map(e => {
     const c = magColor(e.mag);
+    const key = seqKey(e);
     const link = e.id ? `<a href="https://terremoti.ingv.it/event/${e.id}" target="_blank" rel="noopener"
         style="color:var(--acc)">dettaglio ↗</a>` : "";
     return `<tr>
@@ -387,7 +460,7 @@ function render(){
       <td>${e.depth != null ? e.depth.toFixed(1) : "—"}</td>
       <td><b>${distFromHome(e) != null ? distFromHome(e).toFixed(1) + " km" : "—"}</b></td>
       <td>${aziFromHome(e) != null ? Math.round(aziFromHome(e)) + "° " + dirLabel(aziFromHome(e)) : "—"}</td>
-      <td>${link}</td>
+      <td>${link}<button class="rowbtn" data-seq-key="${esc(key)}" title="Stima il rischio di sequenza da questo evento">🔬</button></td>
     </tr>`;
   }).join("");
 }
@@ -432,7 +505,8 @@ function markers(list){
       `⏱ ${fmtTime(e.time)} (${fmtRel(e.time)})<br>` +
       `Prof. ${e.depth != null ? e.depth.toFixed(1) + " km" : "n.d."}<br>` +
       `🏠 ${d != null ? d.toFixed(1) + " km da casa" : "n.d."} · ${a != null ? Math.round(a) + "° " + dirLabel(a) : ""}<br>` +
-      (e.id ? `<a href="https://terremoti.ingv.it/event/${e.id}" target="_blank" rel="noopener">dettaglio INGV ↗</a>` : "")
+      `${e.id ? `<a href="https://terremoti.ingv.it/event/${e.id}" target="_blank" rel="noopener">dettaglio INGV ↗</a> · ` : ""}` +
+      `<a href="#" class="seqlink" data-seq-key="${esc(seqKey(e))}" style="color:var(--acc)">⚡ rischio di sequenza</a>`
     ).addTo(layer);
   }
 }
@@ -464,6 +538,206 @@ document.getElementById("q").addEventListener("input", e => {
   }, 250);
 });
 
+/* ============ RISCHIO DI SEQUENZA (da un singolo evento) ============
+   Stima probabilistica di repliche per un evento scelto come riferimento.
+   Modelli (stesso approccio del bollettino sequenza Pisa 2026):
+   - Omori modificata (p=1): N(t) = K·ln((t+c)/c), c=0.01 gg, K dai dati osservati
+   - Gutenberg-Richter: b stimato con MLE (Utsu) sul catalogo locale ≥ Mc
+   - Båth: massima replica attesa ~ M_main − 1.2 (±0.5)
+   - Poisson: P(almeno 1 scossa ≥ M) = 1 − exp(−λ)                          */
+const SEQ_DAYS = 30;        // giorni di catalogo storico scaricato attorno all'epicentro
+const SEQ_MINMAG = 0.5;     // magnitudo minima del catalogo scaricato
+const MC_DEFAULT = 1.0;     // completezza nominale della rete (real-time)
+const OMORI_C = 0.01;       // giorni — costante di Omori modificata (p=1)
+const SEQ_COLORS = {ok:"#34d399", warn:"#fbbf24", acc:"#ff8f5a", bad:"#f87171"};
+const catCache = new Map(); // catalogo per zona (bucket ~0.1°), condiviso tra eventi vicini
+let seqEvt = null, seqData = null;
+let seqM = 2.5, seqW = 168; // soglia e finestra (ore) del pannello
+
+function seqKey(e){ return String(e.id || (e.time + "|" + e.lat + "|" + e.lon)); }
+function seqFind(key){ return all.find(e => seqKey(e) === key) || null; }
+
+function seqRadius(M){ return Math.min(45, Math.max(8, 8 * Math.pow(2, M - 2))); } // km
+function mleB(mags, mc){
+  const m = mags.filter(x => x >= mc);
+  if (m.length < 5) return null;
+  const mean = m.reduce((a, b) => a + b, 0) / m.length;
+  return 1 / (Math.LN10 * (mean - (mc - 0.05)));
+}
+
+async function seqCatalog(lat, lon){
+  const key = lat.toFixed(1) + "|" + lon.toFixed(1);
+  if (catCache.has(key)) return catCache.get(key);
+  const p = (async () => {
+    const start = new Date(Date.now() - SEQ_DAYS*864e5).toISOString().slice(0,19);
+    const end = new Date().toISOString().slice(0,19);
+    const box = `&minlat=${Math.max(-90, lat-.5)}&maxlat=${Math.min(90, lat+.5)}` +
+                `&minlon=${Math.max(-180, lon-.5)}&maxlon=${Math.min(180, lon+.5)}`;
+    const url = `${API_INGV}&starttime=${start}&endtime=${end}&minmag=${SEQ_MINMAG}` +
+                `&eventtype=earthquake&orderby=time${box}`;
+    const r = await fetch(url);
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    return normFromIngv(await r.json());
+  })();
+  catCache.set(key, p);
+  return p;
+}
+
+function seqCompute(evt, cat){
+  const R = seqRadius(evt.mag ?? 3);
+  const t0 = new Date(evt.time).getTime();
+  const near = cat.filter(e => e.lat != null && e.lon != null &&
+    haversineKm({lat:e.lat, lon:e.lon}, {lat:evt.lat, lon:evt.lon}) <= R);
+  const aft = near.filter(e => new Date(e.time).getTime() > t0 && seqKey(e) !== seqKey(evt));
+  // completezza adattiva: scende finché non ci sono almeno 5 eventi
+  let mc = MC_DEFAULT;
+  for (const cand of [1.0, 0.7, 0.5]) if (near.filter(e => e.mag >= cand).length >= 5) { mc = cand; break; }
+  let b = mleB(near.map(e => e.mag), mc);
+  const bNote = b == null;
+  b = b ?? 1.0;
+  const N = aft.filter(e => e.mag >= mc).length;
+  let dt = (Date.now() - t0) / 864e5;         // giorni trascorsi dall'evento
+  if (dt < OMORI_C) dt = OMORI_C;
+  const K = N > 0 ? N / Math.log((dt + OMORI_C) / OMORI_C) : 0;
+  const nTot = t => K * Math.log((t + OMORI_C) / OMORI_C);
+  const prob = (M, tf) => K <= 0 ? 0 : Math.min(99.9,
+    100 * (1 - Math.exp(-(nTot(tf) - nTot(dt)) * Math.pow(10, -b * (M - mc)))));
+  const rows = [2.0, 2.5, 3.0, 3.5, 4.0, evt.mag ?? 4, 5.0]
+    .filter((v, i, a) => a.indexOf(v) === i && v >= mc)
+    .sort((a, b) => a - b)
+    .map(M => ({M, p: [1, 3, 7, 30].map(d => prob(M, dt + d))}));
+  const bath = (evt.mag ?? 0) - 1.2;
+  return {
+    R, mc, b, bNote, N, K, dt, rows,
+    totals: [1, 7, 30].map(d => ({d, n: nTot(dt + d)})),
+    bath, bathLo: bath - .5, bathHi: bath + .5
+  };
+}
+
+async function seqSelect(key){
+  const evt = seqFind(key);
+  if (!evt) return;
+  seqEvt = evt; seqData = null;
+  document.getElementById("seq-empty").hidden = true;
+  const body = document.getElementById("seq-body");
+  body.hidden = false;
+  document.getElementById("seq-n").textContent = "— " + esc(evt.place);
+  seqRender();
+  body.scrollIntoView({behavior:"smooth", block:"nearest"});
+  try {
+    seqData = seqCompute(evt, await seqCatalog(evt.lat, evt.lon));
+  } catch (e) {
+    // fallback: eventi già caricati (7 giorni, tutta Italia) se l'evento è recente
+    console.warn("Catalogo di zona non disponibile, uso i dati già caricati:", e);
+    try { seqData = seqCompute(evt, all); }
+    catch (e2) { seqData = null; }
+  }
+  seqRender();
+}
+
+function seqRender(){
+  const ev = seqEvt, d = seqData;
+  document.getElementById("seq-ev").innerHTML =
+    `${esc(ev.place)} · <span style="color:var(--acc)">M${(ev.mag ?? 0).toFixed(1)}</span>` +
+    ` <small>${fmtTime(ev.time)} (${fmtRel(ev.time)}) · ${ev.lat.toFixed(3)}N ${ev.lon.toFixed(3)}E</small>`;
+  const stats = document.getElementById("seq-stats");
+  const bathEl = document.getElementById("seq-bath");
+  const g = document.getElementById("seq-gauge");
+  const gv = document.getElementById("seq-gv");
+  const gl = document.getElementById("seq-gl");
+  const lvl = document.getElementById("seq-level");
+  if (!d) {
+    stats.innerHTML = '<span class="seq-stat">calcolo…</span>';
+    bathEl.textContent = "";
+    g.style.background = "rgba(255,255,255,.05)";
+    gv.textContent = "…"; gl.textContent = "analisi in corso";
+    lvl.textContent = "";
+    lvl.style.background = "transparent"; lvl.style.color = "var(--mut)";
+    document.getElementById("seq-rows").innerHTML = "";
+    document.getElementById("seq-totals").textContent = "";
+    document.getElementById("seq-note").textContent = "";
+    return;
+  }
+  stats.innerHTML =
+    `<span class="seq-stat"><b>${d.N}</b> replica${d.N === 1 ? "" : "e"} ≥ M${d.mc.toFixed(1)}</span>` +
+    `<span class="seq-stat">b <b>${d.b.toFixed(2)}</b>${d.bNote ? " (default)" : ""}</span>` +
+    `<span class="seq-stat">Raggio <b>${d.R} km</b></span>` +
+    `<span class="seq-stat">Trascorso <b>${d.dt.toFixed(1)} gg</b></span>` +
+    `<span class="seq-stat">Completezza <b>M${d.mc.toFixed(1)}</b></span>`;
+  bathEl.innerHTML = d.bath > 0 ?
+    `🔎 Massima replica attesa (legge di Båth): <b>M${d.bath.toFixed(1)}</b> ` +
+    `<small>(range M${d.bathLo.toFixed(1)}–M${d.bathHi.toFixed(1)})</small>` : "";
+  // gauge: probabilità alla soglia e finestra scelte
+  const row = d.rows.find(r => Math.abs(r.M - seqM) < 1e-9);
+  const p = row ? row.p[[24, 72, 168].indexOf(seqW)] : 0;
+  const wLab = {24:"24 h", 72:"72 h", 168:"7 gg"}[seqW];
+  const [lvlTxt, lvlCol] = p < 2 ? ["Basso", "ok"] : p < 10 ? ["Moderato", "warn"] :
+    p < 25 ? ["Elevato", "acc"] : ["Molto elevato", "bad"];
+  const col = SEQ_COLORS[lvlCol];
+  g.style.background = `conic-gradient(${col} ${p*3.6}deg, rgba(255,255,255,.06) 0deg)`;
+  gv.textContent = p.toFixed(1) + "%";
+  gv.style.color = col;
+  gl.textContent = `scossa ≥ M${seqM.toFixed(1)} in ${wLab}`;
+  lvl.textContent = "Rischio " + lvlTxt;
+  lvl.style.background = col + "22";
+  lvl.style.color = col;
+  // tabella probabilità per tutte le soglie
+  document.getElementById("seq-rows").innerHTML = d.rows.map(r => {
+    const hot = Math.abs(r.M - seqM) < 1e-9;
+    return `<tr class="${hot ? "hot" : ""}">` +
+      `<td class="l ${hot ? "b" : ""}"><b>≥ M${r.M.toFixed(1)}</b></td>` +
+      r.p.map(x => `<td class="${hot ? "b" : ""}">${x.toFixed(1)}%</td>`).join("") +
+      `</tr>`;
+  }).join("");
+  // repliche totali attese
+  document.getElementById("seq-totals").innerHTML = d.totals.map(t =>
+    `<span style="margin:0 7px">${t.d} gg: <b style="color:var(--tx)">~${t.n.toFixed(0)}</b></span>`
+  ).join("");
+  document.getElementById("seq-note").innerHTML =
+    `📡 Stima generata nel browser sui dati INGV (FDSNWS): catalogo di ${SEQ_DAYS} giorni attorno all'epicentro (M≥${SEQ_MINMAG}), ` +
+    `repliche = eventi successivi entro ${d.R} km dall'epicentro. Modelli: Omori modificata (p=1), Gutenberg-Richter ` +
+    `(b ${d.b.toFixed(2)} da MLE), Båth (max replica ≈ M_main − 1.2), processo di Poisson. Valori preliminari: ` +
+    `non sono una previsione deterministica e non sostituiscono le comunicazioni ufficiali della Protezione Civile.`;
+}
+
+function seqInit(){
+  const mSel = document.getElementById("seg-seq-m");
+  mSel.innerHTML = [2.0, 2.5, 3.0, 3.5].map(v =>
+    `<button data-v="${v}" class="${v === seqM ? "on" : ""}">≥ M${v.toFixed(1)}</button>`).join("");
+  const wSel = document.getElementById("seg-seq-w");
+  wSel.innerHTML = [24, 72, 168].map(h =>
+    `<button data-v="${h}" class="${h === seqW ? "on" : ""}">${h === 168 ? "7 gg" : h + " h"}</button>`).join("");
+  mSel.addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    seqM = +b.dataset.v;
+    mSel.querySelectorAll("button").forEach(x => x.classList.toggle("on", x === b));
+    seqRender();
+  });
+  wSel.addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    seqW = +b.dataset.v;
+    wSel.querySelectorAll("button").forEach(x => x.classList.toggle("on", x === b));
+    seqRender();
+  });
+  document.addEventListener("click", e => {
+    const t = e.target.closest("[data-seq-key]");
+    if (t) { e.preventDefault(); seqSelect(t.dataset.seqKey); }
+  });
+  const hero = document.getElementById("hero");
+  hero.addEventListener("click", () => {
+    const h = [...all].filter(x => Date.now() - new Date(x.time).getTime() <= 48*3600e3)
+      .sort((a, b) => (b.mag||0) - (a.mag||0))[0];
+    if (h) seqSelect(seqKey(h));
+  });
+  document.getElementById("seq-hero-btn").addEventListener("click", e => {
+    e.preventDefault();
+    const h = [...all].filter(x => Date.now() - new Date(x.time).getTime() <= 48*3600e3)
+      .sort((a, b) => (b.mag||0) - (a.mag||0))[0];
+    if (h) seqSelect(seqKey(h));
+  });
+}
+
+seqInit();
 load();
 </script>
 </body>
