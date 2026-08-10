@@ -119,6 +119,7 @@
       <div class="stat"><div class="k">Max 48h</div><div class="v" id="st-max">—</div></div>
       <div class="stat"><div class="k">Eventi 24h</div><div class="v" id="st-24">—</div></div>
       <div class="stat"><div class="k">Eventi 48h</div><div class="v" id="st-48">—</div></div>
+      <div class="stat"><div class="k">Più vicino a casa</div><div class="v" id="st-vicino">— <small>km</small></div></div>
       <div class="stat"><div class="k">Prof. media</div><div class="v" id="st-depth">— <small>km</small></div></div>
       <div class="stat"><div class="k">≥ M3 in 48h</div><div class="v" id="st-m3">—</div></div>
     </div>
@@ -149,6 +150,13 @@
         <button data-v="168">7 giorni</button>
       </div>
     </div>
+    <div class="group">
+      <span class="label">Ordina</span>
+      <div class="seg" id="seg-order">
+        <button data-v="time" class="on">⏱ Tempo</button>
+        <button data-v="dist">🏠 Vicinanza</button>
+      </div>
+    </div>
     <div class="group search">
       <input id="q" type="text" placeholder="Cerca località… (es. Pisa)">
     </div>
@@ -163,7 +171,7 @@
     <div class="tbl-scroll">
       <table>
         <thead>
-          <tr><th>Data/ora (IT)</th><th>Località</th><th>Mag.</th><th>Prof.</th><th>Lat</th><th>Lon</th><th></th></tr>
+          <tr><th>Data/ora (IT)</th><th>Località</th><th>Mag.</th><th>Prof.</th><th>Dist. da casa</th><th>Direzione</th><th></th></tr>
         </thead>
         <tbody id="rows"><tr><td colspan="7" class="empty">Caricamento…</td></tr></tbody>
       </table>
@@ -192,7 +200,7 @@ const BBOX_IT = "&minlat=35.5&maxlat=47.5&minlon=6.0&maxlon=19.5";
 
 let all = [];        // eventi normalizzati
 let layer = null;
-let minMag = 0, windowH = 48, query = "", area = "it";
+let minMag = 0, windowH = 48, query = "", area = "it", order = "time";
 
 /* ---------- colori per magnitudo ---------- */
 function magColor(m, depth){
@@ -238,6 +246,27 @@ function normFromIngv(data){
   }).filter(e => e.mag != null && e.lat != null);
 }
 function normFromSnapshot(s){ return s.events || []; }
+
+/* ---------- casa (Viale delle Cascine 124, Pisa) ---------- */
+const HOME = { lat: 43.7247258, lon: 10.3802555 };
+const DIRS = ["N","NNE","NE","ENE","E","ESE","SE","SSE",
+              "S","SSO","SO","OSO","O","ONO","NO","NNO"];
+function haversineKm(a, b){
+  const R = 6371, p1 = a.lat*Math.PI/180, p2 = b.lat*Math.PI/180;
+  const dp = (b.lat-a.lat)*Math.PI/180, dl = (b.lon-a.lon)*Math.PI/180;
+  const h = Math.sin(dp/2)**2 + Math.cos(p1)*Math.cos(p2)*Math.sin(dl/2)**2;
+  return 2*R*Math.asin(Math.sqrt(h));
+}
+function bearingDeg(a, b){
+  const p1 = a.lat*Math.PI/180, p2 = b.lat*Math.PI/180;
+  const dl = (b.lon-a.lon)*Math.PI/180;
+  const x = Math.sin(dl)*Math.cos(p2);
+  const y = Math.cos(p1)*Math.sin(p2) - Math.sin(p1)*Math.cos(p2)*Math.cos(dl);
+  return (Math.atan2(x,y)*180/Math.PI + 360) % 360;
+}
+function dirLabel(deg){ return DIRS[Math.round(deg/22.5)%16]; }
+function distFromHome(e){ return e.lat != null && e.lon != null ? haversineKm(HOME, {lat:e.lat, lon:e.lon}) : null; }
+function aziFromHome(e){ return e.lat != null && e.lon != null ? bearingDeg(HOME, {lat:e.lat, lon:e.lon}) : null; }
 
 /* ---------- caricamento ---------- */
 async function loadLive(){
@@ -295,7 +324,8 @@ function filtered(){
 /* ---------- render ---------- */
 function render(){
   const list = filtered();
-  list.sort((a,b) => new Date(b.time) - new Date(a.time));
+  if (order === "dist") list.sort((a,b) => (distFromHome(a) ?? 1e9) - (distFromHome(b) ?? 1e9));
+  else list.sort((a,b) => new Date(b.time) - new Date(a.time));
 
   /* hero: evento più forte della finestra 48h, comunque visibile */
   const hero = [...all].filter(e => Date.now() - new Date(e.time).getTime() <= 48*3600e3)
@@ -309,7 +339,8 @@ function render(){
       `⏱ ${fmtTime(hero.time)} (${fmtRel(hero.time)})`;
     document.getElementById("hero-extra").textContent =
       `Profondità ${hero.depth != null ? hero.depth.toFixed(1) + " km" : "n.d."} · ` +
-      `${hero.lat.toFixed(3)}N ${hero.lon.toFixed(3)}E · evento più forte nelle ultime 48h`;
+      `${hero.lat.toFixed(3)}N ${hero.lon.toFixed(3)}E · ` +
+      `${distFromHome(hero) != null ? distFromHome(hero).toFixed(1) + " km da casa (" + Math.round(aziFromHome(hero)) + "° " + dirLabel(aziFromHome(hero)) + ")" : ""} · evento più forte nelle ultime 48h`;
   }
 
   /* stats sui dati grezzi (senza query testo) */
@@ -317,9 +348,12 @@ function render(){
   const raw24 = raw48.filter(e => Date.now() - new Date(e.time).getTime() <= 24*3600e3);
   const m48 = Math.max(...raw48.map(e => e.mag||0), 0);
   const dep = raw48.map(e => e.depth).filter(d => d != null);
+  const vic = raw48.map(e => distFromHome(e)).filter(d => d != null);
   document.getElementById("st-max").textContent = m48 > 0 ? "M" + m48.toFixed(1) : "—";
   document.getElementById("st-24").textContent = raw24.length;
   document.getElementById("st-48").textContent = raw48.length;
+  document.getElementById("st-vicino").innerHTML =
+    vic.length ? Math.min(...vic).toFixed(1) + ' <small>km</small>' : "—";
   document.getElementById("st-depth").innerHTML =
     dep.length ? (dep.reduce((a,b)=>a+b,0)/dep.length).toFixed(1) + ' <small>km</small>' : "—";
   document.getElementById("st-m3").textContent =
@@ -351,8 +385,8 @@ function render(){
       <td class="l">${esc(e.place)}</td>
       <td><span class="mag-badge" style="background:${c};color:${magText(e.mag)}">M${e.mag.toFixed(1)}</span></td>
       <td>${e.depth != null ? e.depth.toFixed(1) : "—"}</td>
-      <td>${e.lat.toFixed(3)}</td>
-      <td>${e.lon.toFixed(3)}</td>
+      <td><b>${distFromHome(e) != null ? distFromHome(e).toFixed(1) + " km" : "—"}</b></td>
+      <td>${aziFromHome(e) != null ? Math.round(aziFromHome(e)) + "° " + dirLabel(aziFromHome(e)) : "—"}</td>
       <td>${link}</td>
     </tr>`;
   }).join("");
@@ -375,12 +409,21 @@ function markers(list){
       '<span class="it"><span class="dot" style="background:#f97316"></span>3–4</span>' +
       '<span class="it"><span class="dot" style="background:#ef4444"></span>4–5</span>' +
       '<span class="it"><span class="dot" style="background:#b91c1c"></span>≥5</span>' +
+      "<span class='it'><span class='dot' style='background:#34d399'></span>🏠 Casa (anelli 5/10 km)</span>" +
       "<span class='it'>dimensione ∝ magnitudo</span>";
   }
   layer.clearLayers();
+  /* casa: marker + anelli 5 e 10 km */
+  L.circle(HOME, {radius: 10000, color: "#34d399", weight: 1, dashArray: "4 5", fill: false}).addTo(layer);
+  L.circle(HOME, {radius: 5000, color: "#34d399", weight: 1, dashArray: "4 5", fill: false}).addTo(layer);
+  L.circleMarker(HOME, {
+    radius: 7, color: "#0b1220", weight: 2,
+    fillColor: "#34d399", fillOpacity: 1
+  }).bindPopup(`<b>🏠 Casa</b> — Viale delle Cascine 124, Pisa<br><small>43.7247 N, 10.3803 E · anelli 5 e 10 km</small>`).addTo(layer);
   for (const e of list) {
     const r = Math.max(5, Math.min(26, 5 * Math.pow(2, (e.mag||0) - 1)));
     const c = magColor(e.mag);
+    const d = distFromHome(e), a = aziFromHome(e);
     L.circleMarker([e.lat, e.lon], {
       radius: r, color: "#0b1220", weight: 1,
       fillColor: c, fillOpacity: .85
@@ -388,8 +431,8 @@ function markers(list){
       `<b>M${(e.mag||0).toFixed(1)}</b> — ${esc(e.place)}<br>` +
       `⏱ ${fmtTime(e.time)} (${fmtRel(e.time)})<br>` +
       `Prof. ${e.depth != null ? e.depth.toFixed(1) + " km" : "n.d."}<br>` +
-      `${e.lat.toFixed(3)}, ${e.lon.toFixed(3)}` +
-      (e.id ? `<br><a href="https://terremoti.ingv.it/event/${e.id}" target="_blank" rel="noopener">dettaglio INGV ↗</a>` : "")
+      `🏠 ${d != null ? d.toFixed(1) + " km da casa" : "n.d."} · ${a != null ? Math.round(a) + "° " + dirLabel(a) : ""}<br>` +
+      (e.id ? `<a href="https://terremoti.ingv.it/event/${e.id}" target="_blank" rel="noopener">dettaglio INGV ↗</a>` : "")
     ).addTo(layer);
   }
 }
@@ -406,6 +449,7 @@ function bindSeg(id, cb){
 }
 bindSeg("seg-mag", v => { minMag = v; render(); });
 bindSeg("seg-win", v => { windowH = v; render(); });
+bindSeg("seg-order", v => { order = v; render(); });
 bindSeg("seg-area", v => {
   area = v;
   load(); // l'area cambia l'URL del fetch, occorre ricaricare

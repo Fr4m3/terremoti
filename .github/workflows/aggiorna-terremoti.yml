@@ -1,0 +1,37 @@
+name: Aggiorna terremoti (terremoti.json)
+
+on:
+  schedule:
+    - cron: "17 */3 * * *"   # ogni 3 ore (minuto 17, evita il picco di richieste)
+  workflow_dispatch:          # esecuzione manuale dal tab Actions
+
+permissions:
+  contents: write
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Scarica eventi INGV
+        run: python .github/scripts/fetch_terremoti.py
+
+      - name: Committa se cambiato
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- terremoti.json; then
+            git add terremoti.json
+            git commit -m "chore: aggiornamento terremoti ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+            git push
+            echo "terremoti.json aggiornato e pushato"
+          else
+            echo "nessuna variazione: niente commit"
+          fi

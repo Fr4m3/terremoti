@@ -1,10 +1,226 @@
 {
- "generated": "2026-08-10T08:02:12.899305+00:00",
+ "generated": "2026-08-10T20:08:09.913498+00:00",
  "windowHours": 48,
- "count": 109,
+ "count": 107,
  "maxmag": 3.4,
- "avgDepth": 12.1,
+ "avgDepth": 10.7,
+ "home": {
+  "lat": 43.7247258,
+  "lon": 10.3802555,
+  "label": "Viale delle Cascine 124, Pisa"
+ },
+ "closest": 1.0,
  "events": [
+  {
+   "id": 46849162,
+   "time": "2026-08-10T19:32:27.520000",
+   "mag": 1.3,
+   "magType": "ML",
+   "place": "2 km E Castelsantangelo sul Nera (MC)",
+   "depth": 13.3,
+   "lat": 42.8865,
+   "lon": 13.1758,
+   "type": "earthquake",
+   "distKm": 244.6,
+   "azimut": 111.4,
+   "dir": "ESE"
+  },
+  {
+   "id": 46849112,
+   "time": "2026-08-10T19:24:38.970000",
+   "mag": 1.1,
+   "magType": "ML",
+   "place": "9 km SW Cantiano (PU)",
+   "depth": 8.5,
+   "lat": 43.4278,
+   "lon": 12.5437,
+   "type": "earthquake",
+   "distKm": 177.4,
+   "azimut": 100.0,
+   "dir": "E"
+  },
+  {
+   "id": 46849032,
+   "time": "2026-08-10T18:55:06.370000",
+   "mag": 0.6,
+   "magType": "ML",
+   "place": "3 km W Tolentino (MC)",
+   "depth": 13.2,
+   "lat": 43.2157,
+   "lon": 13.2467,
+   "type": "earthquake",
+   "distKm": 238.1,
+   "azimut": 102.8,
+   "dir": "ESE"
+  },
+  {
+   "id": 46848552,
+   "time": "2026-08-10T17:42:13.710000",
+   "mag": 0.9,
+   "magType": "ML",
+   "place": "3 km SE Pioraco (MC)",
+   "depth": 16.6,
+   "lat": 43.1548,
+   "lon": 13.0085,
+   "type": "earthquake",
+   "distKm": 221.4,
+   "azimut": 105.7,
+   "dir": "ESE"
+  },
+  {
+   "id": 46847992,
+   "time": "2026-08-10T16:46:53.780000",
+   "mag": 1.1,
+   "magType": "ML",
+   "place": "3 km E Spello (PG)",
+   "depth": 9.7,
+   "lat": 42.9883,
+   "lon": 12.7122,
+   "type": "earthquake",
+   "distKm": 205.5,
+   "azimut": 112.7,
+   "dir": "ESE"
+  },
+  {
+   "id": 46847872,
+   "time": "2026-08-10T16:31:34.330000",
+   "mag": 2.2,
+   "magType": "ML",
+   "place": "Costa Toscana settentrionale (Massa-Carrara, Lucca, Pisa)",
+   "depth": 4.5,
+   "lat": 43.6693,
+   "lon": 10.1652,
+   "type": "earthquake",
+   "distKm": 18.4,
+   "azimut": 250.5,
+   "dir": "OSO"
+  },
+  {
+   "id": 46845822,
+   "time": "2026-08-10T12:12:04.010000",
+   "mag": 1.0,
+   "magType": "ML",
+   "place": "3 km N Bertiolo (UD)",
+   "depth": 10,
+   "lat": 45.97,
+   "lon": 13.0615,
+   "type": "earthquake",
+   "distKm": 327.1,
+   "azimut": 39.3,
+   "dir": "NE"
+  },
+  {
+   "id": 46845712,
+   "time": "2026-08-10T12:01:04.430000",
+   "mag": 0.9,
+   "magType": "ML",
+   "place": "4 km NW Cannara (PG)",
+   "depth": 7.9,
+   "lat": 43.0147,
+   "lon": 12.5485,
+   "type": "earthquake",
+   "distKm": 192.2,
+   "azimut": 113.5,
+   "dir": "ESE"
+  },
+  {
+   "id": 46845132,
+   "time": "2026-08-10T10:36:04.260000",
+   "mag": 0.9,
+   "magType": "ML",
+   "place": "7 km NE Sasso di Castalda (PZ)",
+   "depth": 19.4,
+   "lat": 40.5318,
+   "lon": 15.7312,
+   "type": "earthquake",
+   "distKm": 566.2,
+   "azimut": 127.0,
+   "dir": "SE"
+  },
+  {
+   "id": 46844692,
+   "time": "2026-08-10T10:00:02.680000",
+   "mag": 1.1,
+   "magType": "ML",
+   "place": "Costa Marchigiana Pesarese (Pesaro-Urbino)",
+   "depth": 17.9,
+   "lat": 44.007,
+   "lon": 12.8237,
+   "type": "earthquake",
+   "distKm": 198.4,
+   "azimut": 80.1,
+   "dir": "E"
+  },
+  {
+   "id": 46844272,
+   "time": "2026-08-10T09:22:34.030000",
+   "mag": 0.8,
+   "magType": "ML",
+   "place": "3 km E Norcia (PG)",
+   "depth": 8.8,
+   "lat": 42.8028,
+   "lon": 13.1243,
+   "type": "earthquake",
+   "distKm": 244.7,
+   "azimut": 113.8,
+   "dir": "ESE"
+  },
+  {
+   "id": 46844052,
+   "time": "2026-08-10T08:52:29.630000",
+   "mag": 1.5,
+   "magType": "ML",
+   "place": "Isole Eolie (Messina)",
+   "depth": 9.9,
+   "lat": 38.4405,
+   "lon": 14.5765,
+   "type": "earthquake",
+   "distKm": 684.6,
+   "azimut": 147.7,
+   "dir": "SSE"
+  },
+  {
+   "id": 46843452,
+   "time": "2026-08-10T08:00:56.580000",
+   "mag": 0.9,
+   "magType": "ML",
+   "place": "2 km E Ripe San Ginesio (MC)",
+   "depth": 10.6,
+   "lat": 43.1508,
+   "lon": 13.3862,
+   "type": "earthquake",
+   "distKm": 250.9,
+   "azimut": 103.7,
+   "dir": "ESE"
+  },
+  {
+   "id": 46843402,
+   "time": "2026-08-10T07:58:44.920000",
+   "mag": 1.0,
+   "magType": "ML",
+   "place": "6 km NE Norcia (PG)",
+   "depth": 11.1,
+   "lat": 42.8398,
+   "lon": 13.1187,
+   "type": "earthquake",
+   "distKm": 242.5,
+   "azimut": 113.0,
+   "dir": "ESE"
+  },
+  {
+   "id": 46843312,
+   "time": "2026-08-10T07:56:18.670000",
+   "mag": 0.4,
+   "magType": "ML",
+   "place": "2 km E Monte Cavallo (MC)",
+   "depth": 12.4,
+   "lat": 42.9863,
+   "lon": 13.0225,
+   "type": "earthquake",
+   "distKm": 228.9,
+   "azimut": 110.1,
+   "dir": "ESE"
+  },
   {
    "id": 46842712,
    "time": "2026-08-10T07:07:08.560000",
@@ -14,7 +230,10 @@
    "depth": 2.8,
    "lat": 43.3713,
    "lon": 12.591,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 182.4,
+   "azimut": 101.7,
+   "dir": "ESE"
   },
   {
    "id": 46842542,
@@ -25,7 +244,10 @@
    "depth": 10.9,
    "lat": 44.9938,
    "lon": 7.1207,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 295.0,
+   "azimut": 299.7,
+   "dir": "ONO"
   },
   {
    "id": 46842522,
@@ -36,7 +258,10 @@
    "depth": 1.3,
    "lat": 43.3872,
    "lon": 12.5693,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 180.3,
+   "azimut": 101.3,
+   "dir": "ESE"
   },
   {
    "id": 46842372,
@@ -47,7 +272,10 @@
    "depth": 9.5,
    "lat": 43.0223,
    "lon": 13.0133,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 226.7,
+   "azimut": 109.2,
+   "dir": "ESE"
   },
   {
    "id": 46842342,
@@ -58,7 +286,10 @@
    "depth": 13.9,
    "lat": 42.4733,
    "lon": 13.259,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 272.0,
+   "azimut": 119.8,
+   "dir": "ESE"
   },
   {
    "id": 46842082,
@@ -69,7 +300,10 @@
    "depth": 9.3,
    "lat": 42.5877,
    "lon": 12.5492,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 216.6,
+   "azimut": 125.0,
+   "dir": "SE"
   },
   {
    "id": 46841792,
@@ -80,7 +314,10 @@
    "depth": 9.9,
    "lat": 42.5897,
    "lon": 13.2148,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 262.3,
+   "azimut": 117.8,
+   "dir": "ESE"
   },
   {
    "id": 46841672,
@@ -91,7 +328,10 @@
    "depth": 9.6,
    "lat": 43.3167,
    "lon": 12.4927,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 176.3,
+   "azimut": 104.2,
+   "dir": "ESE"
   },
   {
    "id": 46841652,
@@ -102,7 +342,10 @@
    "depth": 33.8,
    "lat": 44.4877,
    "lon": 10.1918,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 86.2,
+   "azimut": 350.0,
+   "dir": "N"
   },
   {
    "id": 46841632,
@@ -113,7 +356,10 @@
    "depth": 10.3,
    "lat": 42.6672,
    "lon": 13.2277,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 259.0,
+   "azimut": 116.0,
+   "dir": "ESE"
   },
   {
    "id": 46841592,
@@ -124,7 +370,10 @@
    "depth": 3.4,
    "lat": 40.834,
    "lon": 14.1145,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 444.5,
+   "azimut": 135.0,
+   "dir": "SE"
   },
   {
    "id": 46841552,
@@ -135,7 +384,10 @@
    "depth": 10.3,
    "lat": 42.4828,
    "lon": 12.887,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 245.9,
+   "azimut": 123.3,
+   "dir": "ESE"
   },
   {
    "id": 46841522,
@@ -146,7 +398,10 @@
    "depth": 10.1,
    "lat": 43.311,
    "lon": 12.608,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 185.4,
+   "azimut": 103.6,
+   "dir": "ESE"
   },
   {
    "id": 46841462,
@@ -157,7 +412,10 @@
    "depth": 9.5,
    "lat": 42.8628,
    "lon": 13.1842,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 246.3,
+   "azimut": 111.9,
+   "dir": "ESE"
   },
   {
    "id": 46841402,
@@ -168,7 +426,10 @@
    "depth": 3.9,
    "lat": 40.835333,
    "lon": 14.1055,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 443.9,
+   "azimut": 135.1,
+   "dir": "SE"
   },
   {
    "id": 46841492,
@@ -179,7 +440,10 @@
    "depth": 3.4,
    "lat": 40.8385,
    "lon": 14.117333,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 444.3,
+   "azimut": 135.0,
+   "dir": "SE"
   },
   {
    "id": 46841482,
@@ -190,7 +454,10 @@
    "depth": 2.7,
    "lat": 40.832333,
    "lon": 14.112167,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 444.5,
+   "azimut": 135.1,
+   "dir": "SE"
   },
   {
    "id": 46841342,
@@ -201,7 +468,10 @@
    "depth": 9.9,
    "lat": 47.3617,
    "lon": 12.5553,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 438.4,
+   "azimut": 22.0,
+   "dir": "NNE"
   },
   {
    "id": 46841272,
@@ -212,7 +482,10 @@
    "depth": 12.7,
    "lat": 47.3537,
    "lon": 12.575,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 438.2,
+   "azimut": 22.2,
+   "dir": "NNE"
   },
   {
    "id": 46841232,
@@ -223,7 +496,10 @@
    "depth": 8.7,
    "lat": 43.3177,
    "lon": 12.5002,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 176.8,
+   "azimut": 104.1,
+   "dir": "ESE"
   },
   {
    "id": 46841162,
@@ -234,7 +510,10 @@
    "depth": 8,
    "lat": 38.1223,
    "lon": 15.9378,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 778.1,
+   "azimut": 141.3,
+   "dir": "SE"
   },
   {
    "id": 46841142,
@@ -245,7 +524,10 @@
    "depth": 24.7,
    "lat": 43.0293,
    "lon": 13.3047,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 248.7,
+   "azimut": 107.1,
+   "dir": "ESE"
   },
   {
    "id": 46841392,
@@ -256,7 +538,10 @@
    "depth": 3.6,
    "lat": 40.8365,
    "lon": 14.109833,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 444.1,
+   "azimut": 135.0,
+   "dir": "SE"
   },
   {
    "id": 46841042,
@@ -267,7 +552,10 @@
    "depth": 12.4,
    "lat": 43.4048,
    "lon": 12.6728,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 188.1,
+   "azimut": 100.1,
+   "dir": "E"
   },
   {
    "id": 46840922,
@@ -278,7 +566,10 @@
    "depth": 21.1,
    "lat": 42.7348,
    "lon": 13.5207,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 277.2,
+   "azimut": 112.3,
+   "dir": "ESE"
   },
   {
    "id": 46840872,
@@ -289,7 +580,10 @@
    "depth": 8.5,
    "lat": 39.393,
    "lon": 16.3603,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 692.2,
+   "azimut": 132.1,
+   "dir": "SE"
   },
   {
    "id": 46840812,
@@ -300,7 +594,10 @@
    "depth": 10,
    "lat": 43.2675,
    "lon": 12.642,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 189.4,
+   "azimut": 104.8,
+   "dir": "ESE"
   },
   {
    "id": 46840802,
@@ -311,7 +608,10 @@
    "depth": 11.2,
    "lat": 43.6798,
    "lon": 10.3702,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 5.1,
+   "azimut": 189.2,
+   "dir": "S"
   },
   {
    "id": 46840742,
@@ -322,7 +622,10 @@
    "depth": 5,
    "lat": 43.4557,
    "lon": 12.3727,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 163.2,
+   "azimut": 99.9,
+   "dir": "E"
   },
   {
    "id": 46840562,
@@ -333,7 +636,10 @@
    "depth": 14.4,
    "lat": 42.4523,
    "lon": 13.3023,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 276.2,
+   "azimut": 119.8,
+   "dir": "ESE"
   },
   {
    "id": 46840512,
@@ -344,7 +650,10 @@
    "depth": 19.7,
    "lat": 43.0538,
    "lon": 13.1372,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 234.9,
+   "azimut": 107.6,
+   "dir": "ESE"
   },
   {
    "id": 46840482,
@@ -355,7 +664,10 @@
    "depth": 10,
    "lat": 43.669,
    "lon": 10.1953,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 16.1,
+   "azimut": 247.4,
+   "dir": "OSO"
   },
   {
    "id": 46840312,
@@ -366,7 +678,10 @@
    "depth": 15.9,
    "lat": 42.4582,
    "lon": 13.2957,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 275.4,
+   "azimut": 119.7,
+   "dir": "ESE"
   },
   {
    "id": 46840372,
@@ -377,7 +692,10 @@
    "depth": 10.6,
    "lat": 42.954,
    "lon": 13.1452,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 239.5,
+   "azimut": 110.0,
+   "dir": "ESE"
   },
   {
    "id": 46840222,
@@ -388,7 +706,10 @@
    "depth": 8.6,
    "lat": 43.6792,
    "lon": 10.1907,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 16.1,
+   "azimut": 251.7,
+   "dir": "OSO"
   },
   {
    "id": 46840112,
@@ -399,7 +720,10 @@
    "depth": 10.2,
    "lat": 44.1278,
    "lon": 7.4752,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 236.9,
+   "azimut": 281.9,
+   "dir": "ONO"
   },
   {
    "id": 46839792,
@@ -410,7 +734,10 @@
    "depth": 5.8,
    "lat": 43.4538,
    "lon": 12.4772,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 171.5,
+   "azimut": 99.4,
+   "dir": "E"
   },
   {
    "id": 46839692,
@@ -421,7 +748,10 @@
    "depth": 14,
    "lat": 42.6487,
    "lon": 13.2042,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 258.3,
+   "azimut": 116.6,
+   "dir": "ESE"
   },
   {
    "id": 46839602,
@@ -432,7 +762,10 @@
    "depth": 6.4,
    "lat": 38.0888,
    "lon": 14.1747,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 702.9,
+   "azimut": 151.8,
+   "dir": "SSE"
   },
   {
    "id": 46839262,
@@ -443,7 +776,10 @@
    "depth": 10.7,
    "lat": 42.7593,
    "lon": 12.9218,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 232.2,
+   "azimut": 116.7,
+   "dir": "ESE"
   },
   {
    "id": 46839222,
@@ -454,7 +790,10 @@
    "depth": 10.9,
    "lat": 43.1807,
    "lon": 13.0573,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 224.4,
+   "azimut": 104.7,
+   "dir": "ESE"
   },
   {
    "id": 46839082,
@@ -465,7 +804,10 @@
    "depth": 18.1,
    "lat": 40.7485,
    "lon": 15.3212,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 524.2,
+   "azimut": 127.4,
+   "dir": "SE"
   },
   {
    "id": 46839042,
@@ -476,7 +818,10 @@
    "depth": 17.4,
    "lat": 43.6525,
    "lon": 10.2437,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 13.6,
+   "azimut": 233.9,
+   "dir": "SO"
   },
   {
    "id": 46838922,
@@ -487,7 +832,10 @@
    "depth": 8.3,
    "lat": 43.4653,
    "lon": 12.562,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 178.0,
+   "azimut": 98.6,
+   "dir": "E"
   },
   {
    "id": 46838952,
@@ -498,7 +846,10 @@
    "depth": 12,
    "lat": 39.0335,
    "lon": 15.4253,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 670.0,
+   "azimut": 139.4,
+   "dir": "SE"
   },
   {
    "id": 46838882,
@@ -509,18 +860,10 @@
    "depth": 13.8,
    "lat": 42.8763,
    "lon": 12.875,
-   "type": "earthquake"
-  },
-  {
-   "id": 46838642,
-   "time": "2026-08-09T15:19:33.280000",
-   "mag": 1.6,
-   "magType": "ML",
-   "place": "2 km W Chianocco (TO)",
-   "depth": 167.5,
-   "lat": 45.1578,
-   "lon": 7.1487,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 222.8,
+   "azimut": 114.2,
+   "dir": "ESE"
   },
   {
    "id": 46838412,
@@ -531,7 +874,10 @@
    "depth": 10.2,
    "lat": 44.1172,
    "lon": 10.893,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 59.9,
+   "azimut": 43.1,
+   "dir": "NE"
   },
   {
    "id": 46838322,
@@ -542,7 +888,10 @@
    "depth": 10,
    "lat": 43.6853,
    "lon": 10.18,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 16.7,
+   "azimut": 254.8,
+   "dir": "OSO"
   },
   {
    "id": 46837872,
@@ -553,7 +902,10 @@
    "depth": 5.1,
    "lat": 43.6968,
    "lon": 10.172,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 17.0,
+   "azimut": 259.6,
+   "dir": "O"
   },
   {
    "id": 46837682,
@@ -564,7 +916,10 @@
    "depth": 8.7,
    "lat": 43.6607,
    "lon": 10.1922,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 16.7,
+   "azimut": 244.9,
+   "dir": "OSO"
   },
   {
    "id": 46837602,
@@ -575,7 +930,10 @@
    "depth": 10,
    "lat": 42.9882,
    "lon": 12.8357,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 214.7,
+   "azimut": 111.6,
+   "dir": "ESE"
   },
   {
    "id": 46837442,
@@ -586,7 +944,10 @@
    "depth": 10.1,
    "lat": 43.6687,
    "lon": 10.1442,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 20.0,
+   "azimut": 251.9,
+   "dir": "OSO"
   },
   {
    "id": 46837412,
@@ -597,7 +958,10 @@
    "depth": 6.6,
    "lat": 43.6938,
    "lon": 10.1707,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 17.2,
+   "azimut": 258.5,
+   "dir": "OSO"
   },
   {
    "id": 46837322,
@@ -608,7 +972,10 @@
    "depth": 10.4,
    "lat": 43.6612,
    "lon": 10.1948,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 16.5,
+   "azimut": 244.7,
+   "dir": "OSO"
   },
   {
    "id": 46837072,
@@ -619,7 +986,10 @@
    "depth": 9,
    "lat": 41.9552,
    "lon": 15.4528,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 457.9,
+   "azimut": 113.7,
+   "dir": "ESE"
   },
   {
    "id": 46836852,
@@ -630,7 +1000,10 @@
    "depth": 9.4,
    "lat": 43.159,
    "lon": 12.5658,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 187.3,
+   "azimut": 108.9,
+   "dir": "ESE"
   },
   {
    "id": 46836682,
@@ -641,7 +1014,10 @@
    "depth": 11.1,
    "lat": 42.8995,
    "lon": 12.978,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 229.3,
+   "azimut": 112.7,
+   "dir": "ESE"
   },
   {
    "id": 46836052,
@@ -652,7 +1028,10 @@
    "depth": 16,
    "lat": 43.1873,
    "lon": 13.0483,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 223.5,
+   "azimut": 104.6,
+   "dir": "ESE"
   },
   {
    "id": 46836022,
@@ -663,7 +1042,10 @@
    "depth": 8.8,
    "lat": 42.9962,
    "lon": 13.1115,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 235.2,
+   "azimut": 109.2,
+   "dir": "ESE"
   },
   {
    "id": 46836002,
@@ -674,7 +1056,10 @@
    "depth": 8.8,
    "lat": 43.1722,
    "lon": 13.0493,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 224.0,
+   "azimut": 105.0,
+   "dir": "ESE"
   },
   {
    "id": 46835792,
@@ -685,7 +1070,10 @@
    "depth": 10.8,
    "lat": 43.0242,
    "lon": 13.0915,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 232.6,
+   "azimut": 108.6,
+   "dir": "ESE"
   },
   {
    "id": 46835752,
@@ -696,7 +1084,10 @@
    "depth": 16,
    "lat": 43.1142,
    "lon": 13.0048,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 222.6,
+   "azimut": 106.9,
+   "dir": "ESE"
   },
   {
    "id": 46835682,
@@ -707,7 +1098,10 @@
    "depth": 15.1,
    "lat": 43.1495,
    "lon": 13.2313,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 238.9,
+   "azimut": 104.5,
+   "dir": "ESE"
   },
   {
    "id": 46834872,
@@ -718,7 +1112,10 @@
    "depth": 5.8,
    "lat": 42.8977,
    "lon": 13.2038,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 246.2,
+   "azimut": 111.0,
+   "dir": "ESE"
   },
   {
    "id": 46834722,
@@ -729,7 +1126,10 @@
    "depth": 11.1,
    "lat": 44.0912,
    "lon": 11.5698,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 103.6,
+   "azimut": 66.4,
+   "dir": "ENE"
   },
   {
    "id": 46834572,
@@ -740,7 +1140,10 @@
    "depth": 9.9,
    "lat": 43.7162,
    "lon": 10.3765,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 1.0,
+   "azimut": 197.7,
+   "dir": "SSO"
   },
   {
    "id": 46834362,
@@ -751,7 +1154,10 @@
    "depth": 9.2,
    "lat": 43.7057,
    "lon": 10.3598,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 2.7,
+   "azimut": 217.9,
+   "dir": "SO"
   },
   {
    "id": 46834162,
@@ -762,7 +1168,10 @@
    "depth": 6.3,
    "lat": 43.4762,
    "lon": 12.4732,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 170.8,
+   "azimut": 98.6,
+   "dir": "E"
   },
   {
    "id": 46834072,
@@ -773,7 +1182,10 @@
    "depth": 6.6,
    "lat": 42.6185,
    "lon": 11.8077,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 168.9,
+   "azimut": 136.2,
+   "dir": "SE"
   },
   {
    "id": 46833842,
@@ -784,7 +1196,10 @@
    "depth": 5.5,
    "lat": 43.8698,
    "lon": 10.6163,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 24.9,
+   "azimut": 49.5,
+   "dir": "NE"
   },
   {
    "id": 46833732,
@@ -795,7 +1210,10 @@
    "depth": 9.8,
    "lat": 46.27,
    "lon": 12.5253,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 329.4,
+   "azimut": 30.0,
+   "dir": "NNE"
   },
   {
    "id": 46833642,
@@ -806,7 +1224,10 @@
    "depth": 9.1,
    "lat": 42.8038,
    "lon": 13.1358,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 245.5,
+   "azimut": 113.7,
+   "dir": "ESE"
   },
   {
    "id": 46833612,
@@ -817,7 +1238,10 @@
    "depth": 9.1,
    "lat": 42.802,
    "lon": 13.1288,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 245.1,
+   "azimut": 113.8,
+   "dir": "ESE"
   },
   {
    "id": 46833602,
@@ -828,7 +1252,10 @@
    "depth": 8.2,
    "lat": 42.8713,
    "lon": 12.9483,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 228.5,
+   "azimut": 113.7,
+   "dir": "ESE"
   },
   {
    "id": 46833542,
@@ -839,7 +1266,10 @@
    "depth": 10.3,
    "lat": 42.8682,
    "lon": 12.9592,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 229.4,
+   "azimut": 113.6,
+   "dir": "ESE"
   },
   {
    "id": 46833502,
@@ -850,7 +1280,10 @@
    "depth": 10.1,
    "lat": 42.8653,
    "lon": 12.9495,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 228.8,
+   "azimut": 113.8,
+   "dir": "ESE"
   },
   {
    "id": 46833452,
@@ -861,7 +1294,10 @@
    "depth": 9.9,
    "lat": 42.9433,
    "lon": 13.0228,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 230.7,
+   "azimut": 111.2,
+   "dir": "ESE"
   },
   {
    "id": 46833412,
@@ -872,7 +1308,10 @@
    "depth": 13.5,
    "lat": 42.9713,
    "lon": 13.0473,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 231.3,
+   "azimut": 110.3,
+   "dir": "ESE"
   },
   {
    "id": 46833362,
@@ -883,7 +1322,10 @@
    "depth": 10.1,
    "lat": 42.8688,
    "lon": 12.9518,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 228.8,
+   "azimut": 113.7,
+   "dir": "ESE"
   },
   {
    "id": 46833322,
@@ -894,7 +1336,10 @@
    "depth": 15.5,
    "lat": 43.0515,
    "lon": 12.9667,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 222.0,
+   "azimut": 108.8,
+   "dir": "ESE"
   },
   {
    "id": 46833292,
@@ -905,7 +1350,10 @@
    "depth": 7.9,
    "lat": 39.825,
    "lon": 16.0627,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 640.1,
+   "azimut": 130.7,
+   "dir": "SE"
   },
   {
    "id": 46833212,
@@ -916,7 +1364,10 @@
    "depth": 9.9,
    "lat": 42.871,
    "lon": 12.9422,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 228.0,
+   "azimut": 113.7,
+   "dir": "ESE"
   },
   {
    "id": 46833182,
@@ -927,7 +1378,10 @@
    "depth": 9.2,
    "lat": 42.872,
    "lon": 12.9527,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 228.7,
+   "azimut": 113.6,
+   "dir": "ESE"
   },
   {
    "id": 46833072,
@@ -938,7 +1392,10 @@
    "depth": 10.6,
    "lat": 42.9247,
    "lon": 12.9625,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 227.0,
+   "azimut": 112.2,
+   "dir": "ESE"
   },
   {
    "id": 46833042,
@@ -949,7 +1406,10 @@
    "depth": 10.4,
    "lat": 42.8677,
    "lon": 12.9442,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 228.3,
+   "azimut": 113.8,
+   "dir": "ESE"
   },
   {
    "id": 46833002,
@@ -960,7 +1420,10 @@
    "depth": 13.7,
    "lat": 42.6468,
    "lon": 13.3155,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 266.4,
+   "azimut": 115.7,
+   "dir": "ESE"
   },
   {
    "id": 46832992,
@@ -971,7 +1434,10 @@
    "depth": 10.2,
    "lat": 42.87,
    "lon": 12.9507,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 228.7,
+   "azimut": 113.7,
+   "dir": "ESE"
   },
   {
    "id": 46832902,
@@ -982,7 +1448,10 @@
    "depth": 14,
    "lat": 44.5272,
    "lon": 7.2722,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 263.6,
+   "azimut": 290.9,
+   "dir": "ONO"
   },
   {
    "id": 46832852,
@@ -993,7 +1462,10 @@
    "depth": 17,
    "lat": 44.5292,
    "lon": 7.2467,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 265.6,
+   "azimut": 290.8,
+   "dir": "ONO"
   },
   {
    "id": 46832792,
@@ -1004,7 +1476,10 @@
    "depth": 16.4,
    "lat": 39.2428,
    "lon": 16.4952,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 712.2,
+   "azimut": 132.3,
+   "dir": "SE"
   },
   {
    "id": 46832692,
@@ -1015,7 +1490,10 @@
    "depth": 7.1,
    "lat": 43.3842,
    "lon": 12.511,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 175.8,
+   "azimut": 101.7,
+   "dir": "ESE"
   },
   {
    "id": 46832442,
@@ -1026,183 +1504,10 @@
    "depth": 7.3,
    "lat": 43.4483,
    "lon": 12.4448,
-   "type": "earthquake"
-  },
-  {
-   "id": 46832272,
-   "time": "2026-08-08T19:52:37.210000",
-   "mag": 1.9,
-   "magType": "ML",
-   "place": "Confine Italia-Francia (FRANCIA)",
-   "depth": 9.2,
-   "lat": 44.6522,
-   "lon": 6.823,
-   "type": "earthquake"
-  },
-  {
-   "id": 46832212,
-   "time": "2026-08-08T19:43:52.900000",
-   "mag": 1.2,
-   "magType": "ML",
-   "place": "Confine Italia-Francia (FRANCIA)",
-   "depth": 8,
-   "lat": 44.6618,
-   "lon": 6.8332,
-   "type": "earthquake"
-  },
-  {
-   "id": 46831732,
-   "time": "2026-08-08T18:25:48.180000",
-   "mag": 3.0,
-   "magType": "ML",
-   "place": "1 km SE Cerva (CZ)",
-   "depth": 18.8,
-   "lat": 39.0167,
-   "lon": 16.7497,
-   "type": "earthquake"
-  },
-  {
-   "id": 46831572,
-   "time": "2026-08-08T18:18:54.180000",
-   "mag": 0.6,
-   "magType": "ML",
-   "place": "4 km NE Gubbio (PG)",
-   "depth": 11,
-   "lat": 43.3823,
-   "lon": 12.6092,
-   "type": "earthquake"
-  },
-  {
-   "id": 46831142,
-   "time": "2026-08-08T17:53:50.760000",
-   "mag": 1.1,
-   "magType": "ML",
-   "place": "6 km NE Pievebovigliana (MC)",
-   "depth": 18.8,
-   "lat": 43.1027,
-   "lon": 13.1275,
-   "type": "earthquake"
-  },
-  {
-   "id": 46830462,
-   "time": "2026-08-08T16:59:02.010000",
-   "mag": 0.9,
-   "magType": "ML",
-   "place": "6 km SE Cittareale (RI)",
-   "depth": 11.7,
-   "lat": 42.5905,
-   "lon": 13.2283,
-   "type": "earthquake"
-  },
-  {
-   "id": 46829632,
-   "time": "2026-08-08T16:06:21.980000",
-   "mag": 0.7,
-   "magType": "ML",
-   "place": "9 km NW Sellano (PG)",
-   "depth": 10.8,
-   "lat": 42.9578,
-   "lon": 12.8628,
-   "type": "earthquake"
-  },
-  {
-   "id": 46827952,
-   "time": "2026-08-08T14:55:53.460000",
-   "mag": 1.6,
-   "magType": "ML",
-   "place": "Confine Italia-Francia (FRANCIA)",
-   "depth": 7.3,
-   "lat": 44.6488,
-   "lon": 6.8262,
-   "type": "earthquake"
-  },
-  {
-   "id": 46825432,
-   "time": "2026-08-08T13:09:59.150000",
-   "mag": 0.8,
-   "magType": "ML",
-   "place": "3 km W Portico e San Benedetto (FC)",
-   "depth": 10.1,
-   "lat": 44.032,
-   "lon": 11.7498,
-   "type": "earthquake"
-  },
-  {
-   "id": 46823502,
-   "time": "2026-08-08T11:24:38.270000",
-   "mag": 1.7,
-   "magType": "ML",
-   "place": "Svizzera (SVIZZERA)",
-   "depth": 10.3,
-   "lat": 46.6782,
-   "lon": 10.0505,
-   "type": "earthquake"
-  },
-  {
-   "id": 46822982,
-   "time": "2026-08-08T10:52:52.070000",
-   "mag": 0.3,
-   "magType": "ML",
-   "place": "4 km SE Pioraco (MC)",
-   "depth": 16.2,
-   "lat": 43.1602,
-   "lon": 13.0245,
-   "type": "earthquake"
-  },
-  {
-   "id": 46822742,
-   "time": "2026-08-08T10:42:43.750000",
-   "mag": 2.7,
-   "magType": "ML",
-   "place": "Confine Italia-Francia (FRANCIA)",
-   "depth": 8.5,
-   "lat": 44.6532,
-   "lon": 6.8388,
-   "type": "earthquake"
-  },
-  {
-   "id": 46822652,
-   "time": "2026-08-08T10:37:40.360000",
-   "mag": 2.0,
-   "magType": "ML",
-   "place": "3 km E Castelsantangelo sul Nera (MC)",
-   "depth": 11.7,
-   "lat": 42.8838,
-   "lon": 13.1827,
-   "type": "earthquake"
-  },
-  {
-   "id": 46821972,
-   "time": "2026-08-08T09:42:37.560000",
-   "mag": 0.7,
-   "magType": "ML",
-   "place": "5 km S Sassoferrato (AN)",
-   "depth": 13.6,
-   "lat": 43.3945,
-   "lon": 12.8483,
-   "type": "earthquake"
-  },
-  {
-   "id": 46821672,
-   "time": "2026-08-08T09:21:47.530000",
-   "mag": 1.1,
-   "magType": "ML",
-   "place": "6 km SE Castelsantangelo sul Nera (MC)",
-   "depth": 9.9,
-   "lat": 42.8513,
-   "lon": 13.2048,
-   "type": "earthquake"
-  },
-  {
-   "id": 46820862,
-   "time": "2026-08-08T08:22:21.510000",
-   "mag": 1.2,
-   "magType": "ML",
-   "place": "3 km N Ussita (MC)",
-   "depth": 13.3,
-   "lat": 42.9708,
-   "lon": 13.1383,
-   "type": "earthquake"
+   "type": "earthquake",
+   "distKm": 169.1,
+   "azimut": 99.8,
+   "dir": "E"
   }
  ]
 }
