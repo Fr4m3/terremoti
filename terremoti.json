@@ -1,9 +1,9 @@
 {
- "generated": "2026-08-10T20:11:05.038458+00:00",
+ "generated": "2026-08-10T21:57:35.551941+00:00",
  "windowHours": 48,
  "count": 107,
  "maxmag": 3.4,
- "avgDepth": 10.7,
+ "avgDepth": 10.6,
  "home": {
   "lat": 43.7247258,
   "lon": 10.3802555,
@@ -11,6 +11,48 @@
  },
  "closest": 1.0,
  "events": [
+  {
+   "id": 46849332,
+   "time": "2026-08-10T21:08:01.470000",
+   "mag": 0.7,
+   "magType": "ML",
+   "place": "2 km W Scheggia e Pascelupo (PG)",
+   "depth": 10.1,
+   "lat": 43.401,
+   "lon": 12.6402,
+   "type": "earthquake",
+   "distKm": 185.6,
+   "azimut": 100.4,
+   "dir": "E"
+  },
+  {
+   "id": 46849322,
+   "time": "2026-08-10T20:58:05.000000",
+   "mag": 1.4,
+   "magType": "ML",
+   "place": "7 km W Milo (CT)",
+   "depth": 7.2,
+   "lat": 37.751,
+   "lon": 15.04,
+   "type": "earthquake",
+   "distKm": 771.3,
+   "azimut": 147.9,
+   "dir": "SSE"
+  },
+  {
+   "id": 46849252,
+   "time": "2026-08-10T20:24:17.850000",
+   "mag": 0.6,
+   "magType": "ML",
+   "place": "1 km SE Norcia (PG)",
+   "depth": 10,
+   "lat": 42.7868,
+   "lon": 13.1033,
+   "type": "earthquake",
+   "distKm": 243.9,
+   "azimut": 114.4,
+   "dir": "ESE"
+  },
   {
    "id": 46849162,
    "time": "2026-08-10T19:32:27.520000",
@@ -1466,48 +1508,6 @@
    "distKm": 265.6,
    "azimut": 290.8,
    "dir": "ONO"
-  },
-  {
-   "id": 46832792,
-   "time": "2026-08-08T21:54:35.070000",
-   "mag": 0.9,
-   "magType": "ML",
-   "place": "11 km NE Parenti (CS)",
-   "depth": 16.4,
-   "lat": 39.2428,
-   "lon": 16.4952,
-   "type": "earthquake",
-   "distKm": 712.2,
-   "azimut": 132.3,
-   "dir": "SE"
-  },
-  {
-   "id": 46832692,
-   "time": "2026-08-08T21:26:15.180000",
-   "mag": 0.6,
-   "magType": "ML",
-   "place": "6 km NW Gubbio (PG)",
-   "depth": 7.1,
-   "lat": 43.3842,
-   "lon": 12.511,
-   "type": "earthquake",
-   "distKm": 175.8,
-   "azimut": 101.7,
-   "dir": "ESE"
-  },
-  {
-   "id": 46832442,
-   "time": "2026-08-08T20:25:57.890000",
-   "mag": 1.2,
-   "magType": "ML",
-   "place": "1 km NE Pietralunga (PG)",
-   "depth": 7.3,
-   "lat": 43.4483,
-   "lon": 12.4448,
-   "type": "earthquake",
-   "distKm": 169.1,
-   "azimut": 99.8,
-   "dir": "E"
   }
  ]
 }
