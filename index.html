@@ -228,7 +228,7 @@
       </div>
       <div class="tbl-scroll" style="margin-top:16px">
         <table class="seq-tbl">
-          <thead><tr><th>P (almeno 1 scossa ≥ M)</th><th>24 h</th><th>72 h</th><th>7 gg</th><th>30 gg</th></tr></thead>
+          <thead><tr><th>P (almeno 1 scossa ≥ M)</th><th>24 h</th><th>72 h</th><th>7 gg</th><th>30 gg</th><th>90 gg</th></tr></thead>
           <tbody id="seq-rows"></tbody>
         </table>
       </div>
@@ -518,12 +518,12 @@ function bindSeg(id, cb){
     b.addEventListener("click", () => {
       document.querySelectorAll("#" + id + " button").forEach(x => x.classList.remove("on"));
       b.classList.add("on");
-      cb(+b.dataset.v);
+      cb(b.dataset.v);
     });
   });
 }
-bindSeg("seg-mag", v => { minMag = v; render(); });
-bindSeg("seg-win", v => { windowH = v; render(); });
+bindSeg("seg-mag", v => { minMag = +v; render(); });
+bindSeg("seg-win", v => { windowH = +v; render(); });
 bindSeg("seg-order", v => { order = v; render(); });
 bindSeg("seg-area", v => {
   area = v;
@@ -606,11 +606,11 @@ function seqCompute(evt, cat){
   const rows = [2.0, 2.5, 3.0, 3.5, 4.0, evt.mag ?? 4, 5.0]
     .filter((v, i, a) => a.indexOf(v) === i && v >= mc)
     .sort((a, b) => a - b)
-    .map(M => ({M, p: [1, 3, 7, 30].map(d => prob(M, dt + d))}));
+    .map(M => ({M, p: [1, 3, 7, 30, 90].map(d => prob(M, dt + d))}));
   const bath = (evt.mag ?? 0) - 1.2;
   return {
     R, mc, b, bNote, N, K, dt, rows,
-    totals: [1, 7, 30].map(d => ({d, n: nTot(dt + d)})),
+    totals: [1, 7, 30, 90].map(d => ({d, n: nTot(dt + d)})),
     bath, bathLo: bath - .5, bathHi: bath + .5
   };
 }
@@ -669,9 +669,10 @@ function seqRender(){
     `🔎 Massima replica attesa (legge di Båth): <b>M${d.bath.toFixed(1)}</b> ` +
     `<small>(range M${d.bathLo.toFixed(1)}–M${d.bathHi.toFixed(1)})</small>` : "";
   // gauge: probabilità alla soglia e finestra scelte
+  const SEQ_DIDX = {24:0, 72:1, 168:2, 720:3, 2160:4}; // ore → indice giorni [1,3,7,30,90]
   const row = d.rows.find(r => Math.abs(r.M - seqM) < 1e-9);
-  const p = row ? row.p[[24, 72, 168].indexOf(seqW)] : 0;
-  const wLab = {24:"24 h", 72:"72 h", 168:"7 gg"}[seqW];
+  const p = row ? row.p[SEQ_DIDX[seqW] ?? 2] : 0;
+  const wLab = {24:"24 h", 72:"72 h", 168:"7 gg", 720:"30 gg", 2160:"90 gg"}[seqW];
   const [lvlTxt, lvlCol] = p < 2 ? ["Basso", "ok"] : p < 10 ? ["Moderato", "warn"] :
     p < 25 ? ["Elevato", "acc"] : ["Molto elevato", "bad"];
   const col = SEQ_COLORS[lvlCol];
@@ -706,8 +707,8 @@ function seqInit(){
   mSel.innerHTML = [2.0, 2.5, 3.0, 3.5].map(v =>
     `<button data-v="${v}" class="${v === seqM ? "on" : ""}">≥ M${v.toFixed(1)}</button>`).join("");
   const wSel = document.getElementById("seg-seq-w");
-  wSel.innerHTML = [24, 72, 168].map(h =>
-    `<button data-v="${h}" class="${h === seqW ? "on" : ""}">${h === 168 ? "7 gg" : h + " h"}</button>`).join("");
+  wSel.innerHTML = [[24,"24 h"],[72,"72 h"],[168,"7 gg"],[720,"30 gg"],[2160,"90 gg"]].map(([h,lab]) =>
+    `<button data-v="${h}" class="${h === seqW ? "on" : ""}">${lab}</button>`).join("");
   mSel.addEventListener("click", e => {
     const b = e.target.closest("button"); if (!b) return;
     seqM = +b.dataset.v;

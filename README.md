@@ -35,8 +35,8 @@ sul catalogo INGV degli ultimi 30 giorni attorno all'epicentro (raggio adattivo 
 - **Legge di Omori modificata** (p=1): il numero atteso di repliche cresce come `K·ln((t+c)/c)` con `c=0.01` gg; `K` è stimato dalle repliche già osservate,
 - **Gutenberg-Richter**: il parametro `b` è stimato con MLE (Utsu) sul catalogo locale ≥ completezza `Mc` (adattiva: 1.0 → 0.5),
 - **Legge di Båth**: massima replica attesa ≈ M dell'evento − 1.2 (±0.5),
-- **Processo di Poisson**: probabilità di almeno 1 scossa ≥ M in 24 h / 72 h / 7 gg / 30 gg = `1 − exp(−λ)`.
+- **Processo di Poisson**: probabilità di almeno 1 scossa ≥ M in 24 h / 72 h / 7 gg / 30 gg / 90 gg = `1 − exp(−λ)`.
 
-Il pannello mostra una **gauge con la percentuale** (soglia e finestra selezionabili: ≥ M2.0…3.5 × 24 h…7 gg),
+Il pannello mostra una **gauge con la percentuale** (soglia e finestra selezionabili: ≥ M2.0…3.5 × 24 h…90 gg),
 la tabella delle probabilità per tutte le soglie, le repliche totali attese (ML ≥ 1.0) e il livello di rischio
 (Basso / Moderato / Elevato / Molto elevato). Valori preliminari: non sono previsioni deterministiche.
