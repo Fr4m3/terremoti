@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-11T02:26:58.996271+00:00",
+ "generated": "2026-08-11T04:39:26.561911+00:00",
  "windowHours": 48,
- "count": 97,
+ "count": 100,
  "maxmag": 3.0,
  "avgDepth": 11.1,
  "home": {
@@ -11,6 +11,76 @@
  },
  "closest": 1.0,
  "events": [
+  {
+   "id": 46850172,
+   "time": "2026-08-11T03:48:18.640000",
+   "mag": 0.6,
+   "magType": "ML",
+   "place": "4 km E Castelsantangelo sul Nera (MC)",
+   "depth": 4.7,
+   "lat": 42.9057,
+   "lon": 13.2062,
+   "type": "earthquake",
+   "distKm": 246.1,
+   "azimut": 110.7,
+   "dir": "ESE"
+  },
+  {
+   "id": 46850142,
+   "time": "2026-08-11T03:33:05.570000",
+   "mag": 0.8,
+   "magType": "ML",
+   "place": "3 km NW Ussita (MC)",
+   "depth": 9.9,
+   "lat": 42.9578,
+   "lon": 13.1097,
+   "type": "earthquake",
+   "distKm": 236.6,
+   "azimut": 110.2,
+   "dir": "ESE"
+  },
+  {
+   "id": 46850102,
+   "time": "2026-08-11T03:15:39.710000",
+   "mag": 1.5,
+   "magType": "ML",
+   "place": "9 km SE Martello (BZ)",
+   "depth": 10.7,
+   "lat": 46.4908,
+   "lon": 10.8257,
+   "type": "earthquake",
+   "distKm": 309.6,
+   "azimut": 6.3,
+   "dir": "N"
+  },
+  {
+   "id": 46850052,
+   "time": "2026-08-11T03:11:08.680000",
+   "mag": 1.2,
+   "magType": "ML",
+   "place": "15 km NW Zapponeta (FG)",
+   "depth": 11.4,
+   "lat": 41.5243,
+   "lon": 15.7972,
+   "type": "earthquake",
+   "distKm": 506.1,
+   "azimut": 117.0,
+   "dir": "ESE"
+  },
+  {
+   "id": 46850032,
+   "time": "2026-08-11T02:37:45.790000",
+   "mag": 1.2,
+   "magType": "ML",
+   "place": "1 km E Norcia (PG)",
+   "depth": 8.9,
+   "lat": 42.7933,
+   "lon": 13.1083,
+   "type": "earthquake",
+   "distKm": 244.0,
+   "azimut": 114.2,
+   "dir": "ESE"
+  },
   {
    "id": 46849962,
    "time": "2026-08-11T01:46:53.670000",
@@ -1340,34 +1410,6 @@
    "distKm": 168.9,
    "azimut": 136.2,
    "dir": "SE"
-  },
-  {
-   "id": 46833842,
-   "time": "2026-08-09T04:37:35.000000",
-   "mag": 1.0,
-   "magType": "ML",
-   "place": "3 km N Porcari (LU)",
-   "depth": 5.5,
-   "lat": 43.8698,
-   "lon": 10.6163,
-   "type": "earthquake",
-   "distKm": 24.9,
-   "azimut": 49.5,
-   "dir": "NE"
-  },
-  {
-   "id": 46833732,
-   "time": "2026-08-09T03:13:19.650000",
-   "mag": 1.2,
-   "magType": "ML",
-   "place": "1 km E Claut (PN)",
-   "depth": 9.8,
-   "lat": 46.27,
-   "lon": 12.5253,
-   "type": "earthquake",
-   "distKm": 329.4,
-   "azimut": 30.0,
-   "dir": "NNE"
   }
  ]
 }
