@@ -1,9 +1,9 @@
 {
- "generated": "2026-08-12T10:20:01.468371+00:00",
+ "generated": "2026-08-12T13:46:07.376676+00:00",
  "windowHours": 48,
- "count": 78,
+ "count": 80,
  "maxmag": 3.7,
- "avgDepth": 14.4,
+ "avgDepth": 14.3,
  "home": {
   "lat": 43.7247258,
   "lon": 10.3802555,
@@ -11,6 +11,76 @@
  },
  "closest": 13.7,
  "events": [
+  {
+   "id": 46864222,
+   "time": "2026-08-12T13:10:00.230000",
+   "mag": 2.0,
+   "magType": "ML",
+   "place": "Costa Garganica (Foggia)",
+   "depth": 2.2,
+   "lat": 41.9352,
+   "lon": 15.4832,
+   "type": "earthquake",
+   "distKm": 461.1,
+   "azimut": 113.8,
+   "dir": "ESE"
+  },
+  {
+   "id": 46863192,
+   "time": "2026-08-12T11:32:29.280000",
+   "mag": 1.1,
+   "magType": "ML",
+   "place": "Costa Toscana settentrionale (Massa-Carrara, Lucca, Pisa)",
+   "depth": 6.2,
+   "lat": 43.7133,
+   "lon": 10.1767,
+   "type": "earthquake",
+   "distKm": 16.4,
+   "azimut": 265.6,
+   "dir": "O"
+  },
+  {
+   "id": 46863162,
+   "time": "2026-08-12T11:29:03.940000",
+   "mag": 1.8,
+   "magType": "ML",
+   "place": "Costa Toscana settentrionale (Massa-Carrara, Lucca, Pisa)",
+   "depth": 13,
+   "lat": 43.6705,
+   "lon": 10.1977,
+   "type": "earthquake",
+   "distKm": 15.9,
+   "azimut": 247.7,
+   "dir": "OSO"
+  },
+  {
+   "id": 46863082,
+   "time": "2026-08-12T11:25:42.280000",
+   "mag": 1.5,
+   "magType": "ML",
+   "place": "Costa Toscana settentrionale (Massa-Carrara, Lucca, Pisa)",
+   "depth": 10.5,
+   "lat": 43.6788,
+   "lon": 10.2032,
+   "type": "earthquake",
+   "distKm": 15.1,
+   "azimut": 250.3,
+   "dir": "OSO"
+  },
+  {
+   "id": 46862932,
+   "time": "2026-08-12T11:05:59.850000",
+   "mag": 1.2,
+   "magType": "ML",
+   "place": "4 km SE Cantiano (PU)",
+   "depth": 23.7,
+   "lat": 43.4537,
+   "lon": 12.6743,
+   "type": "earthquake",
+   "distKm": 187.2,
+   "azimut": 98.5,
+   "dir": "E"
+  },
   {
    "id": 46862422,
    "time": "2026-08-12T10:00:46.330000",
@@ -1060,48 +1130,6 @@
    "distKm": 18.4,
    "azimut": 250.5,
    "dir": "OSO"
-  },
-  {
-   "id": 46845822,
-   "time": "2026-08-10T12:12:04.010000",
-   "mag": 1.0,
-   "magType": "ML",
-   "place": "3 km N Bertiolo (UD)",
-   "depth": 10,
-   "lat": 45.97,
-   "lon": 13.0615,
-   "type": "earthquake",
-   "distKm": 327.1,
-   "azimut": 39.3,
-   "dir": "NE"
-  },
-  {
-   "id": 46845712,
-   "time": "2026-08-10T12:01:04.430000",
-   "mag": 0.9,
-   "magType": "ML",
-   "place": "4 km NW Cannara (PG)",
-   "depth": 7.9,
-   "lat": 43.0147,
-   "lon": 12.5485,
-   "type": "earthquake",
-   "distKm": 192.2,
-   "azimut": 113.5,
-   "dir": "ESE"
-  },
-  {
-   "id": 46845132,
-   "time": "2026-08-10T10:36:04.260000",
-   "mag": 0.9,
-   "magType": "ML",
-   "place": "7 km NE Sasso di Castalda (PZ)",
-   "depth": 19.4,
-   "lat": 40.5318,
-   "lon": 15.7312,
-   "type": "earthquake",
-   "distKm": 566.2,
-   "azimut": 127.0,
-   "dir": "SE"
   }
  ]
 }
