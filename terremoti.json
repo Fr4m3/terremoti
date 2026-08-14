@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-14T19:13:10.415102+00:00",
+ "generated": "2026-08-14T21:40:03.691127+00:00",
  "windowHours": 48,
- "count": 86,
+ "count": 83,
  "maxmag": 3.0,
  "avgDepth": 14.5,
  "home": {
@@ -11,6 +11,20 @@
  },
  "closest": 3.7,
  "events": [
+  {
+   "id": 46888012,
+   "time": "2026-08-14T21:13:28.170000",
+   "mag": 0.6,
+   "magType": "ML",
+   "place": "5 km W Treia (MC)",
+   "depth": 8.7,
+   "lat": 43.3125,
+   "lon": 13.2532,
+   "type": "earthquake",
+   "distKm": 236.1,
+   "azimut": 100.2,
+   "dir": "E"
+  },
   {
    "id": 46887752,
    "time": "2026-08-14T19:07:22.070000",
@@ -1158,62 +1172,6 @@
    "distKm": 248.3,
    "azimut": 113.6,
    "dir": "ESE"
-  },
-  {
-   "id": 46871452,
-   "time": "2026-08-12T20:01:42.740000",
-   "mag": 0.6,
-   "magType": "ML",
-   "place": "6 km E Castelsantangelo sul Nera (MC)",
-   "depth": 4.9,
-   "lat": 42.8858,
-   "lon": 13.2212,
-   "type": "earthquake",
-   "distKm": 248.1,
-   "azimut": 111.1,
-   "dir": "ESE"
-  },
-  {
-   "id": 46871332,
-   "time": "2026-08-12T19:45:11.420000",
-   "mag": 0.8,
-   "magType": "ML",
-   "place": "4 km NW Sansepolcro (AR)",
-   "depth": 10.4,
-   "lat": 43.6027,
-   "lon": 12.1233,
-   "type": "earthquake",
-   "distKm": 140.9,
-   "azimut": 94.9,
-   "dir": "E"
-  },
-  {
-   "id": 46871172,
-   "time": "2026-08-12T19:28:47.160000",
-   "mag": 0.8,
-   "magType": "ML",
-   "place": "1 km NW Cessapalombo (MC)",
-   "depth": 12.8,
-   "lat": 43.1173,
-   "lon": 13.2487,
-   "type": "earthquake",
-   "distKm": 241.3,
-   "azimut": 105.3,
-   "dir": "ESE"
-  },
-  {
-   "id": 46871012,
-   "time": "2026-08-12T19:14:24.610000",
-   "mag": 0.9,
-   "magType": "ML",
-   "place": "6 km E Fiumalbo (MO)",
-   "depth": 19.4,
-   "lat": 44.1928,
-   "lon": 10.7172,
-   "type": "earthquake",
-   "distKm": 58.6,
-   "azimut": 27.3,
-   "dir": "NNE"
   }
  ]
 }
