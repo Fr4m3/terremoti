@@ -1,9 +1,9 @@
 {
- "generated": "2026-08-14T05:01:35.494601+00:00",
+ "generated": "2026-08-14T07:50:01.397643+00:00",
  "windowHours": 48,
- "count": 97,
+ "count": 98,
  "maxmag": 3.7,
- "avgDepth": 14.3,
+ "avgDepth": 14.4,
  "home": {
   "lat": 43.7247258,
   "lon": 10.3802555,
@@ -11,6 +11,62 @@
  },
  "closest": 3.7,
  "events": [
+  {
+   "id": 46882182,
+   "time": "2026-08-14T07:02:57.640000",
+   "mag": 0.6,
+   "magType": "ML",
+   "place": "2 km W Roure (TO)",
+   "depth": 11.7,
+   "lat": 45.0043,
+   "lon": 7.1068,
+   "type": "earthquake",
+   "distKm": 296.5,
+   "azimut": 299.8,
+   "dir": "ONO"
+  },
+  {
+   "id": 46881912,
+   "time": "2026-08-14T06:17:57.760000",
+   "mag": 1.2,
+   "magType": "ML",
+   "place": "Costa Toscana settentrionale (Massa-Carrara, Lucca, Pisa)",
+   "depth": 15.2,
+   "lat": 43.6593,
+   "lon": 10.1792,
+   "type": "earthquake",
+   "distKm": 17.7,
+   "azimut": 245.8,
+   "dir": "OSO"
+  },
+  {
+   "id": 46881862,
+   "time": "2026-08-14T06:04:39.940000",
+   "mag": 2.0,
+   "magType": "ML",
+   "place": "Costa Toscana settentrionale (Massa-Carrara, Lucca, Pisa)",
+   "depth": 9.7,
+   "lat": 43.6667,
+   "lon": 10.1892,
+   "type": "earthquake",
+   "distKm": 16.7,
+   "azimut": 247.3,
+   "dir": "OSO"
+  },
+  {
+   "id": 46881742,
+   "time": "2026-08-14T05:12:34.120000",
+   "mag": 1.0,
+   "magType": "ML",
+   "place": "6 km NE Mele (GE)",
+   "depth": 12.3,
+   "lat": 44.4817,
+   "lon": 8.81,
+   "type": "earthquake",
+   "distKm": 151.0,
+   "azimut": 304.4,
+   "dir": "NO"
+  },
   {
    "id": 46881482,
    "time": "2026-08-14T03:45:02.730000",
@@ -1326,48 +1382,6 @@
    "distKm": 15.7,
    "azimut": 247.0,
    "dir": "OSO"
-  },
-  {
-   "id": 46860962,
-   "time": "2026-08-12T07:19:06.210000",
-   "mag": 1.3,
-   "magType": "ML",
-   "place": "2 km SW Campotosto (AQ)",
-   "depth": 9,
-   "lat": 42.5427,
-   "lon": 13.361,
-   "type": "earthquake",
-   "distKm": 275.3,
-   "azimut": 117.5,
-   "dir": "ESE"
-  },
-  {
-   "id": 46860412,
-   "time": "2026-08-12T05:50:18.060000",
-   "mag": 1.9,
-   "magType": "ML",
-   "place": "4 km NW San Mauro Castelverde (PA)",
-   "depth": 7.4,
-   "lat": 37.9405,
-   "lon": 14.1598,
-   "type": "earthquake",
-   "distKm": 717.3,
-   "azimut": 152.4,
-   "dir": "SSE"
-  },
-  {
-   "id": 46860252,
-   "time": "2026-08-12T05:29:36.920000",
-   "mag": 1.4,
-   "magType": "ML",
-   "place": "6 km E Norcia (PG)",
-   "depth": 10.1,
-   "lat": 42.771,
-   "lon": 13.1655,
-   "type": "earthquake",
-   "distKm": 249.3,
-   "azimut": 114.2,
-   "dir": "ESE"
   }
  ]
 }
