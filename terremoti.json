@@ -1,9 +1,9 @@
 {
- "generated": "2026-08-15T06:57:16.546149+00:00",
+ "generated": "2026-08-15T09:39:35.963647+00:00",
  "windowHours": 48,
- "count": 74,
+ "count": 73,
  "maxmag": 3.0,
- "avgDepth": 15.9,
+ "avgDepth": 16.4,
  "home": {
   "lat": 43.7247258,
   "lon": 10.3802555,
@@ -11,6 +11,48 @@
  },
  "closest": 11.7,
  "events": [
+  {
+   "id": 46891012,
+   "time": "2026-08-15T09:32:19.670000",
+   "mag": 1.0,
+   "magType": "ML",
+   "place": "6 km W Norcia (PG)",
+   "depth": 9.9,
+   "lat": 42.7918,
+   "lon": 13.0193,
+   "type": "earthquake",
+   "distKm": 237.5,
+   "azimut": 115.0,
+   "dir": "ESE"
+  },
+  {
+   "id": 46890252,
+   "time": "2026-08-15T08:23:28.390000",
+   "mag": 1.1,
+   "magType": "ML",
+   "place": "5 km N Norcia (PG)",
+   "depth": 10.4,
+   "lat": 42.8385,
+   "lon": 13.0763,
+   "type": "earthquake",
+   "distKm": 239.4,
+   "azimut": 113.4,
+   "dir": "ESE"
+  },
+  {
+   "id": 46889862,
+   "time": "2026-08-15T07:40:07.500000",
+   "mag": 1.1,
+   "magType": "ML",
+   "place": "2 km E Pennabilli (RN)",
+   "depth": 40.3,
+   "lat": 43.8127,
+   "lon": 12.2902,
+   "type": "earthquake",
+   "distKm": 153.7,
+   "azimut": 85.7,
+   "dir": "E"
+  },
   {
    "id": 46889392,
    "time": "2026-08-15T06:28:17.940000",
@@ -990,62 +1032,6 @@
    "distKm": 16.6,
    "azimut": 243.6,
    "dir": "OSO"
-  },
-  {
-   "id": 46874652,
-   "time": "2026-08-13T08:51:28.660000",
-   "mag": 1.0,
-   "magType": "ML",
-   "place": "2 km NE Accumoli (RI)",
-   "depth": 10.6,
-   "lat": 42.7157,
-   "lon": 13.2587,
-   "type": "earthquake",
-   "distKm": 258.8,
-   "azimut": 114.7,
-   "dir": "ESE"
-  },
-  {
-   "id": 46874272,
-   "time": "2026-08-13T08:09:43.200000",
-   "mag": 0.9,
-   "magType": "ML",
-   "place": "6 km W Gubbio (PG)",
-   "depth": 10,
-   "lat": 43.377,
-   "lon": 12.5102,
-   "type": "earthquake",
-   "distKm": 175.9,
-   "azimut": 102.0,
-   "dir": "ESE"
-  },
-  {
-   "id": 46874032,
-   "time": "2026-08-13T07:30:07.460000",
-   "mag": 0.6,
-   "magType": "ML",
-   "place": "3 km E Santo Stefano di Magra (SP)",
-   "depth": 10.1,
-   "lat": 44.1623,
-   "lon": 9.9513,
-   "type": "earthquake",
-   "distKm": 59.6,
-   "azimut": 324.9,
-   "dir": "NO"
-  },
-  {
-   "id": 46873952,
-   "time": "2026-08-13T07:21:56.630000",
-   "mag": 1.0,
-   "magType": "ML",
-   "place": "3 km S Valfabbrica (PG)",
-   "depth": 8.4,
-   "lat": 43.1298,
-   "lon": 12.6118,
-   "type": "earthquake",
-   "distKm": 192.0,
-   "azimut": 109.4,
-   "dir": "ESE"
   }
  ]
 }
