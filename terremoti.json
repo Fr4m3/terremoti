@@ -1,9 +1,9 @@
 {
- "generated": "2026-08-16T09:41:45.694595+00:00",
+ "generated": "2026-08-16T13:00:18.241489+00:00",
  "windowHours": 48,
- "count": 87,
+ "count": 93,
  "maxmag": 3.9,
- "avgDepth": 15.1,
+ "avgDepth": 14.8,
  "home": {
   "lat": 43.7247258,
   "lon": 10.3802555,
@@ -11,6 +11,104 @@
  },
  "closest": 16.0,
  "events": [
+  {
+   "id": 46902112,
+   "time": "2026-08-16T12:24:44.810000",
+   "mag": 0.5,
+   "magType": "ML",
+   "place": "4 km W Campello sul Clitunno (PG)",
+   "depth": 9.1,
+   "lat": 42.8282,
+   "lon": 12.7358,
+   "type": "earthquake",
+   "distKm": 215.2,
+   "azimut": 116.8,
+   "dir": "ESE"
+  },
+  {
+   "id": 46902102,
+   "time": "2026-08-16T12:20:05.500000",
+   "mag": 0.1,
+   "magType": "ML",
+   "place": "6 km SE Gubbio (PG)",
+   "depth": 9.6,
+   "lat": 43.3065,
+   "lon": 12.6138,
+   "type": "earthquake",
+   "distKm": 186.0,
+   "azimut": 103.7,
+   "dir": "ESE"
+  },
+  {
+   "id": 46902002,
+   "time": "2026-08-16T12:13:55.160000",
+   "mag": 1.6,
+   "magType": "ML",
+   "place": "Confine Italia-Francia (FRANCIA)",
+   "depth": 10.1,
+   "lat": 44.7592,
+   "lon": 6.664,
+   "type": "earthquake",
+   "distKm": 317.6,
+   "azimut": 292.5,
+   "dir": "ONO"
+  },
+  {
+   "id": 46901972,
+   "time": "2026-08-16T12:13:37.510000",
+   "mag": 1.4,
+   "magType": "ML",
+   "place": "7 km SW Cagnano Varano (FG)",
+   "depth": 18.9,
+   "lat": 41.7702,
+   "lon": 15.7478,
+   "type": "earthquake",
+   "distKm": 489.1,
+   "azimut": 114.5,
+   "dir": "ESE"
+  },
+  {
+   "id": 46901782,
+   "time": "2026-08-16T11:42:14.190000",
+   "mag": 2.0,
+   "magType": "ML",
+   "place": "4 km E Fosdinovo (MS)",
+   "depth": 8.6,
+   "lat": 44.1387,
+   "lon": 10.0712,
+   "type": "earthquake",
+   "distKm": 52.3,
+   "azimut": 331.8,
+   "dir": "NNO"
+  },
+  {
+   "id": 46901582,
+   "time": "2026-08-16T11:21:15.520000",
+   "mag": 1.5,
+   "magType": "ML",
+   "place": "9 km W San Luca (RC)",
+   "depth": 10.3,
+   "lat": 38.1367,
+   "lon": 15.971,
+   "type": "earthquake",
+   "distKm": 778.5,
+   "azimut": 141.0,
+   "dir": "SE"
+  },
+  {
+   "id": 46901432,
+   "time": "2026-08-16T11:11:29.310000",
+   "mag": 0.8,
+   "magType": "ML",
+   "place": "4 km NE Pietralunga (PG)",
+   "depth": 10,
+   "lat": 43.4667,
+   "lon": 12.4667,
+   "type": "earthquake",
+   "distKm": 170.4,
+   "azimut": 99.0,
+   "dir": "E"
+  },
   {
    "id": 46900482,
    "time": "2026-08-16T09:29:18.620000",
@@ -1214,20 +1312,6 @@
    "distKm": 181.8,
    "azimut": 109.3,
    "dir": "ESE"
-  },
-  {
-   "id": 46883762,
-   "time": "2026-08-14T10:03:11.610000",
-   "mag": 0.9,
-   "magType": "ML",
-   "place": "3 km NE Ala (TN)",
-   "depth": 10.2,
-   "lat": 45.7733,
-   "lon": 11.0383,
-   "type": "earthquake",
-   "distKm": 233.6,
-   "azimut": 12.6,
-   "dir": "NNE"
   }
  ]
 }
