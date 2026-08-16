@@ -1,9 +1,9 @@
 {
- "generated": "2026-08-16T01:57:06.431588+00:00",
+ "generated": "2026-08-16T03:58:41.991729+00:00",
  "windowHours": 48,
  "count": 82,
  "maxmag": 3.9,
- "avgDepth": 14.9,
+ "avgDepth": 15.3,
  "home": {
   "lat": 43.7247258,
   "lon": 10.3802555,
@@ -11,6 +11,48 @@
  },
  "closest": 16.7,
  "events": [
+  {
+   "id": 46897952,
+   "time": "2026-08-16T03:10:09.820000",
+   "mag": 1.5,
+   "magType": "ML",
+   "place": "1 km W Fossato di Vico (PG)",
+   "depth": 12.4,
+   "lat": 43.2923,
+   "lon": 12.7448,
+   "type": "earthquake",
+   "distKm": 196.7,
+   "azimut": 103.3,
+   "dir": "ESE"
+  },
+  {
+   "id": 46897912,
+   "time": "2026-08-16T02:57:28.370000",
+   "mag": 1.2,
+   "magType": "ML",
+   "place": "4 km S Pieve Torina (MC)",
+   "depth": 12.9,
+   "lat": 43.0102,
+   "lon": 13.0457,
+   "type": "earthquake",
+   "distKm": 229.6,
+   "azimut": 109.3,
+   "dir": "ESE"
+  },
+  {
+   "id": 46897832,
+   "time": "2026-08-16T01:48:40.240000",
+   "mag": 0.9,
+   "magType": "ML",
+   "place": "1 km SE Serra de' Conti (AN)",
+   "depth": 42.5,
+   "lat": 43.5383,
+   "lon": 13.0513,
+   "type": "earthquake",
+   "distKm": 216.0,
+   "azimut": 94.6,
+   "dir": "E"
+  },
   {
    "id": 46897792,
    "time": "2026-08-16T01:43:45.350000",
@@ -1116,48 +1158,6 @@
    "distKm": 151.0,
    "azimut": 304.4,
    "dir": "NO"
-  },
-  {
-   "id": 46881482,
-   "time": "2026-08-14T03:45:02.730000",
-   "mag": 2.9,
-   "magType": "ML",
-   "place": "Tirreno Meridionale [Mare]",
-   "depth": 14.4,
-   "lat": 38.6367,
-   "lon": 13.1427,
-   "type": "earthquake",
-   "distKm": 611.1,
-   "azimut": 156.9,
-   "dir": "SSE"
-  },
-  {
-   "id": 46881452,
-   "time": "2026-08-14T03:30:37.230000",
-   "mag": 3.0,
-   "magType": "ML",
-   "place": "Tirreno Meridionale [Mare]",
-   "depth": 11.2,
-   "lat": 38.6433,
-   "lon": 13.1607,
-   "type": "earthquake",
-   "distKm": 611.0,
-   "azimut": 156.7,
-   "dir": "SSE"
-  },
-  {
-   "id": 46881382,
-   "time": "2026-08-14T03:17:30.010000",
-   "mag": 2.4,
-   "magType": "ML",
-   "place": "Tirreno Meridionale [Mare]",
-   "depth": 12.1,
-   "lat": 38.6373,
-   "lon": 13.1627,
-   "type": "earthquake",
-   "distKm": 611.6,
-   "azimut": 156.7,
-   "dir": "SSE"
   }
  ]
 }
