@@ -1,9 +1,9 @@
 {
- "generated": "2026-08-16T15:35:27.431670+00:00",
+ "generated": "2026-08-16T18:46:22.337791+00:00",
  "windowHours": 48,
- "count": 92,
+ "count": 94,
  "maxmag": 3.9,
- "avgDepth": 15.0,
+ "avgDepth": 14.8,
  "home": {
   "lat": 43.7247258,
   "lon": 10.3802555,
@@ -11,6 +11,62 @@
  },
  "closest": 16.0,
  "events": [
+  {
+   "id": 46907192,
+   "time": "2026-08-16T17:49:11.790000",
+   "mag": 1.0,
+   "magType": "ML",
+   "place": "6 km SW Costacciaro (PG)",
+   "depth": 10.5,
+   "lat": 43.3215,
+   "lon": 12.6588,
+   "type": "earthquake",
+   "distKm": 189.1,
+   "azimut": 102.9,
+   "dir": "ESE"
+  },
+  {
+   "id": 46907172,
+   "time": "2026-08-16T17:46:40.210000",
+   "mag": 1.1,
+   "magType": "ML",
+   "place": "Costa Siciliana centro-settentrionale (Palermo)",
+   "depth": 10.9,
+   "lat": 38.0807,
+   "lon": 14.1883,
+   "type": "earthquake",
+   "distKm": 704.3,
+   "azimut": 151.7,
+   "dir": "SSE"
+  },
+  {
+   "id": 46906482,
+   "time": "2026-08-16T16:34:23.570000",
+   "mag": 0.0,
+   "magType": "ML",
+   "place": "4 km SW Sigillo (PG)",
+   "depth": 9.9,
+   "lat": 43.3103,
+   "lon": 12.7012,
+   "type": "earthquake",
+   "distKm": 192.7,
+   "azimut": 103.0,
+   "dir": "ESE"
+  },
+  {
+   "id": 46905942,
+   "time": "2026-08-16T15:53:44.100000",
+   "mag": 0.4,
+   "magType": "ML",
+   "place": "2 km SW Muccia (MC)",
+   "depth": 11,
+   "lat": 43.0652,
+   "lon": 13.0275,
+   "type": "earthquake",
+   "distKm": 226.1,
+   "azimut": 108.0,
+   "dir": "ESE"
+  },
   {
    "id": 46904822,
    "time": "2026-08-16T14:58:14.800000",
@@ -1270,34 +1326,6 @@
    "distKm": 139.5,
    "azimut": 95.3,
    "dir": "E"
-  },
-  {
-   "id": 46887512,
-   "time": "2026-08-14T18:09:33.680000",
-   "mag": 1.0,
-   "magType": "ML",
-   "place": "2 km SW Arquata del Tronto (AP)",
-   "depth": 11.1,
-   "lat": 42.7568,
-   "lon": 13.2828,
-   "type": "earthquake",
-   "distKm": 258.6,
-   "azimut": 113.6,
-   "dir": "ESE"
-  },
-  {
-   "id": 46887442,
-   "time": "2026-08-14T17:56:34.870000",
-   "mag": 1.2,
-   "magType": "ML",
-   "place": "Costa Toscana settentrionale (Massa-Carrara, Lucca, Pisa)",
-   "depth": 14.6,
-   "lat": 43.6438,
-   "lon": 10.2018,
-   "type": "earthquake",
-   "distKm": 16.9,
-   "azimut": 238.0,
-   "dir": "OSO"
   }
  ]
 }
