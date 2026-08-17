@@ -1,9 +1,9 @@
 {
- "generated": "2026-08-17T01:54:24.991099+00:00",
+ "generated": "2026-08-17T04:02:04.301229+00:00",
  "windowHours": 48,
- "count": 90,
+ "count": 91,
  "maxmag": 3.9,
- "avgDepth": 15.3,
+ "avgDepth": 15.5,
  "home": {
   "lat": 43.7247258,
   "lon": 10.3802555,
@@ -11,6 +11,48 @@
  },
  "closest": 16.0,
  "events": [
+  {
+   "id": 46908572,
+   "time": "2026-08-17T03:13:55.610000",
+   "mag": 0.6,
+   "magType": "ML",
+   "place": "Monte Cavallo (MC)",
+   "depth": 11.3,
+   "lat": 42.9917,
+   "lon": 13.005,
+   "type": "earthquake",
+   "distKm": 227.3,
+   "azimut": 110.1,
+   "dir": "ESE"
+  },
+  {
+   "id": 46908562,
+   "time": "2026-08-17T03:07:12.890000",
+   "mag": 1.3,
+   "magType": "ML",
+   "place": "7 km SW Casola Valsenio (RA)",
+   "depth": 28.4,
+   "lat": 44.1732,
+   "lon": 11.5755,
+   "type": "earthquake",
+   "distKm": 107.9,
+   "azimut": 62.1,
+   "dir": "ENE"
+  },
+  {
+   "id": 46908512,
+   "time": "2026-08-17T03:01:46.730000",
+   "mag": 1.1,
+   "magType": "ML",
+   "place": "Confine Italia-Svizzera (SVIZZERA)",
+   "depth": 11,
+   "lat": 46.4072,
+   "lon": 8.5427,
+   "type": "earthquake",
+   "distKm": 331.3,
+   "azimut": 334.8,
+   "dir": "NNO"
+  },
   {
    "id": 46908322,
    "time": "2026-08-17T00:19:46.760000",
@@ -1242,34 +1284,6 @@
    "distKm": 739.4,
    "azimut": 147.3,
    "dir": "SSE"
-  },
-  {
-   "id": 46888902,
-   "time": "2026-08-15T03:50:02.010000",
-   "mag": 1.5,
-   "magType": "ML",
-   "place": "6 km W Celano (AQ)",
-   "depth": 15.2,
-   "lat": 42.0883,
-   "lon": 13.4795,
-   "type": "earthquake",
-   "distKm": 311.1,
-   "azimut": 124.7,
-   "dir": "SE"
-  },
-  {
-   "id": 46888792,
-   "time": "2026-08-15T02:08:20.290000",
-   "mag": 0.9,
-   "magType": "ML",
-   "place": "2 km SE Fiordimonte (MC)",
-   "depth": 7.5,
-   "lat": 43.0223,
-   "lon": 13.0977,
-   "type": "earthquake",
-   "distKm": 233.1,
-   "azimut": 108.6,
-   "dir": "ESE"
   }
  ]
 }
