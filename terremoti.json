@@ -1,9 +1,9 @@
 {
- "generated": "2026-08-17T04:02:04.301229+00:00",
+ "generated": "2026-08-17T07:15:52.247078+00:00",
  "windowHours": 48,
- "count": 91,
+ "count": 95,
  "maxmag": 3.9,
- "avgDepth": 15.5,
+ "avgDepth": 15.6,
  "home": {
   "lat": 43.7247258,
   "lon": 10.3802555,
@@ -11,6 +11,76 @@
  },
  "closest": 16.0,
  "events": [
+  {
+   "id": 46909272,
+   "time": "2026-08-17T06:38:28.210000",
+   "mag": 2.2,
+   "magType": "ML",
+   "place": "3 km NE Fosdinovo (MS)",
+   "depth": 10.7,
+   "lat": 44.148,
+   "lon": 10.046,
+   "type": "earthquake",
+   "distKm": 54.1,
+   "azimut": 330.5,
+   "dir": "NNO"
+  },
+  {
+   "id": 46909162,
+   "time": "2026-08-17T06:22:09.610000",
+   "mag": 1.5,
+   "magType": "ML",
+   "place": "3 km W Laviano (SA)",
+   "depth": 17.3,
+   "lat": 40.7912,
+   "lon": 15.2682,
+   "type": "earthquake",
+   "distKm": 517.7,
+   "azimut": 127.4,
+   "dir": "SE"
+  },
+  {
+   "id": 46909122,
+   "time": "2026-08-17T06:20:05.650000",
+   "mag": 1.9,
+   "magType": "ML",
+   "place": "4 km SE Buonvicino (CS)",
+   "depth": 23.5,
+   "lat": 39.6683,
+   "lon": 15.9172,
+   "type": "earthquake",
+   "distKm": 643.8,
+   "azimut": 132.6,
+   "dir": "SE"
+  },
+  {
+   "id": 46908752,
+   "time": "2026-08-17T04:43:22.310000",
+   "mag": 0.6,
+   "magType": "ML",
+   "place": "3 km NE Lasa (BZ)",
+   "depth": 10,
+   "lat": 46.6397,
+   "lon": 10.7132,
+   "type": "earthquake",
+   "distKm": 325.2,
+   "azimut": 4.5,
+   "dir": "N"
+  },
+  {
+   "id": 46908692,
+   "time": "2026-08-17T04:22:52.010000",
+   "mag": 0.9,
+   "magType": "ML",
+   "place": "1 km E Accumoli (RI)",
+   "depth": 10.7,
+   "lat": 42.6905,
+   "lon": 13.262,
+   "type": "earthquake",
+   "distKm": 260.3,
+   "azimut": 115.2,
+   "dir": "ESE"
+  },
   {
    "id": 46908572,
    "time": "2026-08-17T03:13:55.610000",
@@ -52,6 +122,34 @@
    "distKm": 331.3,
    "azimut": 334.8,
    "dir": "NNO"
+  },
+  {
+   "id": 46908462,
+   "time": "2026-08-17T02:30:03.060000",
+   "mag": 0.2,
+   "magType": "ML",
+   "place": "6 km NW Pietralunga (PG)",
+   "depth": 8.5,
+   "lat": 43.4948,
+   "lon": 12.4048,
+   "type": "earthquake",
+   "distKm": 165.0,
+   "azimut": 98.2,
+   "dir": "E"
+  },
+  {
+   "id": 46908442,
+   "time": "2026-08-17T02:23:20.180000",
+   "mag": 1.1,
+   "magType": "ML",
+   "place": "4 km NE Bolognola (MC)",
+   "depth": 24.8,
+   "lat": 43.0278,
+   "lon": 13.2473,
+   "type": "earthquake",
+   "distKm": 244.3,
+   "azimut": 107.5,
+   "dir": "ESE"
   },
   {
    "id": 46908322,
@@ -1242,48 +1340,6 @@
    "distKm": 153.7,
    "azimut": 85.7,
    "dir": "E"
-  },
-  {
-   "id": 46889392,
-   "time": "2026-08-15T06:28:17.940000",
-   "mag": 1.5,
-   "magType": "ML",
-   "place": "1 km SW Ussita (MC)",
-   "depth": 8.6,
-   "lat": 42.9365,
-   "lon": 13.135,
-   "type": "earthquake",
-   "distKm": 239.4,
-   "azimut": 110.5,
-   "dir": "ESE"
-  },
-  {
-   "id": 46889142,
-   "time": "2026-08-15T05:47:08.840000",
-   "mag": 2.1,
-   "magType": "ML",
-   "place": "7 km SE Gubbio (PG)",
-   "depth": 10.1,
-   "lat": 43.2927,
-   "lon": 12.6058,
-   "type": "earthquake",
-   "distKm": 185.8,
-   "azimut": 104.2,
-   "dir": "ESE"
-  },
-  {
-   "id": 46889012,
-   "time": "2026-08-15T05:01:36.120000",
-   "mag": 1.3,
-   "magType": "ML",
-   "place": "3 km SW San Piero Patti (ME)",
-   "depth": 9.7,
-   "lat": 38.035,
-   "lon": 14.9377,
-   "type": "earthquake",
-   "distKm": 739.4,
-   "azimut": 147.3,
-   "dir": "SSE"
   }
  ]
 }
