@@ -1,9 +1,9 @@
 {
- "generated": "2026-08-18T18:56:01.001823+00:00",
+ "generated": "2026-08-18T21:37:12.546501+00:00",
  "windowHours": 48,
  "count": 78,
  "maxmag": 3.7,
- "avgDepth": 13.7,
+ "avgDepth": 12.5,
  "home": {
   "lat": 43.7247258,
   "lon": 10.3802555,
@@ -11,6 +11,48 @@
  },
  "closest": 54.1,
  "events": [
+  {
+   "id": 46932752,
+   "time": "2026-08-18T20:26:23.780000",
+   "mag": 0.8,
+   "magType": "ML",
+   "place": "2 km W Forni di Sotto (UD)",
+   "depth": 7.8,
+   "lat": 46.3912,
+   "lon": 12.6493,
+   "type": "earthquake",
+   "distKm": 345.9,
+   "azimut": 30.2,
+   "dir": "NNE"
+  },
+  {
+   "id": 46932672,
+   "time": "2026-08-18T20:07:19.950000",
+   "mag": 1.7,
+   "magType": "ML",
+   "place": "4 km E Chiusi della Verna (AR)",
+   "depth": 9.2,
+   "lat": 43.6835,
+   "lon": 11.9778,
+   "type": "earthquake",
+   "distKm": 128.5,
+   "azimut": 91.5,
+   "dir": "E"
+  },
+  {
+   "id": 46932612,
+   "time": "2026-08-18T20:03:27.300000",
+   "mag": 1.0,
+   "magType": "ML",
+   "place": "4 km E Chiusi della Verna (AR)",
+   "depth": 8.9,
+   "lat": 43.7033,
+   "lon": 11.988,
+   "type": "earthquake",
+   "distKm": 129.2,
+   "azimut": 90.5,
+   "dir": "E"
+  },
   {
    "id": 46932262,
    "time": "2026-08-18T18:17:44.990000",
@@ -1059,48 +1101,6 @@
    "type": "earthquake",
    "distKm": 261.3,
    "azimut": 117.7,
-   "dir": "ESE"
-  },
-  {
-   "id": 46907982,
-   "time": "2026-08-16T21:17:54.850000",
-   "mag": 2.3,
-   "magType": "ML",
-   "place": "Tirreno Meridionale [Mare]",
-   "depth": 94.9,
-   "lat": 38.7327,
-   "lon": 15.6242,
-   "type": "earthquake",
-   "distKm": 707.1,
-   "azimut": 139.9,
-   "dir": "SE"
-  },
-  {
-   "id": 46907862,
-   "time": "2026-08-16T21:06:16.470000",
-   "mag": 0.8,
-   "magType": "ML",
-   "place": "1 km N San Severino Marche (MC)",
-   "depth": 11.5,
-   "lat": 43.2362,
-   "lon": 13.1772,
-   "type": "earthquake",
-   "distKm": 232.1,
-   "azimut": 102.6,
-   "dir": "ESE"
-  },
-  {
-   "id": 46907612,
-   "time": "2026-08-16T19:50:42.210000",
-   "mag": 0.4,
-   "magType": "ML",
-   "place": "4 km W Poggiodomo (PG)",
-   "depth": 9.3,
-   "lat": 42.7013,
-   "lon": 12.8948,
-   "type": "earthquake",
-   "distKm": 233.4,
-   "azimut": 118.3,
    "dir": "ESE"
   }
  ]
