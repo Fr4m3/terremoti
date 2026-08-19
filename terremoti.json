@@ -1,9 +1,9 @@
 {
- "generated": "2026-08-19T18:52:54.889233+00:00",
+ "generated": "2026-08-19T21:40:05.441923+00:00",
  "windowHours": 48,
- "count": 91,
+ "count": 86,
  "maxmag": 3.7,
- "avgDepth": 14.3,
+ "avgDepth": 14.6,
  "home": {
   "lat": 43.7247258,
   "lon": 10.3802555,
@@ -12,7 +12,21 @@
  "closest": 5.7,
  "events": [
   {
-   "id": 46428841,
+   "id": 46941212,
+   "time": "2026-08-19T19:41:14.910000",
+   "mag": 0.7,
+   "magType": "ML",
+   "place": "7 km NW Gubbio (PG)",
+   "depth": 7.2,
+   "lat": 43.3873,
+   "lon": 12.5112,
+   "type": "earthquake",
+   "distKm": 175.8,
+   "azimut": 101.6,
+   "dir": "ESE"
+  },
+  {
+   "id": 46940602,
    "time": "2026-08-19T17:45:14.730000",
    "mag": 2.2,
    "magType": "ML",
@@ -26,7 +40,7 @@
    "dir": "SE"
   },
   {
-   "id": 46428641,
+   "id": 46940402,
    "time": "2026-08-19T17:29:50.460000",
    "mag": 1.8,
    "magType": "ML",
@@ -40,7 +54,7 @@
    "dir": "SSE"
   },
   {
-   "id": 46428581,
+   "id": 46940312,
    "time": "2026-08-19T17:27:49.550000",
    "mag": 1.3,
    "magType": "ML",
@@ -54,7 +68,7 @@
    "dir": "SE"
   },
   {
-   "id": 46428301,
+   "id": 46940002,
    "time": "2026-08-19T16:53:57.090000",
    "mag": 1.9,
    "magType": "ML",
@@ -1199,90 +1213,6 @@
    "type": "earthquake",
    "distKm": 192.0,
    "azimut": 103.3,
-   "dir": "ESE"
-  },
-  {
-   "id": 46921252,
-   "time": "2026-08-17T21:12:59.280000",
-   "mag": 0.8,
-   "magType": "ML",
-   "place": "3 km E Narni (TR)",
-   "depth": 10.4,
-   "lat": 42.529,
-   "lon": 12.5482,
-   "type": "earthquake",
-   "distKm": 220.5,
-   "azimut": 126.3,
-   "dir": "SE"
-  },
-  {
-   "id": 46921162,
-   "time": "2026-08-17T20:56:54.370000",
-   "mag": 1.3,
-   "magType": "ML",
-   "place": "4 km NE Palazzuolo sul Senio (FI)",
-   "depth": 8.5,
-   "lat": 44.1472,
-   "lon": 11.5708,
-   "type": "earthquake",
-   "distKm": 106.3,
-   "azimut": 63.4,
-   "dir": "ENE"
-  },
-  {
-   "id": 46921052,
-   "time": "2026-08-17T20:14:44.490000",
-   "mag": 1.5,
-   "magType": "ML",
-   "place": "2 km NW Basicò (ME)",
-   "depth": 9.8,
-   "lat": 38.0822,
-   "lon": 15.0513,
-   "type": "earthquake",
-   "distKm": 739.8,
-   "azimut": 146.4,
-   "dir": "SSE"
-  },
-  {
-   "id": 46920842,
-   "time": "2026-08-17T20:01:06.370000",
-   "mag": 1.2,
-   "magType": "ML",
-   "place": "5 km SE Pietralunga (PG)",
-   "depth": 4.1,
-   "lat": 43.4083,
-   "lon": 12.4765,
-   "type": "earthquake",
-   "distKm": 172.5,
-   "azimut": 101.0,
-   "dir": "E"
-  },
-  {
-   "id": 46920752,
-   "time": "2026-08-17T19:35:38.270000",
-   "mag": 1.0,
-   "magType": "ML",
-   "place": "5 km SE Castel del Rio (BO)",
-   "depth": 9.1,
-   "lat": 44.1772,
-   "lon": 11.5352,
-   "type": "earthquake",
-   "distKm": 105.3,
-   "azimut": 61.0,
-   "dir": "ENE"
-  },
-  {
-   "id": 46920572,
-   "time": "2026-08-17T18:54:52.320000",
-   "mag": 0.9,
-   "magType": "ML",
-   "place": "4 km S Cerreto di Spoleto (PG)",
-   "depth": 12.9,
-   "lat": 42.7833,
-   "lon": 12.9213,
-   "type": "earthquake",
-   "distKm": 230.9,
-   "azimut": 116.1,
    "dir": "ESE"
   }
  ]
