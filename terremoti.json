@@ -1,9 +1,9 @@
 {
- "generated": "2026-08-20T07:05:44.655774+00:00",
+ "generated": "2026-08-20T09:49:36.775795+00:00",
  "windowHours": 48,
- "count": 86,
- "maxmag": 3.7,
- "avgDepth": 17.9,
+ "count": 81,
+ "maxmag": 3.1,
+ "avgDepth": 18.5,
  "home": {
   "lat": 43.7247258,
   "lon": 10.3802555,
@@ -1144,76 +1144,6 @@
    "distKm": 264.8,
    "azimut": 118.1,
    "dir": "ESE"
-  },
-  {
-   "id": 46927732,
-   "time": "2026-08-18T09:03:35.340000",
-   "mag": 1.2,
-   "magType": "ML",
-   "place": "5 km SE Firenzuola (FI)",
-   "depth": 11,
-   "lat": 44.0832,
-   "lon": 11.4243,
-   "type": "earthquake",
-   "distKm": 92.7,
-   "azimut": 64.2,
-   "dir": "ENE"
-  },
-  {
-   "id": 46927622,
-   "time": "2026-08-18T08:50:46.790000",
-   "mag": 1.2,
-   "magType": "ML",
-   "place": "6 km W Milo (CT)",
-   "depth": 3.9,
-   "lat": 37.744,
-   "lon": 15.048,
-   "type": "earthquake",
-   "distKm": 772.3,
-   "azimut": 147.8,
-   "dir": "SSE"
-  },
-  {
-   "id": 46927422,
-   "time": "2026-08-18T08:13:30.060000",
-   "mag": 0.6,
-   "magType": "ML",
-   "place": "4 km W Visso (MC)",
-   "depth": 10.8,
-   "lat": 42.93,
-   "lon": 13.0412,
-   "type": "earthquake",
-   "distKm": 232.7,
-   "azimut": 111.4,
-   "dir": "ESE"
-  },
-  {
-   "id": 46927372,
-   "time": "2026-08-18T08:07:47.320000",
-   "mag": 3.3,
-   "magType": "ML",
-   "place": "2 km SW Oliveri (ME)",
-   "depth": 10.1,
-   "lat": 38.1153,
-   "lon": 15.0487,
-   "type": "earthquake",
-   "distKm": 736.5,
-   "azimut": 146.3,
-   "dir": "SSE"
-  },
-  {
-   "id": 46927342,
-   "time": "2026-08-18T08:07:10.750000",
-   "mag": 3.7,
-   "magType": "ML",
-   "place": "1 km NW Oliveri (ME)",
-   "depth": 8.7,
-   "lat": 38.1333,
-   "lon": 15.0542,
-   "type": "earthquake",
-   "distKm": 735.1,
-   "azimut": 146.2,
-   "dir": "SE"
   }
  ]
 }
