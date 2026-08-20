@@ -1,9 +1,9 @@
 {
- "generated": "2026-08-20T15:48:39.839271+00:00",
+ "generated": "2026-08-20T18:58:30.813063+00:00",
  "windowHours": 48,
- "count": 72,
+ "count": 74,
  "maxmag": 3.1,
- "avgDepth": 19.3,
+ "avgDepth": 19.1,
  "home": {
   "lat": 43.7247258,
   "lon": 10.3802555,
@@ -11,6 +11,62 @@
  },
  "closest": 5.7,
  "events": [
+  {
+   "id": 46951012,
+   "time": "2026-08-20T18:34:35.030000",
+   "mag": 0.7,
+   "magType": "ML",
+   "place": "3 km W Gagliole (MC)",
+   "depth": 12.2,
+   "lat": 43.2317,
+   "lon": 13.0335,
+   "type": "earthquake",
+   "distKm": 221.0,
+   "azimut": 103.4,
+   "dir": "ESE"
+  },
+  {
+   "id": 46950762,
+   "time": "2026-08-20T18:15:54.750000",
+   "mag": 1.1,
+   "magType": "ML",
+   "place": "3 km SE Foligno (PG)",
+   "depth": 9.4,
+   "lat": 42.9335,
+   "lon": 12.7157,
+   "type": "earthquake",
+   "distKm": 208.4,
+   "azimut": 114.2,
+   "dir": "ESE"
+  },
+  {
+   "id": 46950432,
+   "time": "2026-08-20T17:53:09.860000",
+   "mag": 0.8,
+   "magType": "ML",
+   "place": "1 km W Montereale (AQ)",
+   "depth": 12.4,
+   "lat": 42.5277,
+   "lon": 13.2282,
+   "type": "earthquake",
+   "distKm": 266.7,
+   "azimut": 119.0,
+   "dir": "ESE"
+  },
+  {
+   "id": 46950112,
+   "time": "2026-08-20T17:18:16.880000",
+   "mag": 1.6,
+   "magType": "ML",
+   "place": "3 km SE Castelsantangelo sul Nera (MC)",
+   "depth": 8.6,
+   "lat": 42.8692,
+   "lon": 13.1777,
+   "type": "earthquake",
+   "distKm": 245.6,
+   "azimut": 111.8,
+   "dir": "ESE"
+  },
   {
    "id": 46948122,
    "time": "2026-08-20T14:23:54.370000",
@@ -990,34 +1046,6 @@
    "distKm": 129.2,
    "azimut": 90.5,
    "dir": "E"
-  },
-  {
-   "id": 46932262,
-   "time": "2026-08-18T18:17:44.990000",
-   "mag": 1.0,
-   "magType": "ML",
-   "place": "4 km E Umbertide (PG)",
-   "depth": 6.1,
-   "lat": 43.2985,
-   "lon": 12.3757,
-   "type": "earthquake",
-   "distKm": 167.7,
-   "azimut": 105.7,
-   "dir": "ESE"
-  },
-  {
-   "id": 46931642,
-   "time": "2026-08-18T17:21:44.330000",
-   "mag": 1.0,
-   "magType": "ML",
-   "place": "3 km NW Vallarsa (TN)",
-   "depth": 13.3,
-   "lat": 45.8082,
-   "lon": 11.1037,
-   "type": "earthquake",
-   "distKm": 238.6,
-   "azimut": 13.6,
-   "dir": "NNE"
   }
  ]
 }
