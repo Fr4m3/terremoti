@@ -1,9 +1,9 @@
 {
- "generated": "2026-08-20T13:10:23.970648+00:00",
+ "generated": "2026-08-20T15:48:39.839271+00:00",
  "windowHours": 48,
- "count": 78,
+ "count": 72,
  "maxmag": 3.1,
- "avgDepth": 18.9,
+ "avgDepth": 19.3,
  "home": {
   "lat": 43.7247258,
   "lon": 10.3802555,
@@ -11,6 +11,20 @@
  },
  "closest": 5.7,
  "events": [
+  {
+   "id": 46948122,
+   "time": "2026-08-20T14:23:54.370000",
+   "mag": 1.1,
+   "magType": "ML",
+   "place": "5 km SW Castelsantangelo sul Nera (MC)",
+   "depth": 12.1,
+   "lat": 42.854,
+   "lon": 13.1185,
+   "type": "earthquake",
+   "distKm": 241.8,
+   "azimut": 112.7,
+   "dir": "ESE"
+  },
   {
    "id": 46946782,
    "time": "2026-08-20T12:02:26.570000",
@@ -1004,104 +1018,6 @@
    "distKm": 238.6,
    "azimut": 13.6,
    "dir": "NNE"
-  },
-  {
-   "id": 46930792,
-   "time": "2026-08-18T15:44:05.720000",
-   "mag": 1.6,
-   "magType": "ML",
-   "place": "2 km W Santa Vittoria in Matenano (FM)",
-   "depth": 24,
-   "lat": 43.0277,
-   "lon": 13.4778,
-   "type": "earthquake",
-   "distKm": 262.1,
-   "azimut": 106.1,
-   "dir": "ESE"
-  },
-  {
-   "id": 46930732,
-   "time": "2026-08-18T15:41:39.850000",
-   "mag": 0.5,
-   "magType": "ML",
-   "place": "4 km NE Norcia (PG)",
-   "depth": 9.1,
-   "lat": 42.8162,
-   "lon": 13.1368,
-   "type": "earthquake",
-   "distKm": 245.0,
-   "azimut": 113.4,
-   "dir": "ESE"
-  },
-  {
-   "id": 46930462,
-   "time": "2026-08-18T15:13:50.790000",
-   "mag": 2.6,
-   "magType": "ML",
-   "place": "Isole Eolie (Messina)",
-   "depth": 10.7,
-   "lat": 38.5278,
-   "lon": 14.2167,
-   "type": "earthquake",
-   "distKm": 661.0,
-   "azimut": 149.6,
-   "dir": "SSE"
-  },
-  {
-   "id": 46930242,
-   "time": "2026-08-18T14:48:42.270000",
-   "mag": 1.1,
-   "magType": "ML",
-   "place": "2 km SW Oliveri (ME)",
-   "depth": 10.5,
-   "lat": 38.116,
-   "lon": 15.0397,
-   "type": "earthquake",
-   "distKm": 736.1,
-   "azimut": 146.3,
-   "dir": "SSE"
-  },
-  {
-   "id": 46930052,
-   "time": "2026-08-18T14:32:39.100000",
-   "mag": 1.2,
-   "magType": "ML",
-   "place": "San Nicola Baronia (AV)",
-   "depth": 13.4,
-   "lat": 41.0608,
-   "lon": 15.2018,
-   "type": "earthquake",
-   "distKm": 494.4,
-   "azimut": 125.2,
-   "dir": "SE"
-  },
-  {
-   "id": 46929852,
-   "time": "2026-08-18T14:11:37.860000",
-   "mag": 2.3,
-   "magType": "ML",
-   "place": "1 km W Colle Sannita (BN)",
-   "depth": 20.1,
-   "lat": 41.3608,
-   "lon": 14.824,
-   "type": "earthquake",
-   "distKm": 448.9,
-   "azimut": 124.3,
-   "dir": "SE"
-  },
-  {
-   "id": 46929522,
-   "time": "2026-08-18T13:42:57.460000",
-   "mag": 0.7,
-   "magType": "ML",
-   "place": "2 km NW Arquata del Tronto (AP)",
-   "depth": 10.1,
-   "lat": 42.7912,
-   "lon": 13.2822,
-   "type": "earthquake",
-   "distKm": 256.9,
-   "azimut": 112.8,
-   "dir": "ESE"
   }
  ]
 }
