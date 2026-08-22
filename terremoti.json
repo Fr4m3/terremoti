@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-22T12:59:52.894613+00:00",
+ "generated": "2026-08-22T15:34:35.794312+00:00",
  "windowHours": 48,
- "count": 94,
+ "count": 95,
  "maxmag": 3.1,
  "avgDepth": 12.7,
  "home": {
@@ -11,6 +11,34 @@
  },
  "closest": 145.5,
  "events": [
+  {
+   "id": 46970402,
+   "time": "2026-08-22T14:26:23.990000",
+   "mag": 1.2,
+   "magType": "ML",
+   "place": "3 km E Capitignano (AQ)",
+   "depth": 12.7,
+   "lat": 42.5162,
+   "lon": 13.3437,
+   "type": "earthquake",
+   "distKm": 275.5,
+   "azimut": 118.2,
+   "dir": "ESE"
+  },
+  {
+   "id": 46970332,
+   "time": "2026-08-22T14:13:37.170000",
+   "mag": 1.2,
+   "magType": "ML",
+   "place": "4 km SW Fossato di Vico (PG)",
+   "depth": 11,
+   "lat": 43.2607,
+   "lon": 12.7437,
+   "type": "earthquake",
+   "distKm": 197.5,
+   "azimut": 104.3,
+   "dir": "ESE"
+  },
   {
    "id": 46969362,
    "time": "2026-08-22T11:56:48.350000",
@@ -1311,20 +1339,6 @@
    "type": "earthquake",
    "distKm": 245.6,
    "azimut": 111.8,
-   "dir": "ESE"
-  },
-  {
-   "id": 46948122,
-   "time": "2026-08-20T14:23:54.370000",
-   "mag": 1.1,
-   "magType": "ML",
-   "place": "5 km SW Castelsantangelo sul Nera (MC)",
-   "depth": 12.1,
-   "lat": 42.854,
-   "lon": 13.1185,
-   "type": "earthquake",
-   "distKm": 241.8,
-   "azimut": 112.7,
    "dir": "ESE"
   }
  ]
