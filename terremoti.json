@@ -1,9 +1,9 @@
 {
- "generated": "2026-08-24T13:12:11.246356+00:00",
+ "generated": "2026-08-24T15:55:13.913370+00:00",
  "windowHours": 48,
- "count": 77,
+ "count": 78,
  "maxmag": 2.4,
- "avgDepth": 11.4,
+ "avgDepth": 11.6,
  "home": {
   "lat": 43.7247258,
   "lon": 10.3802555,
@@ -11,6 +11,62 @@
  },
  "closest": 13.3,
  "events": [
+  {
+   "id": 46984822,
+   "time": "2026-08-24T14:49:04.430000",
+   "mag": 0.9,
+   "magType": "ML",
+   "place": "5 km NW Cesena (FC)",
+   "depth": 10.5,
+   "lat": 44.1683,
+   "lon": 12.2047,
+   "type": "earthquake",
+   "distKm": 154.2,
+   "azimut": 70.7,
+   "dir": "ENE"
+  },
+  {
+   "id": 46984652,
+   "time": "2026-08-24T14:26:49.360000",
+   "mag": 1.8,
+   "magType": "ML",
+   "place": "3 km E Bertinoro (FC)",
+   "depth": 23.5,
+   "lat": 44.1578,
+   "lon": 12.1667,
+   "type": "earthquake",
+   "distKm": 150.9,
+   "azimut": 70.8,
+   "dir": "ENE"
+  },
+  {
+   "id": 46984342,
+   "time": "2026-08-24T13:49:12.770000",
+   "mag": 0.6,
+   "magType": "ML",
+   "place": "3 km NE Monte Cavallo (MC)",
+   "depth": 15,
+   "lat": 43.0162,
+   "lon": 13.0112,
+   "type": "earthquake",
+   "distKm": 226.8,
+   "azimut": 109.4,
+   "dir": "ESE"
+  },
+  {
+   "id": 46984082,
+   "time": "2026-08-24T13:12:43.540000",
+   "mag": 0.7,
+   "magType": "ML",
+   "place": "7 km NE Sellano (PG)",
+   "depth": 10.8,
+   "lat": 42.9362,
+   "lon": 12.9802,
+   "type": "earthquake",
+   "distKm": 227.8,
+   "azimut": 111.7,
+   "dir": "ESE"
+  },
   {
    "id": 46983632,
    "time": "2026-08-24T12:17:33.550000",
@@ -1046,48 +1102,6 @@
    "distKm": 55.0,
    "azimut": 330.4,
    "dir": "NNO"
-  },
-  {
-   "id": 46970952,
-   "time": "2026-08-22T15:36:15.820000",
-   "mag": 1.1,
-   "magType": "ML",
-   "place": "4 km NE Castiglione dei Pepoli (BO)",
-   "depth": 9.2,
-   "lat": 44.173,
-   "lon": 11.1863,
-   "type": "earthquake",
-   "distKm": 81.5,
-   "azimut": 52.0,
-   "dir": "NE"
-  },
-  {
-   "id": 46970402,
-   "time": "2026-08-22T14:26:23.990000",
-   "mag": 1.2,
-   "magType": "ML",
-   "place": "3 km E Capitignano (AQ)",
-   "depth": 12.7,
-   "lat": 42.5162,
-   "lon": 13.3437,
-   "type": "earthquake",
-   "distKm": 275.5,
-   "azimut": 118.2,
-   "dir": "ESE"
-  },
-  {
-   "id": 46970332,
-   "time": "2026-08-22T14:13:37.170000",
-   "mag": 1.2,
-   "magType": "ML",
-   "place": "4 km SW Fossato di Vico (PG)",
-   "depth": 11,
-   "lat": 43.2607,
-   "lon": 12.7437,
-   "type": "earthquake",
-   "distKm": 197.5,
-   "azimut": 104.3,
-   "dir": "ESE"
   }
  ]
 }
