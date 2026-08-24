@@ -1,9 +1,9 @@
 {
- "generated": "2026-08-24T01:57:25.078819+00:00",
+ "generated": "2026-08-24T04:04:39.248657+00:00",
  "windowHours": 48,
- "count": 86,
+ "count": 80,
  "maxmag": 2.4,
- "avgDepth": 10.8,
+ "avgDepth": 10.7,
  "home": {
   "lat": 43.7247258,
   "lon": 10.3802555,
@@ -1130,90 +1130,6 @@
    "distKm": 221.7,
    "azimut": 107.6,
    "dir": "ESE"
-  },
-  {
-   "id": 46965782,
-   "time": "2026-08-22T03:53:16.930000",
-   "mag": 2.4,
-   "magType": "ML",
-   "place": "Tirreno Meridionale [Mare]",
-   "depth": 24.4,
-   "lat": 38.6958,
-   "lon": 14.1473,
-   "type": "earthquake",
-   "distKm": 641.7,
-   "azimut": 149.3,
-   "dir": "SSE"
-  },
-  {
-   "id": 46965752,
-   "time": "2026-08-22T03:45:00.630000",
-   "mag": 0.9,
-   "magType": "ML",
-   "place": "3 km NW Fiumara (RC)",
-   "depth": 11.3,
-   "lat": 38.233,
-   "lon": 15.6827,
-   "type": "earthquake",
-   "distKm": 755.3,
-   "azimut": 142.1,
-   "dir": "SE"
-  },
-  {
-   "id": 46965702,
-   "time": "2026-08-22T03:23:18.360000",
-   "mag": 1.6,
-   "magType": "ML",
-   "place": "5 km NW Fregona (TV)",
-   "depth": 9.2,
-   "lat": 46.0428,
-   "lon": 12.3067,
-   "type": "earthquake",
-   "distKm": 299.1,
-   "azimut": 29.8,
-   "dir": "NNE"
-  },
-  {
-   "id": 46965672,
-   "time": "2026-08-22T03:13:56.710000",
-   "mag": 0.8,
-   "magType": "ML",
-   "place": "4 km SE Montalbano Elicona (ME)",
-   "depth": 3.6,
-   "lat": 38.0058,
-   "lon": 15.0492,
-   "type": "earthquake",
-   "distKm": 747.1,
-   "azimut": 146.8,
-   "dir": "SSE"
-  },
-  {
-   "id": 46965632,
-   "time": "2026-08-22T02:04:56.430000",
-   "mag": 0.5,
-   "magType": "ML",
-   "place": "1 km NE Pioraco (MC)",
-   "depth": 12.2,
-   "lat": 43.1897,
-   "lon": 12.9978,
-   "type": "earthquake",
-   "distKm": 219.5,
-   "azimut": 104.8,
-   "dir": "ESE"
-  },
-  {
-   "id": 46965612,
-   "time": "2026-08-22T02:01:43.400000",
-   "mag": 0.8,
-   "magType": "ML",
-   "place": "4 km N Cantiano (PU)",
-   "depth": 7.3,
-   "lat": 43.5063,
-   "lon": 12.6287,
-   "type": "earthquake",
-   "distKm": 182.6,
-   "azimut": 96.9,
-   "dir": "E"
   }
  ]
 }
