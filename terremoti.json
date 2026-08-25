@@ -1,16 +1,30 @@
 {
- "generated": "2026-08-25T07:07:55.288258+00:00",
+ "generated": "2026-08-25T09:50:52.298897+00:00",
  "windowHours": 48,
- "count": 96,
+ "count": 91,
  "maxmag": 2.4,
- "avgDepth": 16.4,
+ "avgDepth": 16.7,
  "home": {
   "lat": 43.7247258,
   "lon": 10.3802555,
   "label": "Viale delle Cascine 124, Pisa"
  },
- "closest": 13.3,
+ "closest": 11.1,
  "events": [
+  {
+   "id": 46994372,
+   "time": "2026-08-25T09:20:24.900000",
+   "mag": 1.2,
+   "magType": "ML",
+   "place": "5 km N San Giuliano Terme (PI)",
+   "depth": 10.2,
+   "lat": 43.809,
+   "lon": 10.4547,
+   "type": "earthquake",
+   "distKm": 11.1,
+   "azimut": 32.5,
+   "dir": "NNE"
+  },
   {
    "id": 46992222,
    "time": "2026-08-25T06:25:05.990000",
@@ -1270,90 +1284,6 @@
    "distKm": 219.7,
    "azimut": 105.3,
    "dir": "ESE"
-  },
-  {
-   "id": 46974882,
-   "time": "2026-08-23T09:13:45.650000",
-   "mag": 1.1,
-   "magType": "ML",
-   "place": "2 km NE Pievebovigliana (MC)",
-   "depth": 12.6,
-   "lat": 43.0773,
-   "lon": 13.1077,
-   "type": "earthquake",
-   "distKm": 231.8,
-   "azimut": 107.2,
-   "dir": "ESE"
-  },
-  {
-   "id": 46974452,
-   "time": "2026-08-23T08:20:15.610000",
-   "mag": 1.6,
-   "magType": "ML",
-   "place": "4 km NE Bastia Umbra (PG)",
-   "depth": 10,
-   "lat": 43.0965,
-   "lon": 12.5777,
-   "type": "earthquake",
-   "distKm": 190.7,
-   "azimut": 110.7,
-   "dir": "ESE"
-  },
-  {
-   "id": 46974292,
-   "time": "2026-08-23T07:58:05.110000",
-   "mag": 1.6,
-   "magType": "ML",
-   "place": "1 km W Cittaducale (RI)",
-   "depth": 17.5,
-   "lat": 42.3872,
-   "lon": 12.9363,
-   "type": "earthquake",
-   "distKm": 255.4,
-   "azimut": 124.7,
-   "dir": "SE"
-  },
-  {
-   "id": 46974192,
-   "time": "2026-08-23T07:48:39.390000",
-   "mag": 1.3,
-   "magType": "ML",
-   "place": "2 km NE Pievebovigliana (MC)",
-   "depth": 10.9,
-   "lat": 43.0763,
-   "lon": 13.098,
-   "type": "earthquake",
-   "distKm": 231.1,
-   "azimut": 107.2,
-   "dir": "ESE"
-  },
-  {
-   "id": 46974112,
-   "time": "2026-08-23T07:39:06.710000",
-   "mag": 1.4,
-   "magType": "ML",
-   "place": "2 km NW Cittaducale (RI)",
-   "depth": 10.3,
-   "lat": 42.4043,
-   "lon": 12.9318,
-   "type": "earthquake",
-   "distKm": 254.0,
-   "azimut": 124.4,
-   "dir": "SE"
-  },
-  {
-   "id": 46973972,
-   "time": "2026-08-23T07:13:36.660000",
-   "mag": 1.8,
-   "magType": "Md",
-   "place": "Isole Eolie (Messina)",
-   "depth": 9.9,
-   "lat": 38.654,
-   "lon": 15.2378,
-   "type": "earthquake",
-   "distKm": 694.8,
-   "azimut": 142.6,
-   "dir": "SE"
   }
  ]
 }
