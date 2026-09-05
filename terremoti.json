@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-05T17:20:50.480531+00:00",
+ "generated": "2026-09-05T20:19:37.497842+00:00",
  "windowHours": 48,
- "count": 73,
+ "count": 72,
  "maxmag": 3.7,
  "avgDepth": 17.2,
  "home": {
@@ -11,6 +11,48 @@
  },
  "closest": 46.7,
  "events": [
+  {
+   "id": 47081322,
+   "time": "2026-09-05T18:12:06.680000",
+   "mag": 1.2,
+   "magType": "ML",
+   "place": "3 km E Castelsantangelo sul Nera (MC)",
+   "depth": 8.4,
+   "lat": 42.8975,
+   "lon": 13.1905,
+   "type": "earthquake",
+   "distKm": 245.3,
+   "azimut": 111.1,
+   "dir": "ESE"
+  },
+  {
+   "id": 47081132,
+   "time": "2026-09-05T17:57:28.270000",
+   "mag": 0.9,
+   "magType": "ML",
+   "place": "6 km SE Pietralunga (PG)",
+   "depth": 7.8,
+   "lat": 43.4123,
+   "lon": 12.5043,
+   "type": "earthquake",
+   "distKm": 174.6,
+   "azimut": 100.7,
+   "dir": "E"
+  },
+  {
+   "id": 47081002,
+   "time": "2026-09-05T17:40:47.330000",
+   "mag": 0.7,
+   "magType": "ML",
+   "place": "11 km SW Gubbio (PG)",
+   "depth": 8.3,
+   "lat": 43.2708,
+   "lon": 12.5155,
+   "type": "earthquake",
+   "distKm": 179.5,
+   "azimut": 105.6,
+   "dir": "ESE"
+  },
   {
    "id": 47080422,
    "time": "2026-09-05T16:12:09.190000",
@@ -976,62 +1018,6 @@
    "distKm": 550.2,
    "azimut": 129.5,
    "dir": "SE"
-  },
-  {
-   "id": 47066012,
-   "time": "2026-09-03T19:41:41.460000",
-   "mag": 1.0,
-   "magType": "ML",
-   "place": "5 km SW Campello sul Clitunno (PG)",
-   "depth": 10.2,
-   "lat": 42.7835,
-   "lon": 12.739,
-   "type": "earthquake",
-   "distKm": 217.8,
-   "azimut": 117.9,
-   "dir": "ESE"
-  },
-  {
-   "id": 47065972,
-   "time": "2026-09-03T19:40:57.080000",
-   "mag": 0.9,
-   "magType": "ML",
-   "place": "5 km N Spoleto (PG)",
-   "depth": 10.6,
-   "lat": 42.7808,
-   "lon": 12.7367,
-   "type": "earthquake",
-   "distKm": 217.8,
-   "azimut": 118.0,
-   "dir": "ESE"
-  },
-  {
-   "id": 47065912,
-   "time": "2026-09-03T18:47:03.130000",
-   "mag": 0.8,
-   "magType": "ML",
-   "place": "3 km W Roccafluvione (AP)",
-   "depth": 10.7,
-   "lat": 42.8638,
-   "lon": 13.4363,
-   "type": "earthquake",
-   "distKm": 265.2,
-   "azimut": 110.1,
-   "dir": "ESE"
-  },
-  {
-   "id": 47065822,
-   "time": "2026-09-03T18:26:00.010000",
-   "mag": 1.0,
-   "magType": "ML",
-   "place": "8 km W Peio (TN)",
-   "depth": 9.8,
-   "lat": 46.3267,
-   "lon": 10.6012,
-   "type": "earthquake",
-   "distKm": 289.8,
-   "azimut": 3.4,
-   "dir": "N"
   }
  ]
 }
