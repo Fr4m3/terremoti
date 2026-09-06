@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-06T20:23:22.088819+00:00",
+ "generated": "2026-09-06T22:53:01.560529+00:00",
  "windowHours": 48,
- "count": 79,
+ "count": 84,
  "maxmag": 3.3,
- "avgDepth": 13.0,
+ "avgDepth": 12.8,
  "home": {
   "lat": 43.7247258,
   "lon": 10.3802555,
@@ -12,7 +12,77 @@
  "closest": 55.2,
  "events": [
   {
-   "id": 46567761,
+   "id": 47088782,
+   "time": "2026-09-06T22:05:22.510000",
+   "mag": 1.4,
+   "magType": "ML",
+   "place": "Sant'Angelo in Pontano (MC)",
+   "depth": 20.8,
+   "lat": 43.1043,
+   "lon": 13.3968,
+   "type": "earthquake",
+   "distKm": 253.2,
+   "azimut": 104.8,
+   "dir": "ESE"
+  },
+  {
+   "id": 47088742,
+   "time": "2026-09-06T22:01:02.820000",
+   "mag": 1.8,
+   "magType": "ML",
+   "place": "2 km SW Carlopoli (CZ)",
+   "depth": 10.8,
+   "lat": 39.0443,
+   "lon": 16.4357,
+   "type": "earthquake",
+   "distKm": 724.9,
+   "azimut": 133.8,
+   "dir": "SE"
+  },
+  {
+   "id": 47088702,
+   "time": "2026-09-06T21:13:53.500000",
+   "mag": 0.5,
+   "magType": "ML",
+   "place": "1 km NE Monteroni d'Arbia (SI)",
+   "depth": 5.5,
+   "lat": 43.24,
+   "lon": 11.4288,
+   "type": "earthquake",
+   "distKm": 100.3,
+   "azimut": 122.1,
+   "dir": "ESE"
+  },
+  {
+   "id": 47088642,
+   "time": "2026-09-06T21:03:56.810000",
+   "mag": 0.9,
+   "magType": "ML",
+   "place": "1 km E Barete (AQ)",
+   "depth": 11.3,
+   "lat": 42.4528,
+   "lon": 13.298,
+   "type": "earthquake",
+   "distKm": 275.9,
+   "azimut": 119.8,
+   "dir": "ESE"
+  },
+  {
+   "id": 47088592,
+   "time": "2026-09-06T20:40:21.650000",
+   "mag": 0.9,
+   "magType": "ML",
+   "place": "7 km W Arquata del Tronto (AP)",
+   "depth": 10.5,
+   "lat": 42.7825,
+   "lon": 13.2173,
+   "type": "earthquake",
+   "distKm": 252.5,
+   "azimut": 113.5,
+   "dir": "ESE"
+  },
+  {
+   "id": 47088522,
    "time": "2026-09-06T20:13:10.470000",
    "mag": 0.9,
    "magType": "ML",
@@ -26,7 +96,21 @@
    "dir": "ESE"
   },
   {
-   "id": 46567711,
+   "id": 47088452,
+   "time": "2026-09-06T20:10:33.160000",
+   "mag": 0.5,
+   "magType": "ML",
+   "place": "3 km SE Acquacanina (MC)",
+   "depth": 13.2,
+   "lat": 43.0095,
+   "lon": 13.1965,
+   "type": "earthquake",
+   "distKm": 241.1,
+   "azimut": 108.3,
+   "dir": "ESE"
+  },
+  {
+   "id": 47088432,
    "time": "2026-09-06T20:07:50.790000",
    "mag": 1.5,
    "magType": "ML",
@@ -40,7 +124,7 @@
    "dir": "ONO"
   },
   {
-   "id": 46567681,
+   "id": 47088402,
    "time": "2026-09-06T19:52:51.340000",
    "mag": 0.9,
    "magType": "ML",
@@ -54,7 +138,7 @@
    "dir": "ONO"
   },
   {
-   "id": 46567651,
+   "id": 47088372,
    "time": "2026-09-06T19:39:42.820000",
    "mag": 0.5,
    "magType": "ML",
@@ -68,7 +152,7 @@
    "dir": "E"
   },
   {
-   "id": 46567581,
+   "id": 47088302,
    "time": "2026-09-06T19:19:27.760000",
    "mag": 0.6,
    "magType": "ML",
@@ -82,7 +166,21 @@
    "dir": "SSE"
   },
   {
-   "id": 46567391,
+   "id": 47088222,
+   "time": "2026-09-06T19:01:12.070000",
+   "mag": 0.9,
+   "magType": "ML",
+   "place": "1 km E Scheggino (PG)",
+   "depth": 13.3,
+   "lat": 42.7125,
+   "lon": 12.8393,
+   "type": "earthquake",
+   "distKm": 228.8,
+   "azimut": 118.6,
+   "dir": "ESE"
+  },
+  {
+   "id": 47088092,
    "time": "2026-09-06T18:34:05.580000",
    "mag": 0.6,
    "magType": "ML",
@@ -96,7 +194,7 @@
    "dir": "ESE"
   },
   {
-   "id": 46567341,
+   "id": 47088042,
    "time": "2026-09-06T18:32:09.030000",
    "mag": 0.8,
    "magType": "ML",
@@ -110,7 +208,7 @@
    "dir": "ESE"
   },
   {
-   "id": 46567231,
+   "id": 47087912,
    "time": "2026-09-06T18:16:52.500000",
    "mag": 1.3,
    "magType": "ML",
@@ -1088,34 +1186,6 @@
    "distKm": 717.5,
    "azimut": 132.3,
    "dir": "SE"
-  },
-  {
-   "id": 47074282,
-   "time": "2026-09-04T21:57:48.820000",
-   "mag": 1.1,
-   "magType": "ML",
-   "place": "1 km N Montegiorgio (FM)",
-   "depth": 30.3,
-   "lat": 43.1418,
-   "lon": 13.5423,
-   "type": "earthquake",
-   "distKm": 263.4,
-   "azimut": 103.2,
-   "dir": "ESE"
-  },
-  {
-   "id": 47074082,
-   "time": "2026-09-04T20:58:07.510000",
-   "mag": 1.2,
-   "magType": "ML",
-   "place": "7 km NW Calatafimi-Segesta (TP)",
-   "depth": 0.9,
-   "lat": 37.956,
-   "lon": 12.8035,
-   "type": "earthquake",
-   "distKm": 673.0,
-   "azimut": 161.6,
-   "dir": "SSE"
   }
  ]
 }
