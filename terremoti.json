@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-08T21:08:51.046235+00:00",
+ "generated": "2026-09-08T23:23:01.359740+00:00",
  "windowHours": 48,
- "count": 95,
+ "count": 94,
  "maxmag": 2.9,
  "avgDepth": 10.7,
  "home": {
@@ -11,6 +11,48 @@
  },
  "closest": 46.5,
  "events": [
+  {
+   "id": 47107352,
+   "time": "2026-09-08T22:44:10.290000",
+   "mag": 0.6,
+   "magType": "ML",
+   "place": "2 km N Ussita (MC)",
+   "depth": 15.2,
+   "lat": 42.9637,
+   "lon": 13.1398,
+   "type": "earthquake",
+   "distKm": 238.6,
+   "azimut": 109.8,
+   "dir": "ESE"
+  },
+  {
+   "id": 47107332,
+   "time": "2026-09-08T22:38:27.580000",
+   "mag": 1.4,
+   "magType": "ML",
+   "place": "1 km W Monteroni d'Arbia (SI)",
+   "depth": 9.7,
+   "lat": 43.2273,
+   "lon": 11.4077,
+   "type": "earthquake",
+   "distKm": 99.7,
+   "azimut": 123.4,
+   "dir": "ESE"
+  },
+  {
+   "id": 47107282,
+   "time": "2026-09-08T21:54:41.460000",
+   "mag": 1.1,
+   "magType": "ML",
+   "place": "6 km SW Tornimparte (AQ)",
+   "depth": 11.1,
+   "lat": 42.2635,
+   "lon": 13.2367,
+   "type": "earthquake",
+   "distKm": 283.5,
+   "azimut": 124.0,
+   "dir": "SE"
+  },
   {
    "id": 47107172,
    "time": "2026-09-08T20:28:35.750000",
@@ -1283,62 +1325,6 @@
    "type": "earthquake",
    "distKm": 239.8,
    "azimut": 110.0,
-   "dir": "ESE"
-  },
-  {
-   "id": 47088892,
-   "time": "2026-09-06T22:51:21.530000",
-   "mag": 0.9,
-   "magType": "ML",
-   "place": "Costa Siciliana nord-orientale (Messina)",
-   "depth": 6.1,
-   "lat": 38.1648,
-   "lon": 15.0163,
-   "type": "earthquake",
-   "distKm": 730.3,
-   "azimut": 146.3,
-   "dir": "SSE"
-  },
-  {
-   "id": 47088782,
-   "time": "2026-09-06T22:05:22.510000",
-   "mag": 1.4,
-   "magType": "ML",
-   "place": "Sant'Angelo in Pontano (MC)",
-   "depth": 20.8,
-   "lat": 43.1043,
-   "lon": 13.3968,
-   "type": "earthquake",
-   "distKm": 253.2,
-   "azimut": 104.8,
-   "dir": "ESE"
-  },
-  {
-   "id": 47088742,
-   "time": "2026-09-06T22:01:02.820000",
-   "mag": 1.8,
-   "magType": "ML",
-   "place": "2 km SW Carlopoli (CZ)",
-   "depth": 10.8,
-   "lat": 39.0443,
-   "lon": 16.4357,
-   "type": "earthquake",
-   "distKm": 724.9,
-   "azimut": 133.8,
-   "dir": "SE"
-  },
-  {
-   "id": 47088702,
-   "time": "2026-09-06T21:13:53.500000",
-   "mag": 0.5,
-   "magType": "ML",
-   "place": "1 km NE Monteroni d'Arbia (SI)",
-   "depth": 5.5,
-   "lat": 43.24,
-   "lon": 11.4288,
-   "type": "earthquake",
-   "distKm": 100.3,
-   "azimut": 122.1,
    "dir": "ESE"
   }
  ]
