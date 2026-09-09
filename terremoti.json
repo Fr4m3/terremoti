@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-09T20:55:38.961611+00:00",
+ "generated": "2026-09-09T23:13:58.866034+00:00",
  "windowHours": 48,
- "count": 110,
+ "count": 111,
  "maxmag": 2.9,
- "avgDepth": 11.6,
+ "avgDepth": 12.7,
  "home": {
   "lat": 43.7247258,
   "lon": 10.3802555,
@@ -11,6 +11,62 @@
  },
  "closest": 71.2,
  "events": [
+  {
+   "id": 47117252,
+   "time": "2026-09-09T22:46:42.030000",
+   "mag": 1.6,
+   "magType": "ML",
+   "place": "Confine Austria-Germania (AUSTRIA, GERMANIA)",
+   "depth": 6.8,
+   "lat": 47.3143,
+   "lon": 11.5032,
+   "type": "earthquake",
+   "distKm": 408.6,
+   "azimut": 12.0,
+   "dir": "NNE"
+  },
+  {
+   "id": 47117152,
+   "time": "2026-09-09T22:09:58.380000",
+   "mag": 1.2,
+   "magType": "ML",
+   "place": "4 km SE Cittareale (RI)",
+   "depth": 14.4,
+   "lat": 42.5902,
+   "lon": 13.1822,
+   "type": "earthquake",
+   "distKm": 259.9,
+   "azimut": 118.1,
+   "dir": "ESE"
+  },
+  {
+   "id": 47117162,
+   "time": "2026-09-09T22:09:45.030000",
+   "mag": 1.2,
+   "magType": "ML",
+   "place": "4 km SE Cittareale (RI)",
+   "depth": 14.6,
+   "lat": 42.5897,
+   "lon": 13.1825,
+   "type": "earthquake",
+   "distKm": 260.0,
+   "azimut": 118.1,
+   "dir": "ESE"
+  },
+  {
+   "id": 47117012,
+   "time": "2026-09-09T20:55:32.850000",
+   "mag": 2.2,
+   "magType": "ML",
+   "place": "Costa Siciliana nord-orientale (Messina)",
+   "depth": 117.4,
+   "lat": 38.3982,
+   "lon": 15.415,
+   "type": "earthquake",
+   "distKm": 727.0,
+   "azimut": 142.8,
+   "dir": "SE"
+  },
   {
    "id": 47116902,
    "time": "2026-09-09T20:02:27.640000",
@@ -1508,48 +1564,6 @@
    "distKm": 381.0,
    "azimut": 117.4,
    "dir": "ESE"
-  },
-  {
-   "id": 47095312,
-   "time": "2026-09-07T22:33:05.670000",
-   "mag": 0.9,
-   "magType": "ML",
-   "place": "4 km NW Cerreto di Spoleto (PG)",
-   "depth": 9.9,
-   "lat": 42.8517,
-   "lon": 12.9027,
-   "type": "earthquake",
-   "distKm": 226.1,
-   "azimut": 114.6,
-   "dir": "ESE"
-  },
-  {
-   "id": 47095242,
-   "time": "2026-09-07T21:54:09.590000",
-   "mag": 1.2,
-   "magType": "Md",
-   "place": "3 km SW Abriola (PZ)",
-   "depth": 9.5,
-   "lat": 40.4835,
-   "lon": 15.7978,
-   "type": "earthquake",
-   "distKm": 573.9,
-   "azimut": 127.0,
-   "dir": "SE"
-  },
-  {
-   "id": 47095172,
-   "time": "2026-09-07T20:55:47.990000",
-   "mag": 1.7,
-   "magType": "Md",
-   "place": "Campi Flegrei",
-   "depth": 2.6,
-   "lat": 40.835833,
-   "lon": 14.124333,
-   "type": "earthquake",
-   "distKm": 445.0,
-   "azimut": 134.9,
-   "dir": "SE"
   }
  ]
 }
