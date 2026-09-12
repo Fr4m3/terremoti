@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-12T10:45:00.110567+00:00",
+ "generated": "2026-09-12T15:30:57.373150+00:00",
  "windowHours": 48,
- "count": 90,
+ "count": 92,
  "maxmag": 2.7,
- "avgDepth": 17.8,
+ "avgDepth": 17.5,
  "home": {
   "lat": 43.7247258,
   "lon": 10.3802555,
@@ -11,6 +11,76 @@
  },
  "closest": 12.2,
  "events": [
+  {
+   "id": 47153682,
+   "time": "2026-09-12T15:16:34.640000",
+   "mag": 1.2,
+   "magType": "ML",
+   "place": "3 km SE Bellino (CN)",
+   "depth": 13.2,
+   "lat": 44.5598,
+   "lon": 7.0463,
+   "type": "earthquake",
+   "distKm": 281.7,
+   "azimut": 290.4,
+   "dir": "ONO"
+  },
+  {
+   "id": 47152942,
+   "time": "2026-09-12T13:23:28.880000",
+   "mag": 1.9,
+   "magType": "ML",
+   "place": "5 km SE Faenza (RA)",
+   "depth": 23.6,
+   "lat": 44.2492,
+   "lon": 11.9212,
+   "type": "earthquake",
+   "distKm": 136.4,
+   "azimut": 64.1,
+   "dir": "ENE"
+  },
+  {
+   "id": 47152882,
+   "time": "2026-09-12T13:15:56.570000",
+   "mag": 1.1,
+   "magType": "ML",
+   "place": "5 km E Cittareale (RI)",
+   "depth": 16.8,
+   "lat": 42.639,
+   "lon": 13.2152,
+   "type": "earthquake",
+   "distKm": 259.6,
+   "azimut": 116.7,
+   "dir": "ESE"
+  },
+  {
+   "id": 47152712,
+   "time": "2026-09-12T12:53:04.840000",
+   "mag": 0.8,
+   "magType": "ML",
+   "place": "6 km NE Castelsantangelo sul Nera (MC)",
+   "depth": 5.5,
+   "lat": 42.9233,
+   "lon": 13.2185,
+   "type": "earthquake",
+   "distKm": 246.3,
+   "azimut": 110.2,
+   "dir": "ESE"
+  },
+  {
+   "id": 47152032,
+   "time": "2026-09-12T11:22:21.390000",
+   "mag": 0.8,
+   "magType": "ML",
+   "place": "3 km NW Assisi (PG)",
+   "depth": 9.2,
+   "lat": 43.0928,
+   "lon": 12.5853,
+   "type": "earthquake",
+   "distKm": 191.5,
+   "azimut": 110.8,
+   "dir": "ESE"
+  },
   {
    "id": 47150412,
    "time": "2026-09-12T08:58:22.890000",
@@ -1228,48 +1298,6 @@
    "distKm": 171.8,
    "azimut": 95.4,
    "dir": "E"
-  },
-  {
-   "id": 47133372,
-   "time": "2026-09-10T12:52:14.130000",
-   "mag": 1.6,
-   "magType": "ML",
-   "place": "Costa Calabra nord-occidentale (Cosenza)",
-   "depth": 43.4,
-   "lat": 39.2412,
-   "lon": 16.0348,
-   "type": "earthquake",
-   "distKm": 685.5,
-   "azimut": 134.7,
-   "dir": "SE"
-  },
-  {
-   "id": 47132122,
-   "time": "2026-09-10T11:26:07.820000",
-   "mag": 0.9,
-   "magType": "ML",
-   "place": "4 km SE Fiordimonte (MC)",
-   "depth": 2.6,
-   "lat": 43.0077,
-   "lon": 13.1043,
-   "type": "earthquake",
-   "distKm": 234.2,
-   "azimut": 109.0,
-   "dir": "ESE"
-  },
-  {
-   "id": 47132022,
-   "time": "2026-09-10T11:21:11.050000",
-   "mag": 0.7,
-   "magType": "ML",
-   "place": "5 km NW San Severino Marche (MC)",
-   "depth": 19.3,
-   "lat": 43.2542,
-   "lon": 13.1328,
-   "type": "earthquake",
-   "distKm": 228.1,
-   "azimut": 102.3,
-   "dir": "ESE"
   }
  ]
 }
