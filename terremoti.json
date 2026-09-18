@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-18T20:53:27.096896+00:00",
+ "generated": "2026-09-18T23:17:25.885120+00:00",
  "windowHours": 48,
- "count": 88,
+ "count": 85,
  "maxmag": 3.6,
- "avgDepth": 13.0,
+ "avgDepth": 13.1,
  "home": {
   "lat": 43.7247258,
   "lon": 10.3802555,
@@ -11,6 +11,20 @@
  },
  "closest": 14.9,
  "events": [
+  {
+   "id": 47198802,
+   "time": "2026-09-18T22:10:11.550000",
+   "mag": 1.9,
+   "magType": "ML",
+   "place": "2 km SW Serracapriola (FG)",
+   "depth": 14,
+   "lat": 41.7962,
+   "lon": 15.1488,
+   "type": "earthquake",
+   "distKm": 444.4,
+   "azimut": 117.2,
+   "dir": "ESE"
+  },
   {
    "id": 47198602,
    "time": "2026-09-18T19:45:58.790000",
@@ -1186,62 +1200,6 @@
    "distKm": 180.5,
    "azimut": 99.9,
    "dir": "E"
-  },
-  {
-   "id": 47181172,
-   "time": "2026-09-16T22:40:26.580000",
-   "mag": 0.5,
-   "magType": "ML",
-   "place": "8 km SE Norcia (PG)",
-   "depth": 8,
-   "lat": 42.7478,
-   "lon": 13.1658,
-   "type": "earthquake",
-   "distKm": 250.4,
-   "azimut": 114.7,
-   "dir": "ESE"
-  },
-  {
-   "id": 47181102,
-   "time": "2026-09-16T22:24:48.320000",
-   "mag": 0.4,
-   "magType": "ML",
-   "place": "3 km SE Sellano (PG)",
-   "depth": 10,
-   "lat": 42.8702,
-   "lon": 12.9613,
-   "type": "earthquake",
-   "distKm": 229.5,
-   "azimut": 113.6,
-   "dir": "ESE"
-  },
-  {
-   "id": 47181072,
-   "time": "2026-09-16T21:11:26.750000",
-   "mag": 0.9,
-   "magType": "ML",
-   "place": "5 km S Apecchio (PU)",
-   "depth": 9.7,
-   "lat": 43.5107,
-   "lon": 12.4088,
-   "type": "earthquake",
-   "distKm": 165.0,
-   "azimut": 97.6,
-   "dir": "E"
-  },
-  {
-   "id": 47181002,
-   "time": "2026-09-16T20:56:38.000000",
-   "mag": 0.5,
-   "magType": "ML",
-   "place": "6 km SW Fossato di Vico (PG)",
-   "depth": 11.9,
-   "lat": 43.2553,
-   "lon": 12.7135,
-   "type": "earthquake",
-   "distKm": 195.3,
-   "azimut": 104.7,
-   "dir": "ESE"
   }
  ]
 }
