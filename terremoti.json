@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-20T20:48:15.415830+00:00",
+ "generated": "2026-09-20T23:14:51.465027+00:00",
  "windowHours": 48,
- "count": 114,
+ "count": 120,
  "maxmag": 4.0,
  "avgDepth": 14.8,
  "home": {
@@ -11,6 +11,104 @@
  },
  "closest": 71.7,
  "events": [
+  {
+   "id": 47212942,
+   "time": "2026-09-20T22:47:25.170000",
+   "mag": 1.9,
+   "magType": "ML",
+   "place": "Costa Calabra sud-occidentale (Catanzaro, Vibo Valentia, Reggio di Calabria)",
+   "depth": 42.2,
+   "lat": 38.4565,
+   "lon": 15.7895,
+   "type": "earthquake",
+   "distKm": 740.3,
+   "azimut": 140.5,
+   "dir": "SE"
+  },
+  {
+   "id": 47212912,
+   "time": "2026-09-20T22:34:51.160000",
+   "mag": 0.5,
+   "magType": "ML",
+   "place": "5 km NE Tramonti di Sopra (PN)",
+   "depth": 3.3,
+   "lat": 46.3513,
+   "lon": 12.8233,
+   "type": "earthquake",
+   "distKm": 349.5,
+   "azimut": 32.5,
+   "dir": "NNE"
+  },
+  {
+   "id": 47212872,
+   "time": "2026-09-20T22:19:05.890000",
+   "mag": 1.6,
+   "magType": "ML",
+   "place": "3 km NE Atena Lucana (SA)",
+   "depth": 18.8,
+   "lat": 40.4823,
+   "lon": 15.5805,
+   "type": "earthquake",
+   "distKm": 560.2,
+   "azimut": 128.3,
+   "dir": "SE"
+  },
+  {
+   "id": 47212732,
+   "time": "2026-09-20T21:45:38.400000",
+   "mag": 0.9,
+   "magType": "ML",
+   "place": "3 km SE Sessano del Molise (IS)",
+   "depth": 9.3,
+   "lat": 41.6172,
+   "lon": 14.3428,
+   "type": "earthquake",
+   "distKm": 399.8,
+   "azimut": 124.5,
+   "dir": "SE"
+  },
+  {
+   "id": 47212702,
+   "time": "2026-09-20T21:26:52.930000",
+   "mag": 0.7,
+   "magType": "ML",
+   "place": "3 km W Valtopina (PG)",
+   "depth": 8.8,
+   "lat": 43.0655,
+   "lon": 12.7228,
+   "type": "earthquake",
+   "distKm": 203.0,
+   "azimut": 110.4,
+   "dir": "ESE"
+  },
+  {
+   "id": 47212672,
+   "time": "2026-09-20T21:15:12.640000",
+   "mag": 0.5,
+   "magType": "ML",
+   "place": "5 km N Cascia (PG)",
+   "depth": 10,
+   "lat": 42.7617,
+   "lon": 13.0207,
+   "type": "earthquake",
+   "distKm": 239.2,
+   "azimut": 115.7,
+   "dir": "ESE"
+  },
+  {
+   "id": 47212632,
+   "time": "2026-09-20T20:56:04.990000",
+   "mag": 0.4,
+   "magType": "ML",
+   "place": "3 km SW Gualdo Tadino (PG)",
+   "depth": 10,
+   "lat": 43.2128,
+   "lon": 12.7547,
+   "type": "earthquake",
+   "distKm": 199.9,
+   "azimut": 105.7,
+   "dir": "ESE"
+  },
   {
    "id": 47212552,
    "time": "2026-09-20T20:32:18.750000",
@@ -1592,20 +1690,6 @@
    "distKm": 445.9,
    "azimut": 135.4,
    "dir": "SE"
-  },
-  {
-   "id": 47198802,
-   "time": "2026-09-18T22:10:11.550000",
-   "mag": 1.9,
-   "magType": "ML",
-   "place": "2 km SW Serracapriola (FG)",
-   "depth": 14,
-   "lat": 41.7962,
-   "lon": 15.1488,
-   "type": "earthquake",
-   "distKm": 444.4,
-   "azimut": 117.2,
-   "dir": "ESE"
   }
  ]
 }
