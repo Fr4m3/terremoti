@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-03T21:13:14.442622+00:00",
+ "generated": "2026-10-03T23:46:38.043741+00:00",
  "windowHours": 48,
- "count": 79,
+ "count": 77,
  "maxmag": 2.6,
- "avgDepth": 18.4,
+ "avgDepth": 16.5,
  "home": {
   "lat": 43.7247258,
   "lon": 10.3802555,
@@ -11,6 +11,20 @@
  },
  "closest": 73.7,
  "events": [
+  {
+   "id": 46762151,
+   "time": "2026-10-03T23:31:52.640000",
+   "mag": 0.6,
+   "magType": "ML",
+   "place": "1 km NE Cagnano Amiterno (AQ)",
+   "depth": 11.1,
+   "lat": 42.4647,
+   "lon": 13.2288,
+   "type": "earthquake",
+   "distKm": 270.4,
+   "azimut": 120.2,
+   "dir": "ESE"
+  },
   {
    "id": 46761811,
    "time": "2026-10-03T20:24:50.920000",
@@ -1074,48 +1088,6 @@
    "distKm": 127.7,
    "azimut": 325.7,
    "dir": "NO"
-  },
-  {
-   "id": 46749461,
-   "time": "2026-10-01T22:47:56.030000",
-   "mag": 0.5,
-   "magType": "ML",
-   "place": "1 km N Lauco (UD)",
-   "depth": 13.1,
-   "lat": 46.4327,
-   "lon": 12.937,
-   "type": "earthquake",
-   "distKm": 361.9,
-   "azimut": 32.8,
-   "dir": "NNE"
-  },
-  {
-   "id": 46749431,
-   "time": "2026-10-01T22:46:42.590000",
-   "mag": 2.4,
-   "magType": "ML",
-   "place": "Costa Siciliana nord-orientale (Messina)",
-   "depth": 168.3,
-   "lat": 38.3912,
-   "lon": 15.2578,
-   "type": "earthquake",
-   "distKm": 720.1,
-   "azimut": 143.8,
-   "dir": "SE"
-  },
-  {
-   "id": 46749381,
-   "time": "2026-10-01T21:57:35.570000",
-   "mag": 0.8,
-   "magType": "ML",
-   "place": "6 km S Norcia (PG)",
-   "depth": 10.6,
-   "lat": 42.7378,
-   "lon": 13.0942,
-   "type": "earthquake",
-   "distKm": 245.7,
-   "azimut": 115.6,
-   "dir": "ESE"
   }
  ]
 }
