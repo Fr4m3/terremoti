@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-03T11:38:14.888485+00:00",
+ "generated": "2026-10-03T16:16:51.988320+00:00",
  "windowHours": 48,
- "count": 76,
+ "count": 74,
  "maxmag": 3.0,
  "avgDepth": 16.6,
  "home": {
@@ -11,6 +11,48 @@
  },
  "closest": 73.7,
  "events": [
+  {
+   "id": 46760541,
+   "time": "2026-10-03T15:35:48.590000",
+   "mag": 0.8,
+   "magType": "ML",
+   "place": "5 km SW Cantiano (PU)",
+   "depth": 13.6,
+   "lat": 43.4413,
+   "lon": 12.5947,
+   "type": "earthquake",
+   "distKm": 181.1,
+   "azimut": 99.3,
+   "dir": "E"
+  },
+  {
+   "id": 46760061,
+   "time": "2026-10-03T13:36:04.240000",
+   "mag": 2.3,
+   "magType": "ML",
+   "place": "Svizzera (SVIZZERA)",
+   "depth": 4.3,
+   "lat": 47.3823,
+   "lon": 7.7413,
+   "type": "earthquake",
+   "distKm": 455.6,
+   "azimut": 334.1,
+   "dir": "NNO"
+  },
+  {
+   "id": 46759801,
+   "time": "2026-10-03T12:05:33.940000",
+   "mag": 0.6,
+   "magType": "ML",
+   "place": "2 km S Apecchio (PU)",
+   "depth": 8.8,
+   "lat": 43.5397,
+   "lon": 12.4148,
+   "type": "earthquake",
+   "distKm": 165.0,
+   "azimut": 96.5,
+   "dir": "E"
+  },
   {
    "id": 46759571,
    "time": "2026-10-03T11:28:17.160000",
@@ -1004,76 +1046,6 @@
    "distKm": 311.1,
    "azimut": 294.5,
    "dir": "ONO"
-  },
-  {
-   "id": 46748441,
-   "time": "2026-10-01T16:05:13.920000",
-   "mag": 0.6,
-   "magType": "ML",
-   "place": "4 km NE Sampeyre (CN)",
-   "depth": 13.9,
-   "lat": 44.6068,
-   "lon": 7.2228,
-   "type": "earthquake",
-   "distKm": 270.3,
-   "azimut": 292.4,
-   "dir": "ONO"
-  },
-  {
-   "id": 46748391,
-   "time": "2026-10-01T15:56:08.350000",
-   "mag": 1.4,
-   "magType": "ML",
-   "place": "6 km SE Piobbico (PU)",
-   "depth": 10.1,
-   "lat": 43.5382,
-   "lon": 12.5332,
-   "type": "earthquake",
-   "distKm": 174.5,
-   "azimut": 96.1,
-   "dir": "E"
-  },
-  {
-   "id": 46748311,
-   "time": "2026-10-01T15:38:21.130000",
-   "mag": 1.9,
-   "magType": "ML",
-   "place": "3 km S Campotosto (AQ)",
-   "depth": 12,
-   "lat": 42.5312,
-   "lon": 13.368,
-   "type": "earthquake",
-   "distKm": 276.4,
-   "azimut": 117.7,
-   "dir": "ESE"
-  },
-  {
-   "id": 46747971,
-   "time": "2026-10-01T14:39:14.370000",
-   "mag": 0.9,
-   "magType": "ML",
-   "place": "9 km NW Sellano (PG)",
-   "depth": 10.4,
-   "lat": 42.9505,
-   "lon": 12.8597,
-   "type": "earthquake",
-   "distKm": 218.2,
-   "azimut": 112.4,
-   "dir": "ESE"
-  },
-  {
-   "id": 46747821,
-   "time": "2026-10-01T14:02:49.520000",
-   "mag": 1.0,
-   "magType": "ML",
-   "place": "3 km W Tramonti di Sotto (PN)",
-   "depth": 8.2,
-   "lat": 46.2783,
-   "lon": 12.7625,
-   "type": "earthquake",
-   "distKm": 340.1,
-   "azimut": 32.6,
-   "dir": "NNE"
   }
  ]
 }
