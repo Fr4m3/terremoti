@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-18T20:41:11.954014+00:00",
+ "generated": "2026-10-18T23:11:03.585252+00:00",
  "windowHours": 48,
- "count": 140,
+ "count": 142,
  "maxmag": 3.6,
- "avgDepth": 14.7,
+ "avgDepth": 14.5,
  "home": {
   "lat": 43.7247258,
   "lon": 10.3802555,
@@ -11,6 +11,76 @@
  },
  "closest": 10.2,
  "events": [
+  {
+   "id": 47572212,
+   "time": "2026-10-18T21:17:15.320000",
+   "mag": 0.5,
+   "magType": "ML",
+   "place": "10 km SW Serravalle di Chienti (MC)",
+   "depth": 8.6,
+   "lat": 43.005,
+   "lon": 12.8817,
+   "type": "earthquake",
+   "distKm": 217.5,
+   "azimut": 110.7,
+   "dir": "ESE"
+  },
+  {
+   "id": 47572162,
+   "time": "2026-10-18T21:01:12.410000",
+   "mag": 0.7,
+   "magType": "ML",
+   "place": "2 km E Gubbio (PG)",
+   "depth": 10,
+   "lat": 43.3482,
+   "lon": 12.6058,
+   "type": "earthquake",
+   "distKm": 184.2,
+   "azimut": 102.4,
+   "dir": "ESE"
+  },
+  {
+   "id": 47572092,
+   "time": "2026-10-18T20:52:56.340000",
+   "mag": 2.2,
+   "magType": "ML",
+   "place": "Costa Marchigiana Anconetana (Ancona)",
+   "depth": 6.6,
+   "lat": 43.9763,
+   "lon": 13.3975,
+   "type": "earthquake",
+   "distKm": 243.5,
+   "azimut": 82.4,
+   "dir": "E"
+  },
+  {
+   "id": 47572052,
+   "time": "2026-10-18T20:48:22.770000",
+   "mag": 0.8,
+   "magType": "ML",
+   "place": "4 km SW Gualdo Tadino (PG)",
+   "depth": 10.7,
+   "lat": 43.1953,
+   "lon": 12.7648,
+   "type": "earthquake",
+   "distKm": 201.3,
+   "azimut": 106.2,
+   "dir": "ESE"
+  },
+  {
+   "id": 47572032,
+   "time": "2026-10-18T20:41:17.560000",
+   "mag": 0.8,
+   "magType": "ML",
+   "place": "4 km W Amatrice (RI)",
+   "depth": 13.5,
+   "lat": 42.6282,
+   "lon": 13.2368,
+   "type": "earthquake",
+   "distKm": 261.7,
+   "azimut": 116.8,
+   "dir": "ESE"
+  },
   {
    "id": 47572002,
    "time": "2026-10-18T20:22:28.460000",
@@ -1928,48 +1998,6 @@
    "distKm": 731.4,
    "azimut": 146.1,
    "dir": "SE"
-  },
-  {
-   "id": 47555402,
-   "time": "2026-10-16T23:10:30.000000",
-   "mag": 1.3,
-   "magType": "ML",
-   "place": "4 km NE Sampeyre (CN)",
-   "depth": 13.5,
-   "lat": 44.612,
-   "lon": 7.2227,
-   "type": "earthquake",
-   "distKm": 270.5,
-   "azimut": 292.5,
-   "dir": "ONO"
-  },
-  {
-   "id": 47555342,
-   "time": "2026-10-16T23:04:26.310000",
-   "mag": 1.0,
-   "magType": "ML",
-   "place": "8 km E Valtopina (PG)",
-   "depth": 13,
-   "lat": 43.0367,
-   "lon": 12.8497,
-   "type": "earthquake",
-   "distKm": 213.7,
-   "azimut": 110.1,
-   "dir": "ESE"
-  },
-  {
-   "id": 47555272,
-   "time": "2026-10-16T22:15:14.410000",
-   "mag": 0.3,
-   "magType": "ML",
-   "place": "7 km SE Gubbio (PG)",
-   "depth": 10.9,
-   "lat": 43.299,
-   "lon": 12.6152,
-   "type": "earthquake",
-   "distKm": 186.3,
-   "azimut": 103.9,
-   "dir": "ESE"
   }
  ]
 }
