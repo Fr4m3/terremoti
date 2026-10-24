@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-24T20:47:50.751085+00:00",
+ "generated": "2026-10-24T23:12:28.413541+00:00",
  "windowHours": 48,
- "count": 219,
+ "count": 221,
  "maxmag": 5.5,
  "avgDepth": 11.3,
  "home": {
@@ -11,6 +11,62 @@
  },
  "closest": 79.2,
  "events": [
+  {
+   "id": 47626242,
+   "time": "2026-10-24T21:58:49.060000",
+   "mag": 1.2,
+   "magType": "ML",
+   "place": "1 km W Ampezzo (UD)",
+   "depth": 6.9,
+   "lat": 46.416,
+   "lon": 12.7888,
+   "type": "earthquake",
+   "distKm": 354.0,
+   "azimut": 31.4,
+   "dir": "NNE"
+  },
+  {
+   "id": 47626212,
+   "time": "2026-10-24T21:37:40.590000",
+   "mag": 2.7,
+   "magType": "ML",
+   "place": "Tirreno Meridionale [Mare]",
+   "depth": 10,
+   "lat": 38.8065,
+   "lon": 14.1683,
+   "type": "earthquake",
+   "distKm": 631.7,
+   "azimut": 148.7,
+   "dir": "SSE"
+  },
+  {
+   "id": 47626152,
+   "time": "2026-10-24T21:11:53.260000",
+   "mag": 1.7,
+   "magType": "ML",
+   "place": "3 km E Pesco Sannita (BN)",
+   "depth": 17.7,
+   "lat": 41.2272,
+   "lon": 14.841,
+   "type": "earthquake",
+   "distKm": 459.2,
+   "azimut": 125.7,
+   "dir": "SE"
+  },
+  {
+   "id": 47626082,
+   "time": "2026-10-24T20:44:08.790000",
+   "mag": 0.6,
+   "magType": "ML",
+   "place": "7 km N Posta (RI)",
+   "depth": 11.1,
+   "lat": 42.584,
+   "lon": 13.0937,
+   "type": "earthquake",
+   "distKm": 254.0,
+   "azimut": 119.0,
+   "dir": "ESE"
+  },
   {
    "id": 47626032,
    "time": "2026-10-24T20:38:21.180000",
@@ -3048,34 +3104,6 @@
    "distKm": 700.2,
    "azimut": 133.0,
    "dir": "SE"
-  },
-  {
-   "id": 47602342,
-   "time": "2026-10-22T22:59:20.910000",
-   "mag": 1.1,
-   "magType": "ML",
-   "place": "3 km E Palmiano (AP)",
-   "depth": 13,
-   "lat": 42.9117,
-   "lon": 13.4897,
-   "type": "earthquake",
-   "distKm": 267.3,
-   "azimut": 108.7,
-   "dir": "ESE"
-  },
-  {
-   "id": 47602182,
-   "time": "2026-10-22T22:21:32.700000",
-   "mag": 0.7,
-   "magType": "ML",
-   "place": "5 km E Scheggia e Pascelupo (PG)",
-   "depth": 15.4,
-   "lat": 43.4237,
-   "lon": 12.7203,
-   "type": "earthquake",
-   "distKm": 191.5,
-   "azimut": 99.3,
-   "dir": "E"
   }
  ]
 }
