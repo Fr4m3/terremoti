@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-04T23:39:13.122023+00:00",
+ "generated": "2026-11-05T06:43:49.020600+00:00",
  "windowHours": 48,
- "count": 74,
+ "count": 82,
  "maxmag": 3.6,
- "avgDepth": 13.0,
+ "avgDepth": 15.4,
  "home": {
   "lat": 43.7247258,
   "lon": 10.3802555,
@@ -12,7 +12,189 @@
  "closest": 80.1,
  "events": [
   {
-   "id": 47013021,
+   "id": 47013821,
+   "time": "2026-11-05T05:44:47.420000",
+   "mag": 1.3,
+   "magType": "ML",
+   "place": "9 km NW Cittareale (RI)",
+   "depth": 9.9,
+   "lat": 42.6922,
+   "lon": 13.1282,
+   "type": "earthquake",
+   "distKm": 250.5,
+   "azimut": 116.3,
+   "dir": "ESE"
+  },
+  {
+   "id": 47866992,
+   "time": "2026-11-05T05:11:59.660000",
+   "mag": 2.5,
+   "magType": "ML",
+   "place": "3 km E Albareto (PR)",
+   "depth": 2.7,
+   "lat": 44.4365,
+   "lon": 9.7365,
+   "type": "earthquake",
+   "distKm": 94.4,
+   "azimut": 327.2,
+   "dir": "NNO"
+  },
+  {
+   "id": 47866892,
+   "time": "2026-11-05T04:32:11.940000",
+   "mag": 1.3,
+   "magType": "ML",
+   "place": "4 km W Palena (CH)",
+   "depth": 10.4,
+   "lat": 41.9822,
+   "lon": 14.093,
+   "type": "earthquake",
+   "distKm": 359.3,
+   "azimut": 121.4,
+   "dir": "ESE"
+  },
+  {
+   "id": 47866852,
+   "time": "2026-11-05T04:28:26.320000",
+   "mag": 2.1,
+   "magType": "ML",
+   "place": "Isole Eolie (Messina)",
+   "depth": 115.9,
+   "lat": 38.3908,
+   "lon": 15.1108,
+   "type": "earthquake",
+   "distKm": 713.2,
+   "azimut": 144.6,
+   "dir": "SE"
+  },
+  {
+   "id": 47866822,
+   "time": "2026-11-05T04:16:08.260000",
+   "mag": 1.2,
+   "magType": "ML",
+   "place": "4 km E Serra Pedace (CS)",
+   "depth": 10.2,
+   "lat": 39.2677,
+   "lon": 16.3858,
+   "type": "earthquake",
+   "distKm": 703.8,
+   "azimut": 132.7,
+   "dir": "SE"
+  },
+  {
+   "id": 47866762,
+   "time": "2026-11-05T03:10:56.810000",
+   "mag": 2.0,
+   "magType": "ML",
+   "place": "5 km S Pradleves (CN)",
+   "depth": 13.4,
+   "lat": 44.3753,
+   "lon": 7.2832,
+   "type": "earthquake",
+   "distKm": 257.9,
+   "azimut": 287.4,
+   "dir": "ONO"
+  },
+  {
+   "id": 47866732,
+   "time": "2026-11-05T02:24:12.880000",
+   "mag": 0.6,
+   "magType": "ML",
+   "place": "4 km E Serravalle di Chienti (MC)",
+   "depth": 15.3,
+   "lat": 43.0858,
+   "lon": 12.997,
+   "type": "earthquake",
+   "distKm": 223.0,
+   "azimut": 107.7,
+   "dir": "ESE"
+  },
+  {
+   "id": 47866722,
+   "time": "2026-11-05T02:21:26.530000",
+   "mag": 1.3,
+   "magType": "ML",
+   "place": "3 km SW Brienza (PZ)",
+   "depth": 9.8,
+   "lat": 40.4507,
+   "lon": 15.6133,
+   "type": "earthquake",
+   "distKm": 564.6,
+   "azimut": 128.4,
+   "dir": "SE"
+  },
+  {
+   "id": 47866682,
+   "time": "2026-11-05T02:02:40.280000",
+   "mag": 2.5,
+   "magType": "ML",
+   "place": "3 km SW Floridia (SR)",
+   "depth": 16.7,
+   "lat": 37.0593,
+   "lon": 15.1327,
+   "type": "earthquake",
+   "distKm": 843.0,
+   "azimut": 149.9,
+   "dir": "SSE"
+  },
+  {
+   "id": 47866632,
+   "time": "2026-11-05T01:36:11.470000",
+   "mag": 2.0,
+   "magType": "ML",
+   "place": "Isole Eolie (Messina)",
+   "depth": 116.1,
+   "lat": 38.5302,
+   "lon": 14.8432,
+   "type": "earthquake",
+   "distKm": 687.8,
+   "azimut": 145.6,
+   "dir": "SE"
+  },
+  {
+   "id": 47866612,
+   "time": "2026-11-05T01:30:53.600000",
+   "mag": 1.9,
+   "magType": "ML",
+   "place": "1 km SW Borgo Val di Taro (PR)",
+   "depth": 7.6,
+   "lat": 44.4778,
+   "lon": 9.7597,
+   "type": "earthquake",
+   "distKm": 97.3,
+   "azimut": 329.6,
+   "dir": "NNO"
+  },
+  {
+   "id": 47866482,
+   "time": "2026-11-05T00:10:46.980000",
+   "mag": 0.8,
+   "magType": "ML",
+   "place": "6 km NW Preci (PG)",
+   "depth": 11.1,
+   "lat": 42.9268,
+   "lon": 13.0103,
+   "type": "earthquake",
+   "distKm": 230.5,
+   "azimut": 111.7,
+   "dir": "ESE"
+  },
+  {
+   "id": 47866402,
+   "time": "2026-11-04T23:39:54.370000",
+   "mag": 1.6,
+   "magType": "ML",
+   "place": "Costa Ionica Crotonese (Crotone)",
+   "depth": 11,
+   "lat": 39.4202,
+   "lon": 17.1607,
+   "type": "earthquake",
+   "distKm": 739.3,
+   "azimut": 128.0,
+   "dir": "SE"
+  },
+  {
+   "id": 47866342,
    "time": "2026-11-04T23:31:33.470000",
    "mag": 2.1,
    "magType": "ML",
@@ -26,7 +208,7 @@
    "dir": "SSE"
   },
   {
-   "id": 47013001,
+   "id": 47866302,
    "time": "2026-11-04T23:30:58.710000",
    "mag": 1.3,
    "magType": "ML",
@@ -40,7 +222,7 @@
    "dir": "ESE"
   },
   {
-   "id": 47012961,
+   "id": 47866282,
    "time": "2026-11-04T22:50:21.150000",
    "mag": 1.1,
    "magType": "ML",
@@ -54,7 +236,7 @@
    "dir": "ESE"
   },
   {
-   "id": 47012921,
+   "id": 47866242,
    "time": "2026-11-04T22:41:51.480000",
    "mag": 1.0,
    "magType": "ML",
@@ -68,7 +250,7 @@
    "dir": "ESE"
   },
   {
-   "id": 47012981,
+   "id": 47866262,
    "time": "2026-11-04T22:40:44.770000",
    "mag": 1.9,
    "magType": "ML",
@@ -82,7 +264,7 @@
    "dir": "SSE"
   },
   {
-   "id": 47012941,
+   "id": 47866192,
    "time": "2026-11-04T22:33:11.610000",
    "mag": 1.1,
    "magType": "ML",
@@ -96,7 +278,7 @@
    "dir": "SSE"
   },
   {
-   "id": 47012811,
+   "id": 47866122,
    "time": "2026-11-04T22:11:27.560000",
    "mag": 1.6,
    "magType": "ML",
@@ -110,7 +292,7 @@
    "dir": "SSE"
   },
   {
-   "id": 47012781,
+   "id": 47866102,
    "time": "2026-11-04T22:03:50.730000",
    "mag": 1.6,
    "magType": "ML",
@@ -124,7 +306,7 @@
    "dir": "SSE"
   },
   {
-   "id": 47012771,
+   "id": 47866062,
    "time": "2026-11-04T21:31:30.920000",
    "mag": 1.2,
    "magType": "ML",
@@ -138,7 +320,7 @@
    "dir": "SE"
   },
   {
-   "id": 47012691,
+   "id": 47865992,
    "time": "2026-11-04T21:19:31.060000",
    "mag": 2.2,
    "magType": "ML",
@@ -976,76 +1158,6 @@
    "distKm": 322.1,
    "azimut": 125.3,
    "dir": "SE"
-  },
-  {
-   "id": 47856252,
-   "time": "2026-11-03T04:36:24.000000",
-   "mag": 1.6,
-   "magType": "ML",
-   "place": "2 km NE Norcia (PG)",
-   "depth": 9.2,
-   "lat": 42.8033,
-   "lon": 13.1157,
-   "type": "earthquake",
-   "distKm": 244.0,
-   "azimut": 113.9,
-   "dir": "ESE"
-  },
-  {
-   "id": 47856132,
-   "time": "2026-11-03T04:06:23.680000",
-   "mag": 2.2,
-   "magType": "ML",
-   "place": "Tirreno Meridionale [Mare]",
-   "depth": 10,
-   "lat": 38.8248,
-   "lon": 14.367,
-   "type": "earthquake",
-   "distKm": 638.4,
-   "azimut": 147.2,
-   "dir": "SSE"
-  },
-  {
-   "id": 47856012,
-   "time": "2026-11-03T02:59:39.960000",
-   "mag": 1.2,
-   "magType": "ML",
-   "place": "6 km SW Costacciaro (PG)",
-   "depth": 11.4,
-   "lat": 43.3193,
-   "lon": 12.6738,
-   "type": "earthquake",
-   "distKm": 190.3,
-   "azimut": 102.9,
-   "dir": "ESE"
-  },
-  {
-   "id": 47855892,
-   "time": "2026-11-03T01:21:44.800000",
-   "mag": 1.5,
-   "magType": "ML",
-   "place": "3 km E Foligno (PG)",
-   "depth": 8.8,
-   "lat": 42.9587,
-   "lon": 12.7377,
-   "type": "earthquake",
-   "distKm": 208.8,
-   "azimut": 113.3,
-   "dir": "ESE"
-  },
-  {
-   "id": 47855862,
-   "time": "2026-11-03T01:20:08.280000",
-   "mag": 1.5,
-   "magType": "ML",
-   "place": "Castel Vittorio (IM)",
-   "depth": 8.4,
-   "lat": 43.9303,
-   "lon": 7.6683,
-   "type": "earthquake",
-   "distKm": 218.7,
-   "azimut": 276.9,
-   "dir": "O"
   }
  ]
 }
