@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-22T19:37:37.914963+00:00",
+ "generated": "2026-11-23T01:41:15.392357+00:00",
  "windowHours": 48,
- "count": 60,
+ "count": 61,
  "maxmag": 4.3,
  "avgDepth": 18.7,
  "home": {
@@ -11,6 +11,62 @@
  },
  "closest": 88.9,
  "events": [
+  {
+   "id": 48051432,
+   "time": "2026-11-23T00:13:25.500000",
+   "mag": 1.8,
+   "magType": "ML",
+   "place": "2 km NW Chiaravalle Centrale (CZ)",
+   "depth": 36.5,
+   "lat": 38.6937,
+   "lon": 16.4012,
+   "type": "earthquake",
+   "distKm": 752.3,
+   "azimut": 136.0,
+   "dir": "SE"
+  },
+  {
+   "id": 48048952,
+   "time": "2026-11-22T20:30:56.660000",
+   "mag": 1.5,
+   "magType": "ML",
+   "place": "4 km NE Nocera Umbra (PG)",
+   "depth": 10.2,
+   "lat": 43.1498,
+   "lon": 12.8098,
+   "type": "earthquake",
+   "distKm": 206.3,
+   "azimut": 107.2,
+   "dir": "ESE"
+  },
+  {
+   "id": 48048862,
+   "time": "2026-11-22T20:29:14.680000",
+   "mag": 2.3,
+   "magType": "ML",
+   "place": "5 km N Nocera Umbra (PG)",
+   "depth": 9.5,
+   "lat": 43.1512,
+   "lon": 12.8072,
+   "type": "earthquake",
+   "distKm": 206.1,
+   "azimut": 107.2,
+   "dir": "ESE"
+  },
+  {
+   "id": 48048002,
+   "time": "2026-11-22T19:35:28.320000",
+   "mag": 2.7,
+   "magType": "ML",
+   "place": "Mar Ionio Meridionale [Mare]",
+   "depth": 21.3,
+   "lat": 36.8432,
+   "lon": 16.7312,
+   "type": "earthquake",
+   "distKm": 935.2,
+   "azimut": 142.8,
+   "dir": "SE"
+  },
   {
    "id": 48047282,
    "time": "2026-11-22T18:58:35.530000",
@@ -808,48 +864,6 @@
    "distKm": 422.7,
    "azimut": 123.9,
    "dir": "SE"
-  },
-  {
-   "id": 48031872,
-   "time": "2026-11-21T01:10:47.400000",
-   "mag": 2.4,
-   "magType": "ML",
-   "place": "Tirreno Meridionale [Mare]",
-   "depth": 27.9,
-   "lat": 38.6917,
-   "lon": 14.1348,
-   "type": "earthquake",
-   "distKm": 641.6,
-   "azimut": 149.4,
-   "dir": "SSE"
-  },
-  {
-   "id": 48031712,
-   "time": "2026-11-21T00:32:51.920000",
-   "mag": 1.9,
-   "magType": "ML",
-   "place": "Stretto di Messina (Reggio di Calabria, Messina)",
-   "depth": 13,
-   "lat": 38.0492,
-   "lon": 15.6465,
-   "type": "earthquake",
-   "distKm": 770.5,
-   "azimut": 143.2,
-   "dir": "SE"
-  },
-  {
-   "id": 48031262,
-   "time": "2026-11-20T22:10:07.570000",
-   "mag": 1.3,
-   "magType": "ML",
-   "place": "3 km E Costacciaro (PG)",
-   "depth": 14.3,
-   "lat": 43.37,
-   "lon": 12.741,
-   "type": "earthquake",
-   "distKm": 194.3,
-   "azimut": 100.9,
-   "dir": "E"
   }
  ]
 }
