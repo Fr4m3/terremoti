@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-24T13:40:27.934092+00:00",
+ "generated": "2026-11-24T23:53:36.944132+00:00",
  "windowHours": 48,
- "count": 59,
+ "count": 62,
  "maxmag": 2.8,
- "avgDepth": 16.0,
+ "avgDepth": 15.3,
  "home": {
   "lat": 43.7247258,
   "lon": 10.3802555,
@@ -12,7 +12,161 @@
  "closest": 117.2,
  "events": [
   {
-   "id": 47177191,
+   "id": 48062202,
+   "time": "2026-11-24T21:38:12.500000",
+   "mag": 0.5,
+   "magType": "ML",
+   "place": "5 km SE Gubbio (PG)",
+   "depth": 10.3,
+   "lat": 43.3302,
+   "lon": 12.6332,
+   "type": "earthquake",
+   "distKm": 186.9,
+   "azimut": 102.8,
+   "dir": "ESE"
+  },
+  {
+   "id": 48061912,
+   "time": "2026-11-24T18:53:02.900000",
+   "mag": 1.2,
+   "magType": "ML",
+   "place": "4 km NE Massa Martana (PG)",
+   "depth": 9,
+   "lat": 42.7997,
+   "lon": 12.5573,
+   "type": "earthquake",
+   "distKm": 204.1,
+   "azimut": 119.5,
+   "dir": "ESE"
+  },
+  {
+   "id": 48061892,
+   "time": "2026-11-24T18:46:28.020000",
+   "mag": 0.8,
+   "magType": "ML",
+   "place": "4 km E Norcia (PG)",
+   "depth": 10,
+   "lat": 42.8058,
+   "lon": 13.1362,
+   "type": "earthquake",
+   "distKm": 245.4,
+   "azimut": 113.7,
+   "dir": "ESE"
+  },
+  {
+   "id": 48061702,
+   "time": "2026-11-24T17:07:40.840000",
+   "mag": 1.0,
+   "magType": "ML",
+   "place": "4 km SE Cascia (PG)",
+   "depth": 10.2,
+   "lat": 42.6902,
+   "lon": 13.0492,
+   "type": "earthquake",
+   "distKm": 245.0,
+   "azimut": 117.1,
+   "dir": "ESE"
+  },
+  {
+   "id": 48061552,
+   "time": "2026-11-24T16:22:47.940000",
+   "mag": 1.4,
+   "magType": "ML",
+   "place": "13 km NE Courmayeur (AO)",
+   "depth": 12.1,
+   "lat": 45.9008,
+   "lon": 7.0468,
+   "type": "earthquake",
+   "distKm": 357.3,
+   "azimut": 313.8,
+   "dir": "NO"
+  },
+  {
+   "id": 48061362,
+   "time": "2026-11-24T15:34:04.510000",
+   "mag": 2.2,
+   "magType": "ML",
+   "place": "4 km NW Torre di Ruggiero (CZ)",
+   "depth": 37.6,
+   "lat": 38.6852,
+   "lon": 16.3598,
+   "type": "earthquake",
+   "distKm": 750.7,
+   "azimut": 136.2,
+   "dir": "SE"
+  },
+  {
+   "id": 48061172,
+   "time": "2026-11-24T14:36:39.650000",
+   "mag": 2.2,
+   "magType": "ML",
+   "place": "4 km NW Torre di Ruggiero (CZ)",
+   "depth": 36.5,
+   "lat": 38.6713,
+   "lon": 16.3337,
+   "type": "earthquake",
+   "distKm": 750.5,
+   "azimut": 136.4,
+   "dir": "SE"
+  },
+  {
+   "id": 48061042,
+   "time": "2026-11-24T14:30:23.200000",
+   "mag": 1.6,
+   "magType": "Md",
+   "place": "Campi Flegrei",
+   "depth": 0.8,
+   "lat": 40.823833,
+   "lon": 14.136,
+   "type": "earthquake",
+   "distKm": 446.6,
+   "azimut": 135.0,
+   "dir": "SE"
+  },
+  {
+   "id": 48060892,
+   "time": "2026-11-24T14:15:04.009000",
+   "mag": 1.2,
+   "magType": "Md",
+   "place": "Campi Flegrei",
+   "depth": 3,
+   "lat": 40.804667,
+   "lon": 14.141333,
+   "type": "earthquake",
+   "distKm": 448.5,
+   "azimut": 135.1,
+   "dir": "SE"
+  },
+  {
+   "id": 48060852,
+   "time": "2026-11-24T13:58:02.620000",
+   "mag": 1.3,
+   "magType": "ML",
+   "place": "V3 Tarvisio (ITALIA, AUSTRIA, SLOVENIA)",
+   "depth": 10,
+   "lat": 46.5912,
+   "lon": 13.6023,
+   "type": "earthquake",
+   "distKm": 406.6,
+   "azimut": 37.3,
+   "dir": "NE"
+  },
+  {
+   "id": 48060802,
+   "time": "2026-11-24T13:53:20.670000",
+   "mag": 1.0,
+   "magType": "ML",
+   "place": "2 km S Trissino (VI)",
+   "depth": 9.7,
+   "lat": 45.5487,
+   "lon": 11.3733,
+   "type": "earthquake",
+   "distKm": 217.5,
+   "azimut": 20.8,
+   "dir": "NNE"
+  },
+  {
+   "id": 48060552,
    "time": "2026-11-24T13:15:57.200000",
    "mag": 0.6,
    "magType": "ML",
@@ -26,7 +180,7 @@
    "dir": "ONO"
   },
   {
-   "id": 47176741,
+   "id": 48060112,
    "time": "2026-11-24T11:33:34.790000",
    "mag": 1.6,
    "magType": "ML",
@@ -40,7 +194,7 @@
    "dir": "NO"
   },
   {
-   "id": 47176661,
+   "id": 48060032,
    "time": "2026-11-24T11:16:54.730000",
    "mag": 1.5,
    "magType": "ML",
@@ -54,7 +208,7 @@
    "dir": "NO"
   },
   {
-   "id": 47176631,
+   "id": 48060012,
    "time": "2026-11-24T11:14:17.590000",
    "mag": 1.4,
    "magType": "ML",
@@ -68,7 +222,7 @@
    "dir": "NO"
   },
   {
-   "id": 47176461,
+   "id": 48059772,
    "time": "2026-11-24T10:30:42.390000",
    "mag": 1.0,
    "magType": "ML",
@@ -82,7 +236,7 @@
    "dir": "ONO"
   },
   {
-   "id": 47176361,
+   "id": 48059632,
    "time": "2026-11-24T10:24:51.640000",
    "mag": 1.2,
    "magType": "ML",
@@ -96,7 +250,7 @@
    "dir": "ONO"
   },
   {
-   "id": 47176211,
+   "id": 48059512,
    "time": "2026-11-24T10:02:32.140000",
    "mag": 1.8,
    "magType": "ML",
@@ -110,7 +264,7 @@
    "dir": "NO"
   },
   {
-   "id": 47176041,
+   "id": 48059332,
    "time": "2026-11-24T09:27:21.950000",
    "mag": 1.6,
    "magType": "ML",
@@ -124,7 +278,7 @@
    "dir": "SE"
   },
   {
-   "id": 47175881,
+   "id": 48059132,
    "time": "2026-11-24T08:25:23.890000",
    "mag": 1.5,
    "magType": "ML",
@@ -138,7 +292,7 @@
    "dir": "SSE"
   },
   {
-   "id": 47175561,
+   "id": 48058762,
    "time": "2026-11-24T07:22:25.090000",
    "mag": 1.9,
    "magType": "ML",
@@ -152,7 +306,7 @@
    "dir": "SE"
   },
   {
-   "id": 47175411,
+   "id": 48058612,
    "time": "2026-11-24T06:16:18.370000",
    "mag": 1.5,
    "magType": "ML",
@@ -166,7 +320,7 @@
    "dir": "SSE"
   },
   {
-   "id": 47175361,
+   "id": 48058532,
    "time": "2026-11-24T06:13:19.840000",
    "mag": 2.6,
    "magType": "ML",
@@ -180,7 +334,7 @@
    "dir": "SE"
   },
   {
-   "id": 47175301,
+   "id": 48058462,
    "time": "2026-11-24T06:10:57.750000",
    "mag": 2.8,
    "magType": "ML",
@@ -194,7 +348,7 @@
    "dir": "ENE"
   },
   {
-   "id": 47175271,
+   "id": 48058432,
    "time": "2026-11-24T06:10:19.780000",
    "mag": 1.9,
    "magType": "ML",
@@ -208,7 +362,7 @@
    "dir": "ENE"
   },
   {
-   "id": 47175201,
+   "id": 48058372,
    "time": "2026-11-24T05:31:31.760000",
    "mag": 1.2,
    "magType": "ML",
@@ -222,7 +376,7 @@
    "dir": "ESE"
   },
   {
-   "id": 47175171,
+   "id": 48058342,
    "time": "2026-11-24T04:44:43.150000",
    "mag": 1.7,
    "magType": "ML",
@@ -236,7 +390,7 @@
    "dir": "SE"
   },
   {
-   "id": 47175121,
+   "id": 48058292,
    "time": "2026-11-24T04:26:36.440000",
    "mag": 2.8,
    "magType": "ML",
@@ -250,7 +404,7 @@
    "dir": "SSE"
   },
   {
-   "id": 47175071,
+   "id": 48058192,
    "time": "2026-11-24T03:00:16.220000",
    "mag": 0.7,
    "magType": "ML",
@@ -264,7 +418,7 @@
    "dir": "ESE"
   },
   {
-   "id": 47175001,
+   "id": 48058162,
    "time": "2026-11-24T02:28:36.520000",
    "mag": 0.9,
    "magType": "ML",
@@ -278,7 +432,7 @@
    "dir": "E"
   },
   {
-   "id": 47175021,
+   "id": 48058122,
    "time": "2026-11-24T02:27:47.940000",
    "mag": 1.6,
    "magType": "ML",
@@ -292,7 +446,7 @@
    "dir": "SE"
   },
   {
-   "id": 47174971,
+   "id": 48058092,
    "time": "2026-11-24T02:02:10.000000",
    "mag": 2.4,
    "magType": "ML",
@@ -306,7 +460,7 @@
    "dir": "ESE"
   },
   {
-   "id": 47174951,
+   "id": 48058072,
    "time": "2026-11-24T01:48:52.810000",
    "mag": 0.4,
    "magType": "ML",
@@ -320,7 +474,7 @@
    "dir": "ESE"
   },
   {
-   "id": 47174901,
+   "id": 48058052,
    "time": "2026-11-24T01:30:55.850000",
    "mag": 2.2,
    "magType": "ML",
@@ -334,7 +488,7 @@
    "dir": "SE"
   },
   {
-   "id": 47174881,
+   "id": 48058012,
    "time": "2026-11-24T01:00:06.930000",
    "mag": 0.8,
    "magType": "ML",
@@ -348,7 +502,7 @@
    "dir": "ESE"
   },
   {
-   "id": 47174861,
+   "id": 48057992,
    "time": "2026-11-24T00:34:25.180000",
    "mag": 0.6,
    "magType": "ML",
@@ -362,7 +516,7 @@
    "dir": "ESE"
   },
   {
-   "id": 47174821,
+   "id": 48057962,
    "time": "2026-11-24T00:03:18.950000",
    "mag": 1.8,
    "magType": "ML",
@@ -376,7 +530,7 @@
    "dir": "SE"
   },
   {
-   "id": 47174801,
+   "id": 48057932,
    "time": "2026-11-23T23:53:25.250000",
    "mag": 0.8,
    "magType": "ML",
@@ -390,7 +544,7 @@
    "dir": "ESE"
   },
   {
-   "id": 47174751,
+   "id": 48057892,
    "time": "2026-11-23T23:49:53.470000",
    "mag": 0.6,
    "magType": "ML",
@@ -404,7 +558,7 @@
    "dir": "E"
   },
   {
-   "id": 47174771,
+   "id": 48057852,
    "time": "2026-11-23T23:49:19.590000",
    "mag": 0.6,
    "magType": "ML",
@@ -418,7 +572,7 @@
    "dir": "ESE"
   },
   {
-   "id": 47174711,
+   "id": 48057792,
    "time": "2026-11-23T23:37:57.240000",
    "mag": 1.1,
    "magType": "ML",
@@ -446,7 +600,7 @@
    "dir": "ONO"
   },
   {
-   "id": 47174611,
+   "id": 48057712,
    "time": "2026-11-23T21:41:47.850000",
    "mag": 0.8,
    "magType": "ML",
@@ -488,7 +642,7 @@
    "dir": "ESE"
   },
   {
-   "id": 47174171,
+   "id": 48057262,
    "time": "2026-11-23T15:43:46.870000",
    "mag": 1.0,
    "magType": "ML",
@@ -502,7 +656,7 @@
    "dir": "NNE"
   },
   {
-   "id": 47174141,
+   "id": 48057242,
    "time": "2026-11-23T15:36:02.080000",
    "mag": 1.7,
    "magType": "ML",
@@ -516,7 +670,7 @@
    "dir": "E"
   },
   {
-   "id": 47174101,
+   "id": 48057192,
    "time": "2026-11-23T15:34:37.740000",
    "mag": 1.5,
    "magType": "ML",
@@ -527,6 +681,20 @@
    "type": "earthquake",
    "distKm": 275.8,
    "azimut": 118.9,
+   "dir": "ESE"
+  },
+  {
+   "id": 48056302,
+   "time": "2026-11-23T12:10:50.000000",
+   "mag": 0.8,
+   "magType": "ML",
+   "place": "3 km NE Amatrice (RI)",
+   "depth": 12.2,
+   "lat": 42.643002,
+   "lon": 13.319166,
+   "type": "earthquake",
+   "distKm": 266.9,
+   "azimut": 115.8,
    "dir": "ESE"
   },
   {
@@ -709,132 +877,6 @@
    "type": "earthquake",
    "distKm": 752.3,
    "azimut": 136.0,
-   "dir": "SE"
-  },
-  {
-   "id": 48048952,
-   "time": "2026-11-22T20:30:56.660000",
-   "mag": 1.5,
-   "magType": "ML",
-   "place": "4 km NE Nocera Umbra (PG)",
-   "depth": 10.2,
-   "lat": 43.1498,
-   "lon": 12.8098,
-   "type": "earthquake",
-   "distKm": 206.3,
-   "azimut": 107.2,
-   "dir": "ESE"
-  },
-  {
-   "id": 48048862,
-   "time": "2026-11-22T20:29:14.680000",
-   "mag": 2.3,
-   "magType": "ML",
-   "place": "5 km N Nocera Umbra (PG)",
-   "depth": 9.5,
-   "lat": 43.1512,
-   "lon": 12.8072,
-   "type": "earthquake",
-   "distKm": 206.1,
-   "azimut": 107.2,
-   "dir": "ESE"
-  },
-  {
-   "id": 48048002,
-   "time": "2026-11-22T19:35:28.320000",
-   "mag": 2.7,
-   "magType": "ML",
-   "place": "Mar Ionio Meridionale [Mare]",
-   "depth": 21.3,
-   "lat": 36.8432,
-   "lon": 16.7312,
-   "type": "earthquake",
-   "distKm": 935.2,
-   "azimut": 142.8,
-   "dir": "SE"
-  },
-  {
-   "id": 48047282,
-   "time": "2026-11-22T18:58:35.530000",
-   "mag": 2.3,
-   "magType": "ML",
-   "place": "Tirreno Meridionale [Mare]",
-   "depth": 20.7,
-   "lat": 38.7592,
-   "lon": 14.196,
-   "type": "earthquake",
-   "distKm": 637.5,
-   "azimut": 148.7,
-   "dir": "SSE"
-  },
-  {
-   "id": 48046972,
-   "time": "2026-11-22T18:39:34.600000",
-   "mag": 2.3,
-   "magType": "ML",
-   "place": "2 km W Piazzola sul Brenta (PD)",
-   "depth": 34.8,
-   "lat": 45.5347,
-   "lon": 11.7653,
-   "type": "earthquake",
-   "distKm": 229.2,
-   "azimut": 28.1,
-   "dir": "NNE"
-  },
-  {
-   "id": 48046562,
-   "time": "2026-11-22T18:09:26.630000",
-   "mag": 2.6,
-   "magType": "ML",
-   "place": "Tirreno Meridionale [Mare]",
-   "depth": 33,
-   "lat": 38.7072,
-   "lon": 14.1207,
-   "type": "earthquake",
-   "distKm": 639.5,
-   "azimut": 149.5,
-   "dir": "SSE"
-  },
-  {
-   "id": 48043532,
-   "time": "2026-11-22T15:08:46.690000",
-   "mag": 0.2,
-   "magType": "ML",
-   "place": "9 km SW Serravalle di Chienti (MC)",
-   "depth": 7.7,
-   "lat": 43.0163,
-   "lon": 12.866,
-   "type": "earthquake",
-   "distKm": 215.8,
-   "azimut": 110.6,
-   "dir": "ESE"
-  },
-  {
-   "id": 48042692,
-   "time": "2026-11-22T14:21:01.330000",
-   "mag": 1.5,
-   "magType": "ML",
-   "place": "4 km NW Configni (RI)",
-   "depth": 9,
-   "lat": 42.456,
-   "lon": 12.6262,
-   "type": "earthquake",
-   "distKm": 230.6,
-   "azimut": 127.0,
-   "dir": "SE"
-  },
-  {
-   "id": 48042242,
-   "time": "2026-11-22T13:56:39.850000",
-   "mag": 1.7,
-   "magType": "ML",
-   "place": "1 km N Sant'Angelo all'Esca (AV)",
-   "depth": 10.9,
-   "lat": 41.0207,
-   "lon": 14.9932,
-   "type": "earthquake",
-   "distKm": 483.6,
-   "azimut": 126.9,
    "dir": "SE"
   }
  ]
