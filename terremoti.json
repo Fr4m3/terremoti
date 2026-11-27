@@ -1,16 +1,268 @@
 {
- "generated": "2026-11-27T01:43:03.616085+00:00",
+ "generated": "2026-11-27T12:16:14.110532+00:00",
  "windowHours": 48,
- "count": 68,
+ "count": 73,
  "maxmag": 2.8,
- "avgDepth": 13.8,
+ "avgDepth": 12.3,
  "home": {
   "lat": 43.7247258,
   "lon": 10.3802555,
   "label": "Viale delle Cascine 124, Pisa"
  },
- "closest": 62.8,
+ "closest": 59.4,
  "events": [
+  {
+   "id": 48230642,
+   "time": "2026-11-27T12:03:12.500000",
+   "mag": 2.0,
+   "magType": "ML",
+   "place": "4 km SE Cansano (AQ)",
+   "depth": 16.3,
+   "lat": 41.9727,
+   "lon": 14.0257,
+   "type": "earthquake",
+   "distKm": 355.3,
+   "azimut": 122.0,
+   "dir": "ESE"
+  },
+  {
+   "id": 48230562,
+   "time": "2026-11-27T11:52:21.860000",
+   "mag": 0.7,
+   "magType": "ML",
+   "place": "Ampezzo (UD)",
+   "depth": 6.6,
+   "lat": 46.4143,
+   "lon": 12.7985,
+   "type": "earthquake",
+   "distKm": 354.2,
+   "azimut": 31.6,
+   "dir": "NNE"
+  },
+  {
+   "id": 48228802,
+   "time": "2026-11-27T11:09:13.990000",
+   "mag": 1.1,
+   "magType": "ML",
+   "place": "3 km N Montalbano Elicona (ME)",
+   "depth": 6.6,
+   "lat": 38.0517,
+   "lon": 15.0052,
+   "type": "earthquake",
+   "distKm": 740.7,
+   "azimut": 146.8,
+   "dir": "SSE"
+  },
+  {
+   "id": 48228692,
+   "time": "2026-11-27T10:58:20.680000",
+   "mag": 1.1,
+   "magType": "ML",
+   "place": "4 km W Scheggia e Pascelupo (PG)",
+   "depth": 12.1,
+   "lat": 43.3913,
+   "lon": 12.6272,
+   "type": "earthquake",
+   "distKm": 184.8,
+   "azimut": 100.8,
+   "dir": "E"
+  },
+  {
+   "id": 48227082,
+   "time": "2026-11-27T10:04:16.250000",
+   "mag": 2.0,
+   "magType": "ML",
+   "place": "2 km N Offida (AP)",
+   "depth": 28.3,
+   "lat": 42.9548,
+   "lon": 13.6873,
+   "type": "earthquake",
+   "distKm": 280.8,
+   "azimut": 106.6,
+   "dir": "ESE"
+  },
+  {
+   "id": 48226052,
+   "time": "2026-11-27T09:30:33.500000",
+   "mag": 1.1,
+   "magType": "ML",
+   "place": "3 km E Gubbio (PG)",
+   "depth": 0.5,
+   "lat": 43.3488,
+   "lon": 12.6122,
+   "type": "quarry blast",
+   "distKm": 184.7,
+   "azimut": 102.3,
+   "dir": "ESE"
+  },
+  {
+   "id": 48225292,
+   "time": "2026-11-27T09:21:02.190000",
+   "mag": 1.5,
+   "magType": "ML",
+   "place": "2 km N Raccuja (ME)",
+   "depth": 15.7,
+   "lat": 38.0725,
+   "lon": 14.9112,
+   "type": "earthquake",
+   "distKm": 734.6,
+   "azimut": 147.3,
+   "dir": "SSE"
+  },
+  {
+   "id": 48224782,
+   "time": "2026-11-27T09:17:48.410000",
+   "mag": 0.9,
+   "magType": "ML",
+   "place": "6 km SE Pietralunga (PG)",
+   "depth": 6.4,
+   "lat": 43.4082,
+   "lon": 12.4903,
+   "type": "earthquake",
+   "distKm": 173.6,
+   "azimut": 101.0,
+   "dir": "E"
+  },
+  {
+   "id": 48224142,
+   "time": "2026-11-27T08:40:34.850000",
+   "mag": 1.8,
+   "magType": "ML",
+   "place": "1 km SE Riolunato (MO)",
+   "depth": 20.1,
+   "lat": 44.2193,
+   "lon": 10.6598,
+   "type": "earthquake",
+   "distKm": 59.4,
+   "azimut": 22.0,
+   "dir": "NNE"
+  },
+  {
+   "id": 48223062,
+   "time": "2026-11-27T07:48:15.710000",
+   "mag": 2.6,
+   "magType": "ML",
+   "place": "Tirreno Meridionale [Mare]",
+   "depth": 10,
+   "lat": 38.538,
+   "lon": 12.2062,
+   "type": "earthquake",
+   "distKm": 596.6,
+   "azimut": 164.5,
+   "dir": "SSE"
+  },
+  {
+   "id": 48222892,
+   "time": "2026-11-27T06:58:53.410000",
+   "mag": 1.5,
+   "magType": "ML",
+   "place": "1 km N Lioni (AV)",
+   "depth": 9.4,
+   "lat": 40.8888,
+   "lon": 15.1852,
+   "type": "earthquake",
+   "distKm": 505.4,
+   "azimut": 127.0,
+   "dir": "SE"
+  },
+  {
+   "id": 48222722,
+   "time": "2026-11-27T05:58:38.860000",
+   "mag": 1.2,
+   "magType": "ML",
+   "place": "Refrontolo (TV)",
+   "depth": 9.7,
+   "lat": 45.928,
+   "lon": 12.2095,
+   "type": "earthquake",
+   "distKm": 284.3,
+   "azimut": 29.9,
+   "dir": "NNE"
+  },
+  {
+   "id": 48222632,
+   "time": "2026-11-27T05:24:48.740000",
+   "mag": 1.8,
+   "magType": "ML",
+   "place": "3 km NW Revine Lago (TV)",
+   "depth": 8.6,
+   "lat": 46.0202,
+   "lon": 12.2183,
+   "type": "earthquake",
+   "distKm": 293.5,
+   "azimut": 28.9,
+   "dir": "NNE"
+  },
+  {
+   "id": 48222512,
+   "time": "2026-11-27T03:30:39.730000",
+   "mag": 0.6,
+   "magType": "Md",
+   "place": "4 km NW Gubbio (PG)",
+   "depth": 5.9,
+   "lat": 43.3883,
+   "lon": 12.5505,
+   "type": "earthquake",
+   "distKm": 178.8,
+   "azimut": 101.3,
+   "dir": "ESE"
+  },
+  {
+   "id": 48222472,
+   "time": "2026-11-27T02:46:19.650000",
+   "mag": 1.7,
+   "magType": "ML",
+   "place": "Confine Italia-Svizzera (SVIZZERA)",
+   "depth": 8.2,
+   "lat": 46.1282,
+   "lon": 7.457,
+   "type": "earthquake",
+   "distKm": 352.6,
+   "azimut": 320.3,
+   "dir": "NO"
+  },
+  {
+   "id": 48222412,
+   "time": "2026-11-27T02:42:37.390000",
+   "mag": 1.4,
+   "magType": "ML",
+   "place": "14 km NW Saint-Rhémy-en-Bosses (AO)",
+   "depth": 10.4,
+   "lat": 45.9072,
+   "lon": 7.0543,
+   "type": "earthquake",
+   "distKm": 357.3,
+   "azimut": 313.9,
+   "dir": "NO"
+  },
+  {
+   "id": 48222372,
+   "time": "2026-11-27T02:38:04.440000",
+   "mag": 1.7,
+   "magType": "ML",
+   "place": "3 km NW Revine Lago (TV)",
+   "depth": 6.3,
+   "lat": 46.0088,
+   "lon": 12.2092,
+   "type": "earthquake",
+   "distKm": 292.0,
+   "azimut": 28.9,
+   "dir": "NNE"
+  },
+  {
+   "id": 48222322,
+   "time": "2026-11-27T01:59:48.590000",
+   "mag": 1.2,
+   "magType": "ML",
+   "place": "7 km E Pizzoli (AQ)",
+   "depth": 10.7,
+   "lat": 42.45,
+   "lon": 13.3783,
+   "type": "earthquake",
+   "distKm": 281.7,
+   "azimut": 119.2,
+   "dir": "ESE"
+  },
   {
    "id": 48222302,
    "time": "2026-11-27T01:30:28.560000",
@@ -292,9 +544,9 @@
    "dir": "ESE"
   },
   {
-   "id": 48071062,
+   "id": 48230442,
    "time": "2026-11-26T07:17:42.520000",
-   "mag": 1.0,
+   "mag": 0.8,
    "magType": "ML",
    "place": "3 km S Cagli (PU)",
    "depth": 4.9,
@@ -306,7 +558,7 @@
    "dir": "E"
   },
   {
-   "id": 47186061,
+   "id": 48230132,
    "time": "2026-11-26T04:26:44.910000",
    "mag": 2.3,
    "magType": "ML",
@@ -362,7 +614,7 @@
    "dir": "SE"
   },
   {
-   "id": 47185411,
+   "id": 48229832,
    "time": "2026-11-26T01:24:31.570000",
    "mag": 2.4,
    "magType": "ML",
@@ -376,7 +628,7 @@
    "dir": "SSE"
   },
   {
-   "id": 47185031,
+   "id": 48229642,
    "time": "2026-11-26T00:15:04.710000",
    "mag": 1.9,
    "magType": "ML",
@@ -390,7 +642,7 @@
    "dir": "ESE"
   },
   {
-   "id": 47184871,
+   "id": 48229612,
    "time": "2026-11-25T23:43:16.890000",
    "mag": 1.8,
    "magType": "ML",
@@ -404,7 +656,7 @@
    "dir": "ONO"
   },
   {
-   "id": 47184791,
+   "id": 48229552,
    "time": "2026-11-25T23:23:14.960000",
    "mag": 1.9,
    "magType": "ML",
@@ -418,7 +670,7 @@
    "dir": "NE"
   },
   {
-   "id": 47184701,
+   "id": 48229492,
    "time": "2026-11-25T23:01:44.400000",
    "mag": 1.4,
    "magType": "ML",
@@ -446,7 +698,7 @@
    "dir": "SE"
   },
   {
-   "id": 47184501,
+   "id": 48229442,
    "time": "2026-11-25T22:20:03.280000",
    "mag": 1.7,
    "magType": "ML",
@@ -460,7 +712,7 @@
    "dir": "ESE"
   },
   {
-   "id": 47184481,
+   "id": 48229422,
    "time": "2026-11-25T22:18:54.780000",
    "mag": 1.9,
    "magType": "ML",
@@ -474,7 +726,7 @@
    "dir": "ESE"
   },
   {
-   "id": 47184391,
+   "id": 48229382,
    "time": "2026-11-25T21:57:33.270000",
    "mag": 2.5,
    "magType": "ML",
@@ -488,7 +740,7 @@
    "dir": "SSE"
   },
   {
-   "id": 47184341,
+   "id": 48229342,
    "time": "2026-11-25T21:53:06.060000",
    "mag": 2.4,
    "magType": "ML",
@@ -502,7 +754,7 @@
    "dir": "SSE"
   },
   {
-   "id": 47184241,
+   "id": 48229282,
    "time": "2026-11-25T21:34:07.650000",
    "mag": 1.5,
    "magType": "ML",
@@ -516,7 +768,7 @@
    "dir": "ESE"
   },
   {
-   "id": 47184151,
+   "id": 48229222,
    "time": "2026-11-25T21:02:33.050000",
    "mag": 1.2,
    "magType": "ML",
@@ -530,7 +782,7 @@
    "dir": "ESE"
   },
   {
-   "id": 47183981,
+   "id": 48229152,
    "time": "2026-11-25T20:12:45.690000",
    "mag": 1.1,
    "magType": "ML",
@@ -544,7 +796,7 @@
    "dir": "ESE"
   },
   {
-   "id": 47183951,
+   "id": 48229122,
    "time": "2026-11-25T20:06:06.900000",
    "mag": 0.8,
    "magType": "ML",
@@ -558,7 +810,7 @@
    "dir": "ESE"
   },
   {
-   "id": 47183811,
+   "id": 48229052,
    "time": "2026-11-25T19:33:17.830000",
    "mag": 0.8,
    "magType": "ML",
@@ -572,7 +824,7 @@
    "dir": "ESE"
   },
   {
-   "id": 47183611,
+   "id": 48228962,
    "time": "2026-11-25T18:54:06.490000",
    "mag": 0.4,
    "magType": "ML",
@@ -586,7 +838,7 @@
    "dir": "E"
   },
   {
-   "id": 47183561,
+   "id": 48228932,
    "time": "2026-11-25T18:44:18.720000",
    "mag": 1.5,
    "magType": "ML",
@@ -600,7 +852,7 @@
    "dir": "ESE"
   },
   {
-   "id": 47183531,
+   "id": 48228882,
    "time": "2026-11-25T18:42:49.480000",
    "mag": 1.2,
    "magType": "ML",
@@ -614,7 +866,7 @@
    "dir": "ESE"
   },
   {
-   "id": 47183121,
+   "id": 48228562,
    "time": "2026-11-25T18:02:45.290000",
    "mag": 1.7,
    "magType": "ML",
@@ -628,7 +880,7 @@
    "dir": "ESE"
   },
   {
-   "id": 47182931,
+   "id": 48228442,
    "time": "2026-11-25T17:21:05.250000",
    "mag": 1.5,
    "magType": "ML",
@@ -642,7 +894,7 @@
    "dir": "ENE"
   },
   {
-   "id": 47182881,
+   "id": 48228422,
    "time": "2026-11-25T17:05:33.170000",
    "mag": 0.9,
    "magType": "ML",
@@ -656,7 +908,7 @@
    "dir": "E"
   },
   {
-   "id": 47182681,
+   "id": 48228342,
    "time": "2026-11-25T16:02:03.830000",
    "mag": 1.7,
    "magType": "ML",
@@ -670,7 +922,7 @@
    "dir": "SE"
   },
   {
-   "id": 47182591,
+   "id": 48228272,
    "time": "2026-11-25T15:18:29.010000",
    "mag": 1.5,
    "magType": "ML",
@@ -684,7 +936,7 @@
    "dir": "ESE"
   },
   {
-   "id": 47182391,
+   "id": 48228242,
    "time": "2026-11-25T14:55:17.920000",
    "mag": 1.3,
    "magType": "ML",
@@ -698,7 +950,7 @@
    "dir": "ESE"
   },
   {
-   "id": 47182181,
+   "id": 48228162,
    "time": "2026-11-25T13:58:20.000000",
    "mag": 2.2,
    "magType": "ML",
@@ -712,7 +964,7 @@
    "dir": "SE"
   },
   {
-   "id": 47181981,
+   "id": 48228092,
    "time": "2026-11-25T13:18:55.870000",
    "mag": 1.1,
    "magType": "ML",
@@ -726,7 +978,7 @@
    "dir": "ESE"
   },
   {
-   "id": 47181941,
+   "id": 48228032,
    "time": "2026-11-25T13:11:18.760000",
    "mag": 2.1,
    "magType": "ML",
@@ -740,7 +992,7 @@
    "dir": "SE"
   },
   {
-   "id": 47181821,
+   "id": 48227982,
    "time": "2026-11-25T13:02:15.460000",
    "mag": 2.6,
    "magType": "ML",
@@ -754,7 +1006,7 @@
    "dir": "SE"
   },
   {
-   "id": 47181771,
+   "id": 48227962,
    "time": "2026-11-25T12:41:14.960000",
    "mag": 0.9,
    "magType": "ML",
@@ -768,7 +1020,7 @@
    "dir": "ESE"
   },
   {
-   "id": 47181761,
+   "id": 48227932,
    "time": "2026-11-25T12:38:51.790000",
    "mag": 1.5,
    "magType": "ML",
@@ -779,188 +1031,6 @@
    "type": "earthquake",
    "distKm": 239.3,
    "azimut": 111.1,
-   "dir": "ESE"
-  },
-  {
-   "id": 47181471,
-   "time": "2026-11-25T12:05:27.570000",
-   "mag": 1.9,
-   "magType": "ML",
-   "place": "4 km W Cutro (KR)",
-   "depth": 26.4,
-   "lat": 39.0167,
-   "lon": 16.9382,
-   "type": "earthquake",
-   "distKm": 756.9,
-   "azimut": 131.5,
-   "dir": "SE"
-  },
-  {
-   "id": 48063522,
-   "time": "2026-11-25T07:23:24.830000",
-   "mag": 1.7,
-   "magType": "ML",
-   "place": "2 km NE Matrice (CB)",
-   "depth": 25.4,
-   "lat": 41.6285,
-   "lon": 14.7303,
-   "type": "earthquake",
-   "distKm": 425.1,
-   "azimut": 121.8,
-   "dir": "ESE"
-  },
-  {
-   "id": 48063282,
-   "time": "2026-11-25T06:54:06.600000",
-   "mag": 1.2,
-   "magType": "ML",
-   "place": "3 km W Caldarola (MC)",
-   "depth": 21,
-   "lat": 43.138168,
-   "lon": 13.184667,
-   "type": "earthquake",
-   "distKm": 235.6,
-   "azimut": 105.1,
-   "dir": "ESE"
-  },
-  {
-   "id": 48063132,
-   "time": "2026-11-25T06:36:21.170000",
-   "mag": 1.1,
-   "magType": "ML",
-   "place": "2 km E Monte Cavallo (MC)",
-   "depth": 10.2,
-   "lat": 42.9985,
-   "lon": 13.0303,
-   "type": "earthquake",
-   "distKm": 228.9,
-   "azimut": 109.7,
-   "dir": "ESE"
-  },
-  {
-   "id": 48062872,
-   "time": "2026-11-25T05:43:48.470000",
-   "mag": 0.5,
-   "magType": "ML",
-   "place": "4 km NE Rende (CS)",
-   "depth": 10.1,
-   "lat": 39.361,
-   "lon": 16.2043,
-   "type": "earthquake",
-   "distKm": 685.5,
-   "azimut": 133.1,
-   "dir": "SE"
-  },
-  {
-   "id": 48062752,
-   "time": "2026-11-25T04:46:32.430000",
-   "mag": 1.3,
-   "magType": "ML",
-   "place": "13 km NW Saint-Rhémy-en-Bosses (AO)",
-   "depth": 11.5,
-   "lat": 45.8977,
-   "lon": 7.0563,
-   "type": "earthquake",
-   "distKm": 356.5,
-   "azimut": 313.8,
-   "dir": "NO"
-  },
-  {
-   "id": 48062742,
-   "time": "2026-11-25T04:37:27.040000",
-   "mag": 1.4,
-   "magType": "ML",
-   "place": "3 km W Chiaravalle Centrale (CZ)",
-   "depth": 41,
-   "lat": 38.6862,
-   "lon": 16.3788,
-   "type": "earthquake",
-   "distKm": 751.7,
-   "azimut": 136.1,
-   "dir": "SE"
-  },
-  {
-   "id": 48062692,
-   "time": "2026-11-25T04:14:12.450000",
-   "mag": 0.3,
-   "magType": "ML",
-   "place": "8 km E Sondalo (SO)",
-   "depth": 8.9,
-   "lat": 46.3653,
-   "lon": 10.4123,
-   "type": "earthquake",
-   "distKm": 293.6,
-   "azimut": 0.5,
-   "dir": "N"
-  },
-  {
-   "id": 48062672,
-   "time": "2026-11-25T03:49:00.820000",
-   "mag": 1.1,
-   "magType": "ML",
-   "place": "7 km NW Nocera Umbra (PG)",
-   "depth": 10.3,
-   "lat": 43.1607,
-   "lon": 12.747,
-   "type": "earthquake",
-   "distKm": 201.1,
-   "azimut": 107.4,
-   "dir": "ESE"
-  },
-  {
-   "id": 48062632,
-   "time": "2026-11-25T03:45:13.400000",
-   "mag": 0.5,
-   "magType": "ML",
-   "place": "6 km W Accumoli (RI)",
-   "depth": 11.2,
-   "lat": 42.712,
-   "lon": 13.1753,
-   "type": "earthquake",
-   "distKm": 252.9,
-   "azimut": 115.5,
-   "dir": "ESE"
-  },
-  {
-   "id": 48062612,
-   "time": "2026-11-25T03:20:22.330000",
-   "mag": 1.6,
-   "magType": "ML",
-   "place": "4 km NW Torre di Ruggiero (CZ)",
-   "depth": 37.1,
-   "lat": 38.6842,
-   "lon": 16.3608,
-   "type": "earthquake",
-   "distKm": 750.9,
-   "azimut": 136.2,
-   "dir": "SE"
-  },
-  {
-   "id": 48062542,
-   "time": "2026-11-25T02:44:19.970000",
-   "mag": 1.7,
-   "magType": "ML",
-   "place": "Confine Italia-Francia (FRANCIA)",
-   "depth": 11.9,
-   "lat": 44.5865,
-   "lon": 6.9233,
-   "type": "earthquake",
-   "distKm": 291.9,
-   "azimut": 290.4,
-   "dir": "ONO"
-  },
-  {
-   "id": 48062492,
-   "time": "2026-11-25T01:53:31.950000",
-   "mag": 0.7,
-   "magType": "ML",
-   "place": "3 km NE Cerreto di Spoleto (PG)",
-   "depth": 10.7,
-   "lat": 42.8445,
-   "lon": 12.9325,
-   "type": "earthquake",
-   "distKm": 228.6,
-   "azimut": 114.5,
    "dir": "ESE"
   }
  ]
